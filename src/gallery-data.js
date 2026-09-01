@@ -4,7 +4,7 @@ export const galleryCategories = [
   {
     "id": "OUTPUT管理",
     "label": "OUTPUT 产品与内容运营",
-    "count": 202
+    "count": 296
   },
   {
     "id": "AIGC视频&互动影游戏",
@@ -49,7 +49,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "负责产研部门招聘",
     "summary": "来源文件：OUTPUT管理/负责产研部门招聘.jpg",
-    "image": "./gallery/gallery-image-0001.avif",
+    "image": "./gallery/gallery-image-0001.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：负责产研部门招聘",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -65,7 +65,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "交大课程讨论",
     "summary": "来源文件：OUTPUT管理/交大课程讨论.jpg",
-    "image": "./gallery/gallery-image-0002.avif",
+    "image": "./gallery/gallery-image-0002.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：交大课程讨论",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -81,7 +81,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "微专业合作",
     "summary": "来源文件：OUTPUT管理/微专业合作.jpg",
-    "image": "./gallery/gallery-image-0003.avif",
+    "image": "./gallery/gallery-image-0003.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：微专业合作",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -97,7 +97,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "西岸美术馆",
     "summary": "来源文件：OUTPUT管理/西岸美术馆.jpg",
-    "image": "./gallery/gallery-image-0004.avif",
+    "image": "./gallery/gallery-image-0004.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：西岸美术馆",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -113,7 +113,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "展览运营",
     "summary": "来源文件：OUTPUT管理/展览运营.jpg",
-    "image": "./gallery/gallery-image-0005.avif",
+    "image": "./gallery/gallery-image-0005.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：展览运营",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -129,7 +129,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "职级证明",
     "summary": "来源文件：OUTPUT管理/职级证明.jpg",
-    "image": "./gallery/gallery-image-0006.avif",
+    "image": "./gallery/gallery-image-0006.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：职级证明",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -145,7 +145,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "diagram",
     "summary": "来源文件：OUTPUT管理/Monsora/MonsoraV2/diagrams/2026-07-17T144741/diagram.png",
-    "image": "./gallery/gallery-image-0007.avif",
+    "image": "./gallery/gallery-image-0007.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：diagram",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -161,7 +161,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "diagram",
     "summary": "来源文件：OUTPUT管理/Monsora/MonsoraV2/diagrams/2026-07-17T144742/diagram.png",
-    "image": "./gallery/gallery-image-0008.avif",
+    "image": "./gallery/gallery-image-0008.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：diagram",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -177,7 +177,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "c01-registration",
     "summary": "来源文件：OUTPUT管理/Monsora/MonsoraV2/diagrams/2026-07-17T180000-phase3/c01-registration.png",
-    "image": "./gallery/gallery-image-0009.avif",
+    "image": "./gallery/gallery-image-0009.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：c01-registration",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -193,7 +193,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "c02-c04-local-commit",
     "summary": "来源文件：OUTPUT管理/Monsora/MonsoraV2/diagrams/2026-07-17T180000-phase3/c02-c04-local-commit.png",
-    "image": "./gallery/gallery-image-0010.avif",
+    "image": "./gallery/gallery-image-0010.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：c02-c04-local-commit",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -209,7 +209,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "c05-trash",
     "summary": "来源文件：OUTPUT管理/Monsora/MonsoraV2/diagrams/2026-07-17T180000-phase3/c05-trash.png",
-    "image": "./gallery/gallery-image-0011.avif",
+    "image": "./gallery/gallery-image-0011.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：c05-trash",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -225,7 +225,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "c06-c07-index-search",
     "summary": "来源文件：OUTPUT管理/Monsora/MonsoraV2/diagrams/2026-07-17T180000-phase3/c06-c07-index-search.png",
-    "image": "./gallery/gallery-image-0012.avif",
+    "image": "./gallery/gallery-image-0012.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：c06-c07-index-search",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -241,7 +241,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "c08-share",
     "summary": "来源文件：OUTPUT管理/Monsora/MonsoraV2/diagrams/2026-07-17T180000-phase3/c08-share.png",
-    "image": "./gallery/gallery-image-0013.avif",
+    "image": "./gallery/gallery-image-0013.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：c08-share",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -257,7 +257,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "c09-public-release",
     "summary": "来源文件：OUTPUT管理/Monsora/MonsoraV2/diagrams/2026-07-17T180000-phase3/c09-public-release.png",
-    "image": "./gallery/gallery-image-0014.avif",
+    "image": "./gallery/gallery-image-0014.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：c09-public-release",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -273,7 +273,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "c10-account-delete",
     "summary": "来源文件：OUTPUT管理/Monsora/MonsoraV2/diagrams/2026-07-17T180000-phase3/c10-account-delete.png",
-    "image": "./gallery/gallery-image-0015.avif",
+    "image": "./gallery/gallery-image-0015.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：c10-account-delete",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -289,7 +289,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "diagram",
     "summary": "来源文件：OUTPUT管理/Monsora/MonsoraV2/diagrams/2026-07-17T182353/diagram.png",
-    "image": "./gallery/gallery-image-0016.avif",
+    "image": "./gallery/gallery-image-0016.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：diagram",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -305,7 +305,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "diagram",
     "summary": "来源文件：OUTPUT管理/Monsora/MonsoraV2/diagrams/2026-07-17T184525-app/diagram.png",
-    "image": "./gallery/gallery-image-0017.avif",
+    "image": "./gallery/gallery-image-0017.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：diagram",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -321,7 +321,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "diagram",
     "summary": "来源文件：OUTPUT管理/Monsora/MonsoraV2/diagrams/2026-07-17T184526-project/diagram.png",
-    "image": "./gallery/gallery-image-0018.avif",
+    "image": "./gallery/gallery-image-0018.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：diagram",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -337,7 +337,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "diagram",
     "summary": "来源文件：OUTPUT管理/Monsora/MonsoraV2/diagrams/2026-07-17T184527-cloud/diagram.png",
-    "image": "./gallery/gallery-image-0019.avif",
+    "image": "./gallery/gallery-image-0019.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：diagram",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -353,7 +353,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "diagram",
     "summary": "来源文件：OUTPUT管理/Monsora/MonsoraV2/diagrams/2026-07-18T185940/diagram.png",
-    "image": "./gallery/gallery-image-0020.avif",
+    "image": "./gallery/gallery-image-0020.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：diagram",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -369,7 +369,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "remote",
     "summary": "来源文件：OUTPUT管理/Monsora/MonsoraV2/diagrams/2026-07-18T185940/remote.png",
-    "image": "./gallery/gallery-image-0021.avif",
+    "image": "./gallery/gallery-image-0021.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：remote",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -385,7 +385,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "diagram",
     "summary": "来源文件：OUTPUT管理/Monsora/MonsoraV2/diagrams/2026-07-20T105551/diagram.png",
-    "image": "./gallery/gallery-image-0022.avif",
+    "image": "./gallery/gallery-image-0022.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：diagram",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -401,7 +401,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "remote",
     "summary": "来源文件：OUTPUT管理/Monsora/MonsoraV2/diagrams/2026-07-20T105551/remote.png",
-    "image": "./gallery/gallery-image-0023.avif",
+    "image": "./gallery/gallery-image-0023.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：remote",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -417,7 +417,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "diagram",
     "summary": "来源文件：OUTPUT管理/Monsora/MonsoraV2/diagrams/2026-07-20T105622/diagram.png",
-    "image": "./gallery/gallery-image-0024.avif",
+    "image": "./gallery/gallery-image-0024.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：diagram",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -433,7 +433,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "remote",
     "summary": "来源文件：OUTPUT管理/Monsora/MonsoraV2/diagrams/2026-07-20T105622/remote.png",
-    "image": "./gallery/gallery-image-0025.avif",
+    "image": "./gallery/gallery-image-0025.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：remote",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -449,7 +449,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "diagram",
     "summary": "来源文件：OUTPUT管理/Monsora/MonsoraV2/diagrams/2026-07-20T105638/diagram.png",
-    "image": "./gallery/gallery-image-0026.avif",
+    "image": "./gallery/gallery-image-0026.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：diagram",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -465,7 +465,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "remote",
     "summary": "来源文件：OUTPUT管理/Monsora/MonsoraV2/diagrams/2026-07-20T105638/remote.png",
-    "image": "./gallery/gallery-image-0027.avif",
+    "image": "./gallery/gallery-image-0027.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：remote",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -481,7 +481,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "diagram",
     "summary": "来源文件：OUTPUT管理/Monsora/MonsoraV2/diagrams/2026-07-20T110758/diagram.png",
-    "image": "./gallery/gallery-image-0028.avif",
+    "image": "./gallery/gallery-image-0028.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：diagram",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -497,7 +497,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "remote",
     "summary": "来源文件：OUTPUT管理/Monsora/MonsoraV2/diagrams/2026-07-20T110758/remote.png",
-    "image": "./gallery/gallery-image-0029.avif",
+    "image": "./gallery/gallery-image-0029.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：remote",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -513,7 +513,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "diagram",
     "summary": "来源文件：OUTPUT管理/Monsora/MonsoraV2/diagrams/2026-08-04T000000/diagram.png",
-    "image": "./gallery/gallery-image-0030.avif",
+    "image": "./gallery/gallery-image-0030.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：diagram",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -529,7 +529,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "board-after",
     "summary": "来源文件：OUTPUT管理/Monsora/MonsoraV2/diagrams/2026-08-04T140652/board-after.png",
-    "image": "./gallery/gallery-image-0031.avif",
+    "image": "./gallery/gallery-image-0031.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：board-after",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -545,7 +545,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "diagram",
     "summary": "来源文件：OUTPUT管理/Monsora/MonsoraV2/diagrams/2026-08-04T140652/diagram.png",
-    "image": "./gallery/gallery-image-0032.avif",
+    "image": "./gallery/gallery-image-0032.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：diagram",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -561,7 +561,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "diagram",
     "summary": "来源文件：OUTPUT管理/Monsora/MonsoraV2/diagrams/2026-08-04T152200/diagram.png",
-    "image": "./gallery/gallery-image-0033.avif",
+    "image": "./gallery/gallery-image-0033.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：diagram",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -577,7 +577,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "remote-final",
     "summary": "来源文件：OUTPUT管理/Monsora/MonsoraV2/diagrams/2026-08-04T152200/remote-final.png",
-    "image": "./gallery/gallery-image-0034.avif",
+    "image": "./gallery/gallery-image-0034.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：remote-final",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -593,7 +593,7 @@ export const galleryItems = [
     "type": "OUTPUT 产品与内容运营",
     "title": "remote",
     "summary": "来源文件：OUTPUT管理/Monsora/MonsoraV2/diagrams/2026-08-04T152200/remote.png",
-    "image": "./gallery/gallery-image-0035.avif",
+    "image": "./gallery/gallery-image-0035.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：remote",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -608,8 +608,232 @@ export const galleryItems = [
     "id": "gallery-image-0036",
     "type": "OUTPUT 产品与内容运营",
     "title": "review-001-006",
+    "summary": "来源文件：OUTPUT管理/output相关材料/_导出工具/个人云文档_截图质检/review-001-006.jpg",
+    "image": "./gallery/gallery-image-0036.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：review-001-006",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "JPG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/_导出工具/个人云文档_截图质检/review-001-006.jpg",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0037",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "review-007-012",
+    "summary": "来源文件：OUTPUT管理/output相关材料/_导出工具/个人云文档_截图质检/review-007-012.jpg",
+    "image": "./gallery/gallery-image-0037.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：review-007-012",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "JPG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/_导出工具/个人云文档_截图质检/review-007-012.jpg",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0038",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "review-013-018",
+    "summary": "来源文件：OUTPUT管理/output相关材料/_导出工具/个人云文档_截图质检/review-013-018.jpg",
+    "image": "./gallery/gallery-image-0038.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：review-013-018",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "JPG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/_导出工具/个人云文档_截图质检/review-013-018.jpg",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0039",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "review-019-024",
+    "summary": "来源文件：OUTPUT管理/output相关材料/_导出工具/个人云文档_截图质检/review-019-024.jpg",
+    "image": "./gallery/gallery-image-0039.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：review-019-024",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "JPG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/_导出工具/个人云文档_截图质检/review-019-024.jpg",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0040",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "review-025-030",
+    "summary": "来源文件：OUTPUT管理/output相关材料/_导出工具/个人云文档_截图质检/review-025-030.jpg",
+    "image": "./gallery/gallery-image-0040.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：review-025-030",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "JPG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/_导出工具/个人云文档_截图质检/review-025-030.jpg",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0041",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "review-031-036",
+    "summary": "来源文件：OUTPUT管理/output相关材料/_导出工具/个人云文档_截图质检/review-031-036.jpg",
+    "image": "./gallery/gallery-image-0041.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：review-031-036",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "JPG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/_导出工具/个人云文档_截图质检/review-031-036.jpg",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0042",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "review-037-042",
+    "summary": "来源文件：OUTPUT管理/output相关材料/_导出工具/个人云文档_截图质检/review-037-042.jpg",
+    "image": "./gallery/gallery-image-0042.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：review-037-042",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "JPG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/_导出工具/个人云文档_截图质检/review-037-042.jpg",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0043",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "review-043-048",
+    "summary": "来源文件：OUTPUT管理/output相关材料/_导出工具/个人云文档_截图质检/review-043-048.jpg",
+    "image": "./gallery/gallery-image-0043.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：review-043-048",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "JPG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/_导出工具/个人云文档_截图质检/review-043-048.jpg",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0044",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "review-049-054",
+    "summary": "来源文件：OUTPUT管理/output相关材料/_导出工具/个人云文档_截图质检/review-049-054.jpg",
+    "image": "./gallery/gallery-image-0044.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：review-049-054",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "JPG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/_导出工具/个人云文档_截图质检/review-049-054.jpg",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0045",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "review-055-060",
+    "summary": "来源文件：OUTPUT管理/output相关材料/_导出工具/个人云文档_截图质检/review-055-060.jpg",
+    "image": "./gallery/gallery-image-0045.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：review-055-060",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "JPG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/_导出工具/个人云文档_截图质检/review-055-060.jpg",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0046",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "review-061-066",
+    "summary": "来源文件：OUTPUT管理/output相关材料/_导出工具/个人云文档_截图质检/review-061-066.jpg",
+    "image": "./gallery/gallery-image-0046.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：review-061-066",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "JPG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/_导出工具/个人云文档_截图质检/review-061-066.jpg",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0047",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "review-067-072",
+    "summary": "来源文件：OUTPUT管理/output相关材料/_导出工具/个人云文档_截图质检/review-067-072.jpg",
+    "image": "./gallery/gallery-image-0047.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：review-067-072",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "JPG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/_导出工具/个人云文档_截图质检/review-067-072.jpg",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0048",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "review-073-078",
+    "summary": "来源文件：OUTPUT管理/output相关材料/_导出工具/个人云文档_截图质检/review-073-078.jpg",
+    "image": "./gallery/gallery-image-0048.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：review-073-078",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "JPG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/_导出工具/个人云文档_截图质检/review-073-078.jpg",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0049",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "review-079-080",
+    "summary": "来源文件：OUTPUT管理/output相关材料/_导出工具/个人云文档_截图质检/review-079-080.jpg",
+    "image": "./gallery/gallery-image-0049.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：review-079-080",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "JPG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/_导出工具/个人云文档_截图质检/review-079-080.jpg",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0050",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "review-001-006",
     "summary": "来源文件：OUTPUT管理/output相关材料/_导出工具/页面校验/002_1888年的春夏秋/review-001-006.jpg",
-    "image": "./gallery/gallery-image-0036.avif",
+    "image": "./gallery/gallery-image-0050.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：review-001-006",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -621,11 +845,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0037",
+    "id": "gallery-image-0051",
     "type": "OUTPUT 产品与内容运营",
     "title": "review-007-012",
     "summary": "来源文件：OUTPUT管理/output相关材料/_导出工具/页面校验/002_1888年的春夏秋/review-007-012.jpg",
-    "image": "./gallery/gallery-image-0037.avif",
+    "image": "./gallery/gallery-image-0051.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：review-007-012",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -637,11 +861,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0038",
+    "id": "gallery-image-0052",
     "type": "OUTPUT 产品与内容运营",
     "title": "review-013-018",
     "summary": "来源文件：OUTPUT管理/output相关材料/_导出工具/页面校验/002_1888年的春夏秋/review-013-018.jpg",
-    "image": "./gallery/gallery-image-0038.avif",
+    "image": "./gallery/gallery-image-0052.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：review-013-018",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -653,11 +877,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0039",
+    "id": "gallery-image-0053",
     "type": "OUTPUT 产品与内容运营",
     "title": "review-019-022",
     "summary": "来源文件：OUTPUT管理/output相关材料/_导出工具/页面校验/002_1888年的春夏秋/review-019-022.jpg",
-    "image": "./gallery/gallery-image-0039.avif",
+    "image": "./gallery/gallery-image-0053.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：review-019-022",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -669,11 +893,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0040",
+    "id": "gallery-image-0054",
     "type": "OUTPUT 产品与内容运营",
     "title": "review-001-006",
     "summary": "来源文件：OUTPUT管理/output相关材料/_导出工具/页面校验/005_带上她的眼睛/review-001-006.jpg",
-    "image": "./gallery/gallery-image-0040.avif",
+    "image": "./gallery/gallery-image-0054.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：review-001-006",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -685,11 +909,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0041",
+    "id": "gallery-image-0055",
     "type": "OUTPUT 产品与内容运营",
     "title": "review-007-012",
     "summary": "来源文件：OUTPUT管理/output相关材料/_导出工具/页面校验/005_带上她的眼睛/review-007-012.jpg",
-    "image": "./gallery/gallery-image-0041.avif",
+    "image": "./gallery/gallery-image-0055.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：review-007-012",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -701,11 +925,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0042",
+    "id": "gallery-image-0056",
     "type": "OUTPUT 产品与内容运营",
     "title": "review-013-018",
     "summary": "来源文件：OUTPUT管理/output相关材料/_导出工具/页面校验/005_带上她的眼睛/review-013-018.jpg",
-    "image": "./gallery/gallery-image-0042.avif",
+    "image": "./gallery/gallery-image-0056.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：review-013-018",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -717,11 +941,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0043",
+    "id": "gallery-image-0057",
     "type": "OUTPUT 产品与内容运营",
     "title": "review-019-024",
     "summary": "来源文件：OUTPUT管理/output相关材料/_导出工具/页面校验/005_带上她的眼睛/review-019-024.jpg",
-    "image": "./gallery/gallery-image-0043.avif",
+    "image": "./gallery/gallery-image-0057.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：review-019-024",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -733,11 +957,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0044",
+    "id": "gallery-image-0058",
     "type": "OUTPUT 产品与内容运营",
     "title": "review-025-030",
     "summary": "来源文件：OUTPUT管理/output相关材料/_导出工具/页面校验/005_带上她的眼睛/review-025-030.jpg",
-    "image": "./gallery/gallery-image-0044.avif",
+    "image": "./gallery/gallery-image-0058.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：review-025-030",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -749,11 +973,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0045",
+    "id": "gallery-image-0059",
     "type": "OUTPUT 产品与内容运营",
     "title": "review-031-036",
     "summary": "来源文件：OUTPUT管理/output相关材料/_导出工具/页面校验/005_带上她的眼睛/review-031-036.jpg",
-    "image": "./gallery/gallery-image-0045.avif",
+    "image": "./gallery/gallery-image-0059.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：review-031-036",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -765,11 +989,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0046",
+    "id": "gallery-image-0060",
     "type": "OUTPUT 产品与内容运营",
     "title": "review-037-042",
     "summary": "来源文件：OUTPUT管理/output相关材料/_导出工具/页面校验/005_带上她的眼睛/review-037-042.jpg",
-    "image": "./gallery/gallery-image-0046.avif",
+    "image": "./gallery/gallery-image-0060.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：review-037-042",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -781,11 +1005,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0047",
+    "id": "gallery-image-0061",
     "type": "OUTPUT 产品与内容运营",
     "title": "review-043-048",
     "summary": "来源文件：OUTPUT管理/output相关材料/_导出工具/页面校验/005_带上她的眼睛/review-043-048.jpg",
-    "image": "./gallery/gallery-image-0047.avif",
+    "image": "./gallery/gallery-image-0061.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：review-043-048",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -797,11 +1021,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0048",
+    "id": "gallery-image-0062",
     "type": "OUTPUT 产品与内容运营",
     "title": "review-049-054",
     "summary": "来源文件：OUTPUT管理/output相关材料/_导出工具/页面校验/005_带上她的眼睛/review-049-054.jpg",
-    "image": "./gallery/gallery-image-0048.avif",
+    "image": "./gallery/gallery-image-0062.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：review-049-054",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -813,11 +1037,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0049",
+    "id": "gallery-image-0063",
     "type": "OUTPUT 产品与内容运营",
     "title": "review-055-056",
     "summary": "来源文件：OUTPUT管理/output相关材料/_导出工具/页面校验/005_带上她的眼睛/review-055-056.jpg",
-    "image": "./gallery/gallery-image-0049.avif",
+    "image": "./gallery/gallery-image-0063.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：review-055-056",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -829,11 +1053,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0050",
+    "id": "gallery-image-0064",
     "type": "OUTPUT 产品与内容运营",
     "title": "image",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/001_时代少年团AIMV/01_封面附件/image.png",
-    "image": "./gallery/gallery-image-0050.avif",
+    "image": "./gallery/gallery-image-0064.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：image",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -845,11 +1069,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0051",
+    "id": "gallery-image-0065",
     "type": "OUTPUT 产品与内容运营",
     "title": "image",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/002_1888年的春夏秋/01_封面附件/image.png",
-    "image": "./gallery/gallery-image-0051.avif",
+    "image": "./gallery/gallery-image-0065.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：image",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -861,11 +1085,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0052",
+    "id": "gallery-image-0066",
     "type": "OUTPUT 产品与内容运营",
     "title": "001_whiteboard_素材",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/002_1888年的春夏秋/05_正文素材/001_whiteboard_素材.jpg",
-    "image": "./gallery/gallery-image-0052.avif",
+    "image": "./gallery/gallery-image-0066.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：001_whiteboard_素材",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -877,11 +1101,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0053",
+    "id": "gallery-image-0067",
     "type": "OUTPUT 产品与内容运营",
     "title": "002_whiteboard_素材",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/002_1888年的春夏秋/05_正文素材/002_whiteboard_素材.jpg",
-    "image": "./gallery/gallery-image-0053.avif",
+    "image": "./gallery/gallery-image-0067.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：002_whiteboard_素材",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -893,11 +1117,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0054",
+    "id": "gallery-image-0068",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-1",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/002_1888年的春夏秋/06_逐页截图/page-1.png",
-    "image": "./gallery/gallery-image-0054.avif",
+    "image": "./gallery/gallery-image-0068.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-1",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -909,11 +1133,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0055",
+    "id": "gallery-image-0069",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-2",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/002_1888年的春夏秋/06_逐页截图/page-2.png",
-    "image": "./gallery/gallery-image-0055.avif",
+    "image": "./gallery/gallery-image-0069.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-2",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -925,11 +1149,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0056",
+    "id": "gallery-image-0070",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-3",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/002_1888年的春夏秋/06_逐页截图/page-3.png",
-    "image": "./gallery/gallery-image-0056.avif",
+    "image": "./gallery/gallery-image-0070.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-3",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -941,11 +1165,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0057",
+    "id": "gallery-image-0071",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-4",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/002_1888年的春夏秋/06_逐页截图/page-4.png",
-    "image": "./gallery/gallery-image-0057.avif",
+    "image": "./gallery/gallery-image-0071.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-4",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -957,11 +1181,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0058",
+    "id": "gallery-image-0072",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-5",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/002_1888年的春夏秋/06_逐页截图/page-5.png",
-    "image": "./gallery/gallery-image-0058.avif",
+    "image": "./gallery/gallery-image-0072.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-5",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -973,11 +1197,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0059",
+    "id": "gallery-image-0073",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-6",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/002_1888年的春夏秋/06_逐页截图/page-6.png",
-    "image": "./gallery/gallery-image-0059.avif",
+    "image": "./gallery/gallery-image-0073.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-6",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -989,11 +1213,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0060",
+    "id": "gallery-image-0074",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-7",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/002_1888年的春夏秋/06_逐页截图/page-7.png",
-    "image": "./gallery/gallery-image-0060.avif",
+    "image": "./gallery/gallery-image-0074.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-7",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1005,11 +1229,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0061",
+    "id": "gallery-image-0075",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-8",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/002_1888年的春夏秋/06_逐页截图/page-8.png",
-    "image": "./gallery/gallery-image-0061.avif",
+    "image": "./gallery/gallery-image-0075.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-8",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1021,11 +1245,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0062",
+    "id": "gallery-image-0076",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-9",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/002_1888年的春夏秋/06_逐页截图/page-9.png",
-    "image": "./gallery/gallery-image-0062.avif",
+    "image": "./gallery/gallery-image-0076.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-9",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1037,11 +1261,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0063",
+    "id": "gallery-image-0077",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-10",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/002_1888年的春夏秋/06_逐页截图/page-10.png",
-    "image": "./gallery/gallery-image-0063.avif",
+    "image": "./gallery/gallery-image-0077.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-10",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1053,11 +1277,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0064",
+    "id": "gallery-image-0078",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-11",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/002_1888年的春夏秋/06_逐页截图/page-11.png",
-    "image": "./gallery/gallery-image-0064.avif",
+    "image": "./gallery/gallery-image-0078.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-11",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1069,11 +1293,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0065",
+    "id": "gallery-image-0079",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-12",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/002_1888年的春夏秋/06_逐页截图/page-12.png",
-    "image": "./gallery/gallery-image-0065.avif",
+    "image": "./gallery/gallery-image-0079.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-12",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1085,11 +1309,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0066",
+    "id": "gallery-image-0080",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-13",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/002_1888年的春夏秋/06_逐页截图/page-13.png",
-    "image": "./gallery/gallery-image-0066.avif",
+    "image": "./gallery/gallery-image-0080.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-13",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1101,11 +1325,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0067",
+    "id": "gallery-image-0081",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-14",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/002_1888年的春夏秋/06_逐页截图/page-14.png",
-    "image": "./gallery/gallery-image-0067.avif",
+    "image": "./gallery/gallery-image-0081.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-14",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1117,11 +1341,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0068",
+    "id": "gallery-image-0082",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-15",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/002_1888年的春夏秋/06_逐页截图/page-15.png",
-    "image": "./gallery/gallery-image-0068.avif",
+    "image": "./gallery/gallery-image-0082.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-15",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1133,11 +1357,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0069",
+    "id": "gallery-image-0083",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-16",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/002_1888年的春夏秋/06_逐页截图/page-16.png",
-    "image": "./gallery/gallery-image-0069.avif",
+    "image": "./gallery/gallery-image-0083.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-16",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1149,11 +1373,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0070",
+    "id": "gallery-image-0084",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-17",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/002_1888年的春夏秋/06_逐页截图/page-17.png",
-    "image": "./gallery/gallery-image-0070.avif",
+    "image": "./gallery/gallery-image-0084.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-17",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1165,11 +1389,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0071",
+    "id": "gallery-image-0085",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-18",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/002_1888年的春夏秋/06_逐页截图/page-18.png",
-    "image": "./gallery/gallery-image-0071.avif",
+    "image": "./gallery/gallery-image-0085.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-18",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1181,11 +1405,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0072",
+    "id": "gallery-image-0086",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-19",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/002_1888年的春夏秋/06_逐页截图/page-19.png",
-    "image": "./gallery/gallery-image-0072.avif",
+    "image": "./gallery/gallery-image-0086.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-19",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1197,11 +1421,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0073",
+    "id": "gallery-image-0087",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-20",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/002_1888年的春夏秋/06_逐页截图/page-20.png",
-    "image": "./gallery/gallery-image-0073.avif",
+    "image": "./gallery/gallery-image-0087.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-20",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1213,11 +1437,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0074",
+    "id": "gallery-image-0088",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-21",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/002_1888年的春夏秋/06_逐页截图/page-21.png",
-    "image": "./gallery/gallery-image-0074.avif",
+    "image": "./gallery/gallery-image-0088.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-21",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1229,11 +1453,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0075",
+    "id": "gallery-image-0089",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-22",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/002_1888年的春夏秋/06_逐页截图/page-22.png",
-    "image": "./gallery/gallery-image-0075.avif",
+    "image": "./gallery/gallery-image-0089.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-22",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1245,11 +1469,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0076",
+    "id": "gallery-image-0090",
     "type": "OUTPUT 产品与内容运营",
     "title": "img_v3_02pg_fdb2d708-960a-4b66-9fe7-3ea20ee0643g",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/003_shushutong x 亚瑟士联名campaign/01_封面附件/img_v3_02pg_fdb2d708-960a-4b66-9fe7-3ea20ee0643g.jpg",
-    "image": "./gallery/gallery-image-0076.avif",
+    "image": "./gallery/gallery-image-0090.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：img_v3_02pg_fdb2d708-960a-4b66-9fe7-3ea20ee0643g",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1261,11 +1485,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0077",
+    "id": "gallery-image-0091",
     "type": "OUTPUT 产品与内容运营",
     "title": "img_v3_02pg_d3590984-d65b-4cde-87db-d04a1da9070g",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/004_S级射击类游戏AI短片制作流程/01_封面附件/img_v3_02pg_d3590984-d65b-4cde-87db-d04a1da9070g.jpg",
-    "image": "./gallery/gallery-image-0077.avif",
+    "image": "./gallery/gallery-image-0091.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：img_v3_02pg_d3590984-d65b-4cde-87db-d04a1da9070g",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1277,11 +1501,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0078",
+    "id": "gallery-image-0092",
     "type": "OUTPUT 产品与内容运营",
     "title": "021_whiteboard_素材",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/004_S级射击类游戏AI短片制作流程/05_正文素材/021_whiteboard_素材.jpg",
-    "image": "./gallery/gallery-image-0078.avif",
+    "image": "./gallery/gallery-image-0092.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：021_whiteboard_素材",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1293,11 +1517,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0079",
+    "id": "gallery-image-0093",
     "type": "OUTPUT 产品与内容运营",
     "title": "image",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/01_封面附件/image.png",
-    "image": "./gallery/gallery-image-0079.avif",
+    "image": "./gallery/gallery-image-0093.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：image",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1309,11 +1533,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0080",
+    "id": "gallery-image-0094",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-1",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-1.png",
-    "image": "./gallery/gallery-image-0080.avif",
+    "image": "./gallery/gallery-image-0094.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-1",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1325,11 +1549,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0081",
+    "id": "gallery-image-0095",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-2",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-2.png",
-    "image": "./gallery/gallery-image-0081.avif",
+    "image": "./gallery/gallery-image-0095.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-2",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1341,11 +1565,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0082",
+    "id": "gallery-image-0096",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-3",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-3.png",
-    "image": "./gallery/gallery-image-0082.avif",
+    "image": "./gallery/gallery-image-0096.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-3",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1357,11 +1581,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0083",
+    "id": "gallery-image-0097",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-4",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-4.png",
-    "image": "./gallery/gallery-image-0083.avif",
+    "image": "./gallery/gallery-image-0097.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-4",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1373,11 +1597,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0084",
+    "id": "gallery-image-0098",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-5",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-5.png",
-    "image": "./gallery/gallery-image-0084.avif",
+    "image": "./gallery/gallery-image-0098.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-5",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1389,11 +1613,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0085",
+    "id": "gallery-image-0099",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-6",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-6.png",
-    "image": "./gallery/gallery-image-0085.avif",
+    "image": "./gallery/gallery-image-0099.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-6",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1405,11 +1629,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0086",
+    "id": "gallery-image-0100",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-7",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-7.png",
-    "image": "./gallery/gallery-image-0086.avif",
+    "image": "./gallery/gallery-image-0100.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-7",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1421,11 +1645,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0087",
+    "id": "gallery-image-0101",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-8",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-8.png",
-    "image": "./gallery/gallery-image-0087.avif",
+    "image": "./gallery/gallery-image-0101.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-8",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1437,11 +1661,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0088",
+    "id": "gallery-image-0102",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-9",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-9.png",
-    "image": "./gallery/gallery-image-0088.avif",
+    "image": "./gallery/gallery-image-0102.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-9",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1453,11 +1677,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0089",
+    "id": "gallery-image-0103",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-10",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-10.png",
-    "image": "./gallery/gallery-image-0089.avif",
+    "image": "./gallery/gallery-image-0103.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-10",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1469,11 +1693,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0090",
+    "id": "gallery-image-0104",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-11",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-11.png",
-    "image": "./gallery/gallery-image-0090.avif",
+    "image": "./gallery/gallery-image-0104.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-11",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1485,11 +1709,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0091",
+    "id": "gallery-image-0105",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-12",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-12.png",
-    "image": "./gallery/gallery-image-0091.avif",
+    "image": "./gallery/gallery-image-0105.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-12",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1501,11 +1725,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0092",
+    "id": "gallery-image-0106",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-13",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-13.png",
-    "image": "./gallery/gallery-image-0092.avif",
+    "image": "./gallery/gallery-image-0106.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-13",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1517,11 +1741,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0093",
+    "id": "gallery-image-0107",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-14",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-14.png",
-    "image": "./gallery/gallery-image-0093.avif",
+    "image": "./gallery/gallery-image-0107.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-14",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1533,11 +1757,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0094",
+    "id": "gallery-image-0108",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-15",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-15.png",
-    "image": "./gallery/gallery-image-0094.avif",
+    "image": "./gallery/gallery-image-0108.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-15",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1549,11 +1773,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0095",
+    "id": "gallery-image-0109",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-16",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-16.png",
-    "image": "./gallery/gallery-image-0095.avif",
+    "image": "./gallery/gallery-image-0109.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-16",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1565,11 +1789,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0096",
+    "id": "gallery-image-0110",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-17",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-17.png",
-    "image": "./gallery/gallery-image-0096.avif",
+    "image": "./gallery/gallery-image-0110.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-17",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1581,11 +1805,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0097",
+    "id": "gallery-image-0111",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-18",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-18.png",
-    "image": "./gallery/gallery-image-0097.avif",
+    "image": "./gallery/gallery-image-0111.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-18",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1597,11 +1821,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0098",
+    "id": "gallery-image-0112",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-19",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-19.png",
-    "image": "./gallery/gallery-image-0098.avif",
+    "image": "./gallery/gallery-image-0112.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-19",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1613,11 +1837,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0099",
+    "id": "gallery-image-0113",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-20",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-20.png",
-    "image": "./gallery/gallery-image-0099.avif",
+    "image": "./gallery/gallery-image-0113.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-20",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1629,11 +1853,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0100",
+    "id": "gallery-image-0114",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-21",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-21.png",
-    "image": "./gallery/gallery-image-0100.avif",
+    "image": "./gallery/gallery-image-0114.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-21",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1645,11 +1869,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0101",
+    "id": "gallery-image-0115",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-22",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-22.png",
-    "image": "./gallery/gallery-image-0101.avif",
+    "image": "./gallery/gallery-image-0115.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-22",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1661,11 +1885,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0102",
+    "id": "gallery-image-0116",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-23",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-23.png",
-    "image": "./gallery/gallery-image-0102.avif",
+    "image": "./gallery/gallery-image-0116.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-23",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1677,11 +1901,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0103",
+    "id": "gallery-image-0117",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-24",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-24.png",
-    "image": "./gallery/gallery-image-0103.avif",
+    "image": "./gallery/gallery-image-0117.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-24",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1693,11 +1917,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0104",
+    "id": "gallery-image-0118",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-25",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-25.png",
-    "image": "./gallery/gallery-image-0104.avif",
+    "image": "./gallery/gallery-image-0118.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-25",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1709,11 +1933,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0105",
+    "id": "gallery-image-0119",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-26",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-26.png",
-    "image": "./gallery/gallery-image-0105.avif",
+    "image": "./gallery/gallery-image-0119.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-26",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1725,11 +1949,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0106",
+    "id": "gallery-image-0120",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-27",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-27.png",
-    "image": "./gallery/gallery-image-0106.avif",
+    "image": "./gallery/gallery-image-0120.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-27",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1741,11 +1965,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0107",
+    "id": "gallery-image-0121",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-28",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-28.png",
-    "image": "./gallery/gallery-image-0107.avif",
+    "image": "./gallery/gallery-image-0121.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-28",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1757,11 +1981,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0108",
+    "id": "gallery-image-0122",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-29",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-29.png",
-    "image": "./gallery/gallery-image-0108.avif",
+    "image": "./gallery/gallery-image-0122.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-29",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1773,11 +1997,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0109",
+    "id": "gallery-image-0123",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-30",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-30.png",
-    "image": "./gallery/gallery-image-0109.avif",
+    "image": "./gallery/gallery-image-0123.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-30",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1789,11 +2013,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0110",
+    "id": "gallery-image-0124",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-31",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-31.png",
-    "image": "./gallery/gallery-image-0110.avif",
+    "image": "./gallery/gallery-image-0124.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-31",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1805,11 +2029,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0111",
+    "id": "gallery-image-0125",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-32",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-32.png",
-    "image": "./gallery/gallery-image-0111.avif",
+    "image": "./gallery/gallery-image-0125.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-32",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1821,11 +2045,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0112",
+    "id": "gallery-image-0126",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-33",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-33.png",
-    "image": "./gallery/gallery-image-0112.avif",
+    "image": "./gallery/gallery-image-0126.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-33",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1837,11 +2061,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0113",
+    "id": "gallery-image-0127",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-34",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-34.png",
-    "image": "./gallery/gallery-image-0113.avif",
+    "image": "./gallery/gallery-image-0127.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-34",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1853,11 +2077,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0114",
+    "id": "gallery-image-0128",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-35",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-35.png",
-    "image": "./gallery/gallery-image-0114.avif",
+    "image": "./gallery/gallery-image-0128.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-35",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1869,11 +2093,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0115",
+    "id": "gallery-image-0129",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-36",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-36.png",
-    "image": "./gallery/gallery-image-0115.avif",
+    "image": "./gallery/gallery-image-0129.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-36",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1885,11 +2109,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0116",
+    "id": "gallery-image-0130",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-37",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-37.png",
-    "image": "./gallery/gallery-image-0116.avif",
+    "image": "./gallery/gallery-image-0130.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-37",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1901,11 +2125,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0117",
+    "id": "gallery-image-0131",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-38",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-38.png",
-    "image": "./gallery/gallery-image-0117.avif",
+    "image": "./gallery/gallery-image-0131.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-38",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1917,11 +2141,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0118",
+    "id": "gallery-image-0132",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-39",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-39.png",
-    "image": "./gallery/gallery-image-0118.avif",
+    "image": "./gallery/gallery-image-0132.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-39",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1933,11 +2157,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0119",
+    "id": "gallery-image-0133",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-40",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-40.png",
-    "image": "./gallery/gallery-image-0119.avif",
+    "image": "./gallery/gallery-image-0133.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-40",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1949,11 +2173,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0120",
+    "id": "gallery-image-0134",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-41",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-41.png",
-    "image": "./gallery/gallery-image-0120.avif",
+    "image": "./gallery/gallery-image-0134.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-41",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1965,11 +2189,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0121",
+    "id": "gallery-image-0135",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-42",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-42.png",
-    "image": "./gallery/gallery-image-0121.avif",
+    "image": "./gallery/gallery-image-0135.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-42",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1981,11 +2205,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0122",
+    "id": "gallery-image-0136",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-43",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-43.png",
-    "image": "./gallery/gallery-image-0122.avif",
+    "image": "./gallery/gallery-image-0136.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-43",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -1997,11 +2221,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0123",
+    "id": "gallery-image-0137",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-44",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-44.png",
-    "image": "./gallery/gallery-image-0123.avif",
+    "image": "./gallery/gallery-image-0137.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-44",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2013,11 +2237,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0124",
+    "id": "gallery-image-0138",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-45",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-45.png",
-    "image": "./gallery/gallery-image-0124.avif",
+    "image": "./gallery/gallery-image-0138.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-45",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2029,11 +2253,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0125",
+    "id": "gallery-image-0139",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-46",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-46.png",
-    "image": "./gallery/gallery-image-0125.avif",
+    "image": "./gallery/gallery-image-0139.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-46",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2045,11 +2269,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0126",
+    "id": "gallery-image-0140",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-47",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-47.png",
-    "image": "./gallery/gallery-image-0126.avif",
+    "image": "./gallery/gallery-image-0140.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-47",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2061,11 +2285,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0127",
+    "id": "gallery-image-0141",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-48",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-48.png",
-    "image": "./gallery/gallery-image-0127.avif",
+    "image": "./gallery/gallery-image-0141.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-48",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2077,11 +2301,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0128",
+    "id": "gallery-image-0142",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-49",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-49.png",
-    "image": "./gallery/gallery-image-0128.avif",
+    "image": "./gallery/gallery-image-0142.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-49",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2093,11 +2317,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0129",
+    "id": "gallery-image-0143",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-50",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-50.png",
-    "image": "./gallery/gallery-image-0129.avif",
+    "image": "./gallery/gallery-image-0143.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-50",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2109,11 +2333,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0130",
+    "id": "gallery-image-0144",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-51",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-51.png",
-    "image": "./gallery/gallery-image-0130.avif",
+    "image": "./gallery/gallery-image-0144.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-51",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2125,11 +2349,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0131",
+    "id": "gallery-image-0145",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-52",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-52.png",
-    "image": "./gallery/gallery-image-0131.avif",
+    "image": "./gallery/gallery-image-0145.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-52",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2141,11 +2365,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0132",
+    "id": "gallery-image-0146",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-53",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-53.png",
-    "image": "./gallery/gallery-image-0132.avif",
+    "image": "./gallery/gallery-image-0146.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-53",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2157,11 +2381,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0133",
+    "id": "gallery-image-0147",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-54",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-54.png",
-    "image": "./gallery/gallery-image-0133.avif",
+    "image": "./gallery/gallery-image-0147.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-54",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2173,11 +2397,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0134",
+    "id": "gallery-image-0148",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-55",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-55.png",
-    "image": "./gallery/gallery-image-0134.avif",
+    "image": "./gallery/gallery-image-0148.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-55",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2189,11 +2413,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0135",
+    "id": "gallery-image-0149",
     "type": "OUTPUT 产品与内容运营",
     "title": "page-56",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/06_逐页截图/page-56.png",
-    "image": "./gallery/gallery-image-0135.avif",
+    "image": "./gallery/gallery-image-0149.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：page-56",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2205,11 +2429,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0136",
+    "id": "gallery-image-0150",
     "type": "OUTPUT 产品与内容运营",
     "title": "英国艺术家 David Hockney - 9Percent",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/006_David hockey AI 二创短片集合/01_封面附件/英国艺术家 David Hockney - 9Percent.png",
-    "image": "./gallery/gallery-image-0136.avif",
+    "image": "./gallery/gallery-image-0150.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：英国艺术家 David Hockney - 9Percent",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2221,11 +2445,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0137",
+    "id": "gallery-image-0151",
     "type": "OUTPUT 产品与内容运营",
     "title": "image",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/007_数字山水/01_封面附件/image.png",
-    "image": "./gallery/gallery-image-0137.avif",
+    "image": "./gallery/gallery-image-0151.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：image",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2237,11 +2461,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0138",
+    "id": "gallery-image-0152",
     "type": "OUTPUT 产品与内容运营",
     "title": "Back view of woman in @freedom789_",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/008_Lisa mv 二创短片/01_封面附件/Back view of woman in @freedom789_.jpg",
-    "image": "./gallery/gallery-image-0138.avif",
+    "image": "./gallery/gallery-image-0152.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：Back view of woman in @freedom789_",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2253,11 +2477,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0139",
+    "id": "gallery-image-0153",
     "type": "OUTPUT 产品与内容运营",
     "title": "S4静止接5_00533",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/009_美妆类AI创作/01_封面附件/S4静止接5_00533.jpg",
-    "image": "./gallery/gallery-image-0139.avif",
+    "image": "./gallery/gallery-image-0153.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：S4静止接5_00533",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2269,11 +2493,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0140",
+    "id": "gallery-image-0154",
     "type": "OUTPUT 产品与内容运营",
     "title": "14",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/010_Jennie MV 二创短片/01_封面附件/14.png",
-    "image": "./gallery/gallery-image-0140.avif",
+    "image": "./gallery/gallery-image-0154.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：14",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2285,11 +2509,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0141",
+    "id": "gallery-image-0155",
     "type": "OUTPUT 产品与内容运营",
     "title": "image",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/011_AI辅助传音TECNO主KV设计/01_封面附件/image.png",
-    "image": "./gallery/gallery-image-0141.avif",
+    "image": "./gallery/gallery-image-0155.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：image",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2301,11 +2525,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0142",
+    "id": "gallery-image-0156",
     "type": "OUTPUT 产品与内容运营",
     "title": "638275520982277",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/012_兰蔻小粉瓶创作短片/01_封面附件/638275520982277.png",
-    "image": "./gallery/gallery-image-0142.avif",
+    "image": "./gallery/gallery-image-0156.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：638275520982277",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2317,11 +2541,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0143",
+    "id": "gallery-image-0157",
     "type": "OUTPUT 产品与内容运营",
     "title": "001_image",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/005_DOCX_市场AI应用/001_DOCX_广告营销/001_BASE_未命名多维表格/05_记录附件/001_image.png",
-    "image": "./gallery/gallery-image-0143.avif",
+    "image": "./gallery/gallery-image-0157.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：001_image",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2333,11 +2557,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0144",
+    "id": "gallery-image-0158",
     "type": "OUTPUT 产品与内容运营",
     "title": "002_image",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/005_DOCX_市场AI应用/001_DOCX_广告营销/001_BASE_未命名多维表格/05_记录附件/002_image.png",
-    "image": "./gallery/gallery-image-0144.avif",
+    "image": "./gallery/gallery-image-0158.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：002_image",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2349,11 +2573,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0145",
+    "id": "gallery-image-0159",
     "type": "OUTPUT 产品与内容运营",
     "title": "003_image",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/005_DOCX_市场AI应用/001_DOCX_广告营销/001_BASE_未命名多维表格/05_记录附件/003_image.png",
-    "image": "./gallery/gallery-image-0145.avif",
+    "image": "./gallery/gallery-image-0159.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：003_image",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2365,11 +2589,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0146",
+    "id": "gallery-image-0160",
     "type": "OUTPUT 产品与内容运营",
     "title": "004_image",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/005_DOCX_市场AI应用/001_DOCX_广告营销/001_BASE_未命名多维表格/05_记录附件/004_image.png",
-    "image": "./gallery/gallery-image-0146.avif",
+    "image": "./gallery/gallery-image-0160.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：004_image",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2381,11 +2605,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0147",
+    "id": "gallery-image-0161",
     "type": "OUTPUT 产品与内容运营",
     "title": "005_image",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/005_DOCX_市场AI应用/001_DOCX_广告营销/001_BASE_未命名多维表格/05_记录附件/005_image.png",
-    "image": "./gallery/gallery-image-0147.avif",
+    "image": "./gallery/gallery-image-0161.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：005_image",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2397,11 +2621,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0148",
+    "id": "gallery-image-0162",
     "type": "OUTPUT 产品与内容运营",
     "title": "006_image",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/005_DOCX_市场AI应用/001_DOCX_广告营销/001_BASE_未命名多维表格/05_记录附件/006_image.png",
-    "image": "./gallery/gallery-image-0148.avif",
+    "image": "./gallery/gallery-image-0162.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：006_image",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2413,11 +2637,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0149",
+    "id": "gallery-image-0163",
     "type": "OUTPUT 产品与内容运营",
     "title": "007_image",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/005_DOCX_市场AI应用/001_DOCX_广告营销/001_BASE_未命名多维表格/05_记录附件/007_image.png",
-    "image": "./gallery/gallery-image-0149.avif",
+    "image": "./gallery/gallery-image-0163.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：007_image",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2429,11 +2653,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0150",
+    "id": "gallery-image-0164",
     "type": "OUTPUT 产品与内容运营",
     "title": "008_image",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/005_DOCX_市场AI应用/001_DOCX_广告营销/001_BASE_未命名多维表格/05_记录附件/008_image.png",
-    "image": "./gallery/gallery-image-0150.avif",
+    "image": "./gallery/gallery-image-0164.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：008_image",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2445,11 +2669,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0151",
+    "id": "gallery-image-0165",
     "type": "OUTPUT 产品与内容运营",
     "title": "009_image",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/005_DOCX_市场AI应用/001_DOCX_广告营销/001_BASE_未命名多维表格/05_记录附件/009_image.png",
-    "image": "./gallery/gallery-image-0151.avif",
+    "image": "./gallery/gallery-image-0165.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：009_image",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2461,11 +2685,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0152",
+    "id": "gallery-image-0166",
     "type": "OUTPUT 产品与内容运营",
     "title": "010_image",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/005_DOCX_市场AI应用/001_DOCX_广告营销/001_BASE_未命名多维表格/05_记录附件/010_image.png",
-    "image": "./gallery/gallery-image-0152.avif",
+    "image": "./gallery/gallery-image-0166.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：010_image",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2477,11 +2701,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0153",
+    "id": "gallery-image-0167",
     "type": "OUTPUT 产品与内容运营",
     "title": "011_image",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/005_DOCX_市场AI应用/001_DOCX_广告营销/001_BASE_未命名多维表格/05_记录附件/011_image.png",
-    "image": "./gallery/gallery-image-0153.avif",
+    "image": "./gallery/gallery-image-0167.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：011_image",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2493,11 +2717,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0154",
+    "id": "gallery-image-0168",
     "type": "OUTPUT 产品与内容运营",
     "title": "012_image",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/005_DOCX_市场AI应用/001_DOCX_广告营销/001_BASE_未命名多维表格/05_记录附件/012_image.png",
-    "image": "./gallery/gallery-image-0154.avif",
+    "image": "./gallery/gallery-image-0168.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：012_image",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2509,11 +2733,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0155",
+    "id": "gallery-image-0169",
     "type": "OUTPUT 产品与内容运营",
     "title": "013_image",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/005_DOCX_市场AI应用/001_DOCX_广告营销/001_BASE_未命名多维表格/05_记录附件/013_image.png",
-    "image": "./gallery/gallery-image-0155.avif",
+    "image": "./gallery/gallery-image-0169.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：013_image",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2525,11 +2749,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0156",
+    "id": "gallery-image-0170",
     "type": "OUTPUT 产品与内容运营",
     "title": "014_image",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/005_DOCX_市场AI应用/001_DOCX_广告营销/001_BASE_未命名多维表格/05_记录附件/014_image.png",
-    "image": "./gallery/gallery-image-0156.avif",
+    "image": "./gallery/gallery-image-0170.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：014_image",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2541,11 +2765,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0157",
+    "id": "gallery-image-0171",
     "type": "OUTPUT 产品与内容运营",
     "title": "015_image",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/005_DOCX_市场AI应用/001_DOCX_广告营销/001_BASE_未命名多维表格/05_记录附件/015_image.png",
-    "image": "./gallery/gallery-image-0157.avif",
+    "image": "./gallery/gallery-image-0171.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：015_image",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2557,11 +2781,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0158",
+    "id": "gallery-image-0172",
     "type": "OUTPUT 产品与内容运营",
     "title": "016_image",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/005_DOCX_市场AI应用/001_DOCX_广告营销/001_BASE_未命名多维表格/05_记录附件/016_image.png",
-    "image": "./gallery/gallery-image-0158.avif",
+    "image": "./gallery/gallery-image-0172.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：016_image",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2573,11 +2797,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0159",
+    "id": "gallery-image-0173",
     "type": "OUTPUT 产品与内容运营",
     "title": "017_image",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/005_DOCX_市场AI应用/001_DOCX_广告营销/001_BASE_未命名多维表格/05_记录附件/017_image.png",
-    "image": "./gallery/gallery-image-0159.avif",
+    "image": "./gallery/gallery-image-0173.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：017_image",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2589,11 +2813,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0160",
+    "id": "gallery-image-0174",
     "type": "OUTPUT 产品与内容运营",
     "title": "018_image",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/005_DOCX_市场AI应用/001_DOCX_广告营销/001_BASE_未命名多维表格/05_记录附件/018_image.png",
-    "image": "./gallery/gallery-image-0160.avif",
+    "image": "./gallery/gallery-image-0174.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：018_image",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2605,11 +2829,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0161",
+    "id": "gallery-image-0175",
     "type": "OUTPUT 产品与内容运营",
     "title": "019_image",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/005_DOCX_市场AI应用/001_DOCX_广告营销/001_BASE_未命名多维表格/05_记录附件/019_image.png",
-    "image": "./gallery/gallery-image-0161.avif",
+    "image": "./gallery/gallery-image-0175.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：019_image",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2621,11 +2845,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0162",
+    "id": "gallery-image-0176",
     "type": "OUTPUT 产品与内容运营",
     "title": "020_image",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/005_DOCX_市场AI应用/001_DOCX_广告营销/001_BASE_未命名多维表格/05_记录附件/020_image.png",
-    "image": "./gallery/gallery-image-0162.avif",
+    "image": "./gallery/gallery-image-0176.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：020_image",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2637,11 +2861,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0163",
+    "id": "gallery-image-0177",
     "type": "OUTPUT 产品与内容运营",
     "title": "021_17168763686ec2769be0478797",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/005_DOCX_市场AI应用/001_DOCX_广告营销/001_BASE_未命名多维表格/05_记录附件/021_17168763686ec2769be0478797.jpg",
-    "image": "./gallery/gallery-image-0163.avif",
+    "image": "./gallery/gallery-image-0177.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：021_17168763686ec2769be0478797",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2653,11 +2877,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0164",
+    "id": "gallery-image-0178",
     "type": "OUTPUT 产品与内容运营",
     "title": "022_image",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/005_DOCX_市场AI应用/001_DOCX_广告营销/001_BASE_未命名多维表格/05_记录附件/022_image.png",
-    "image": "./gallery/gallery-image-0164.avif",
+    "image": "./gallery/gallery-image-0178.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：022_image",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2669,11 +2893,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0165",
+    "id": "gallery-image-0179",
     "type": "OUTPUT 产品与内容运营",
     "title": "023_image",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/005_DOCX_市场AI应用/001_DOCX_广告营销/001_BASE_未命名多维表格/05_记录附件/023_image.png",
-    "image": "./gallery/gallery-image-0165.avif",
+    "image": "./gallery/gallery-image-0179.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：023_image",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2685,11 +2909,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0166",
+    "id": "gallery-image-0180",
     "type": "OUTPUT 产品与内容运营",
     "title": "026_image",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/005_DOCX_市场AI应用/001_DOCX_广告营销/001_BASE_未命名多维表格/05_记录附件/026_image.png",
-    "image": "./gallery/gallery-image-0166.avif",
+    "image": "./gallery/gallery-image-0180.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：026_image",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2701,11 +2925,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0167",
+    "id": "gallery-image-0181",
     "type": "OUTPUT 产品与内容运营",
     "title": "027_8",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/005_DOCX_市场AI应用/001_DOCX_广告营销/001_BASE_未命名多维表格/05_记录附件/027_8.png",
-    "image": "./gallery/gallery-image-0167.avif",
+    "image": "./gallery/gallery-image-0181.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：027_8",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2717,11 +2941,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0168",
+    "id": "gallery-image-0182",
     "type": "OUTPUT 产品与内容运营",
     "title": "030_1",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/005_DOCX_市场AI应用/001_DOCX_广告营销/001_BASE_未命名多维表格/05_记录附件/030_1.jpg",
-    "image": "./gallery/gallery-image-0168.avif",
+    "image": "./gallery/gallery-image-0182.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：030_1",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2733,11 +2957,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0169",
+    "id": "gallery-image-0183",
     "type": "OUTPUT 产品与内容运营",
     "title": "031_2",
     "summary": "来源文件：OUTPUT管理/output相关材料/01_AI知识库/005_DOCX_市场AI应用/001_DOCX_广告营销/001_BASE_未命名多维表格/05_记录附件/031_2.jpg",
-    "image": "./gallery/gallery-image-0169.avif",
+    "image": "./gallery/gallery-image-0183.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：031_2",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2749,11 +2973,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0170",
+    "id": "gallery-image-0184",
     "type": "OUTPUT 产品与内容运营",
     "title": "001_白板",
     "summary": "来源文件：OUTPUT管理/output相关材料/02_Monsora产品/001_DOCX_Monsora/001_DOCX_[PRD] Monsora MVP V1.0/04_素材/001_白板.jpg",
-    "image": "./gallery/gallery-image-0170.avif",
+    "image": "./gallery/gallery-image-0184.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：001_白板",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2765,11 +2989,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0171",
+    "id": "gallery-image-0185",
     "type": "OUTPUT 产品与内容运营",
     "title": "002_白板",
     "summary": "来源文件：OUTPUT管理/output相关材料/02_Monsora产品/001_DOCX_Monsora/001_DOCX_[PRD] Monsora MVP V1.0/04_素材/002_白板.jpg",
-    "image": "./gallery/gallery-image-0171.avif",
+    "image": "./gallery/gallery-image-0185.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：002_白板",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2781,11 +3005,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0172",
+    "id": "gallery-image-0186",
     "type": "OUTPUT 产品与内容运营",
     "title": "004_白板",
     "summary": "来源文件：OUTPUT管理/output相关材料/02_Monsora产品/001_DOCX_Monsora/001_DOCX_[PRD] Monsora MVP V1.0/04_素材/004_白板.jpg",
-    "image": "./gallery/gallery-image-0172.avif",
+    "image": "./gallery/gallery-image-0186.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：004_白板",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2797,11 +3021,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0173",
+    "id": "gallery-image-0187",
     "type": "OUTPUT 产品与内容运营",
     "title": "003_白板",
     "summary": "来源文件：OUTPUT管理/output相关材料/02_Monsora产品/001_DOCX_Monsora/002_DOCX_Monsora MVP 细节设计/04_素材/003_白板.jpg",
-    "image": "./gallery/gallery-image-0173.avif",
+    "image": "./gallery/gallery-image-0187.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：003_白板",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2813,11 +3037,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0174",
+    "id": "gallery-image-0188",
     "type": "OUTPUT 产品与内容运营",
     "title": "001_image",
     "summary": "来源文件：OUTPUT管理/output相关材料/02_Monsora产品/001_DOCX_Monsora/004_BASE_Monsora 产品需求池/05_记录附件/001_image.png",
-    "image": "./gallery/gallery-image-0174.avif",
+    "image": "./gallery/gallery-image-0188.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：001_image",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2829,11 +3053,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0175",
+    "id": "gallery-image-0189",
     "type": "OUTPUT 产品与内容运营",
     "title": "002_image",
     "summary": "来源文件：OUTPUT管理/output相关材料/02_Monsora产品/001_DOCX_Monsora/004_BASE_Monsora 产品需求池/05_记录附件/002_image.png",
-    "image": "./gallery/gallery-image-0175.avif",
+    "image": "./gallery/gallery-image-0189.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：002_image",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2845,11 +3069,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0176",
+    "id": "gallery-image-0190",
     "type": "OUTPUT 产品与内容运营",
     "title": "003_image",
     "summary": "来源文件：OUTPUT管理/output相关材料/02_Monsora产品/001_DOCX_Monsora/004_BASE_Monsora 产品需求池/05_记录附件/003_image.png",
-    "image": "./gallery/gallery-image-0176.avif",
+    "image": "./gallery/gallery-image-0190.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：003_image",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2861,11 +3085,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0177",
+    "id": "gallery-image-0191",
     "type": "OUTPUT 产品与内容运营",
     "title": "004_image",
     "summary": "来源文件：OUTPUT管理/output相关材料/02_Monsora产品/001_DOCX_Monsora/004_BASE_Monsora 产品需求池/05_记录附件/004_image.png",
-    "image": "./gallery/gallery-image-0177.avif",
+    "image": "./gallery/gallery-image-0191.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：004_image",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2877,11 +3101,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0178",
+    "id": "gallery-image-0192",
     "type": "OUTPUT 产品与内容运营",
     "title": "005_image",
     "summary": "来源文件：OUTPUT管理/output相关材料/02_Monsora产品/001_DOCX_Monsora/004_BASE_Monsora 产品需求池/05_记录附件/005_image.png",
-    "image": "./gallery/gallery-image-0178.avif",
+    "image": "./gallery/gallery-image-0192.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：005_image",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2893,11 +3117,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0179",
+    "id": "gallery-image-0193",
     "type": "OUTPUT 产品与内容运营",
     "title": "006_image",
     "summary": "来源文件：OUTPUT管理/output相关材料/02_Monsora产品/001_DOCX_Monsora/004_BASE_Monsora 产品需求池/05_记录附件/006_image.png",
-    "image": "./gallery/gallery-image-0179.avif",
+    "image": "./gallery/gallery-image-0193.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：006_image",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2909,11 +3133,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0180",
+    "id": "gallery-image-0194",
     "type": "OUTPUT 产品与内容运营",
     "title": "007_17",
     "summary": "来源文件：OUTPUT管理/output相关材料/02_Monsora产品/001_DOCX_Monsora/004_BASE_Monsora 产品需求池/05_记录附件/007_17.png",
-    "image": "./gallery/gallery-image-0180.avif",
+    "image": "./gallery/gallery-image-0194.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：007_17",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2925,11 +3149,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0181",
+    "id": "gallery-image-0195",
     "type": "OUTPUT 产品与内容运营",
     "title": "008_2",
     "summary": "来源文件：OUTPUT管理/output相关材料/02_Monsora产品/001_DOCX_Monsora/004_BASE_Monsora 产品需求池/05_记录附件/008_2.png",
-    "image": "./gallery/gallery-image-0181.avif",
+    "image": "./gallery/gallery-image-0195.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：008_2",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2941,11 +3165,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0182",
+    "id": "gallery-image-0196",
     "type": "OUTPUT 产品与内容运营",
     "title": "009_3",
     "summary": "来源文件：OUTPUT管理/output相关材料/02_Monsora产品/001_DOCX_Monsora/004_BASE_Monsora 产品需求池/05_记录附件/009_3.png",
-    "image": "./gallery/gallery-image-0182.avif",
+    "image": "./gallery/gallery-image-0196.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：009_3",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2957,11 +3181,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0183",
+    "id": "gallery-image-0197",
     "type": "OUTPUT 产品与内容运营",
     "title": "010_1",
     "summary": "来源文件：OUTPUT管理/output相关材料/02_Monsora产品/001_DOCX_Monsora/004_BASE_Monsora 产品需求池/05_记录附件/010_1.png",
-    "image": "./gallery/gallery-image-0183.avif",
+    "image": "./gallery/gallery-image-0197.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：010_1",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2973,11 +3197,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0184",
+    "id": "gallery-image-0198",
     "type": "OUTPUT 产品与内容运营",
     "title": "011_4",
     "summary": "来源文件：OUTPUT管理/output相关材料/02_Monsora产品/001_DOCX_Monsora/004_BASE_Monsora 产品需求池/05_记录附件/011_4.png",
-    "image": "./gallery/gallery-image-0184.avif",
+    "image": "./gallery/gallery-image-0198.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：011_4",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -2989,11 +3213,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0185",
+    "id": "gallery-image-0199",
     "type": "OUTPUT 产品与内容运营",
     "title": "012_6",
     "summary": "来源文件：OUTPUT管理/output相关材料/02_Monsora产品/001_DOCX_Monsora/004_BASE_Monsora 产品需求池/05_记录附件/012_6.png",
-    "image": "./gallery/gallery-image-0185.avif",
+    "image": "./gallery/gallery-image-0199.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：012_6",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -3005,11 +3229,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0186",
+    "id": "gallery-image-0200",
     "type": "OUTPUT 产品与内容运营",
     "title": "013_5",
     "summary": "来源文件：OUTPUT管理/output相关材料/02_Monsora产品/001_DOCX_Monsora/004_BASE_Monsora 产品需求池/05_记录附件/013_5.png",
-    "image": "./gallery/gallery-image-0186.avif",
+    "image": "./gallery/gallery-image-0200.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：013_5",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -3021,11 +3245,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0187",
+    "id": "gallery-image-0201",
     "type": "OUTPUT 产品与内容运营",
     "title": "014_8",
     "summary": "来源文件：OUTPUT管理/output相关材料/02_Monsora产品/001_DOCX_Monsora/004_BASE_Monsora 产品需求池/05_记录附件/014_8.png",
-    "image": "./gallery/gallery-image-0187.avif",
+    "image": "./gallery/gallery-image-0201.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：014_8",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -3037,11 +3261,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0188",
+    "id": "gallery-image-0202",
     "type": "OUTPUT 产品与内容运营",
     "title": "015_9",
     "summary": "来源文件：OUTPUT管理/output相关材料/02_Monsora产品/001_DOCX_Monsora/004_BASE_Monsora 产品需求池/05_记录附件/015_9.png",
-    "image": "./gallery/gallery-image-0188.avif",
+    "image": "./gallery/gallery-image-0202.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：015_9",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -3053,11 +3277,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0189",
+    "id": "gallery-image-0203",
     "type": "OUTPUT 产品与内容运营",
     "title": "016_ScreenShot_2026-05-12_195246_841",
     "summary": "来源文件：OUTPUT管理/output相关材料/02_Monsora产品/001_DOCX_Monsora/004_BASE_Monsora 产品需求池/05_记录附件/016_ScreenShot_2026-05-12_195246_841.png",
-    "image": "./gallery/gallery-image-0189.avif",
+    "image": "./gallery/gallery-image-0203.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：016_ScreenShot_2026-05-12_195246_841",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -3069,11 +3293,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0190",
+    "id": "gallery-image-0204",
     "type": "OUTPUT 产品与内容运营",
     "title": "017_ScreenShot_2026-05-12_173020_516",
     "summary": "来源文件：OUTPUT管理/output相关材料/02_Monsora产品/001_DOCX_Monsora/004_BASE_Monsora 产品需求池/05_记录附件/017_ScreenShot_2026-05-12_173020_516.png",
-    "image": "./gallery/gallery-image-0190.avif",
+    "image": "./gallery/gallery-image-0204.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：017_ScreenShot_2026-05-12_173020_516",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -3085,11 +3309,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0191",
+    "id": "gallery-image-0205",
     "type": "OUTPUT 产品与内容运营",
     "title": "018_7",
     "summary": "来源文件：OUTPUT管理/output相关材料/02_Monsora产品/001_DOCX_Monsora/004_BASE_Monsora 产品需求池/05_记录附件/018_7.png",
-    "image": "./gallery/gallery-image-0191.avif",
+    "image": "./gallery/gallery-image-0205.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：018_7",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -3101,11 +3325,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0192",
+    "id": "gallery-image-0206",
     "type": "OUTPUT 产品与内容运营",
     "title": "019_12",
     "summary": "来源文件：OUTPUT管理/output相关材料/02_Monsora产品/001_DOCX_Monsora/004_BASE_Monsora 产品需求池/05_记录附件/019_12.png",
-    "image": "./gallery/gallery-image-0192.avif",
+    "image": "./gallery/gallery-image-0206.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：019_12",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -3117,11 +3341,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0193",
+    "id": "gallery-image-0207",
     "type": "OUTPUT 产品与内容运营",
     "title": "020_11",
     "summary": "来源文件：OUTPUT管理/output相关材料/02_Monsora产品/001_DOCX_Monsora/004_BASE_Monsora 产品需求池/05_记录附件/020_11.png",
-    "image": "./gallery/gallery-image-0193.avif",
+    "image": "./gallery/gallery-image-0207.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：020_11",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -3133,11 +3357,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0194",
+    "id": "gallery-image-0208",
     "type": "OUTPUT 产品与内容运营",
     "title": "021_10",
     "summary": "来源文件：OUTPUT管理/output相关材料/02_Monsora产品/001_DOCX_Monsora/004_BASE_Monsora 产品需求池/05_记录附件/021_10.png",
-    "image": "./gallery/gallery-image-0194.avif",
+    "image": "./gallery/gallery-image-0208.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：021_10",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -3149,11 +3373,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0195",
+    "id": "gallery-image-0209",
     "type": "OUTPUT 产品与内容运营",
     "title": "022_13",
     "summary": "来源文件：OUTPUT管理/output相关材料/02_Monsora产品/001_DOCX_Monsora/004_BASE_Monsora 产品需求池/05_记录附件/022_13.png",
-    "image": "./gallery/gallery-image-0195.avif",
+    "image": "./gallery/gallery-image-0209.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：022_13",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -3165,11 +3389,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0196",
+    "id": "gallery-image-0210",
     "type": "OUTPUT 产品与内容运营",
     "title": "023_4",
     "summary": "来源文件：OUTPUT管理/output相关材料/02_Monsora产品/001_DOCX_Monsora/004_BASE_Monsora 产品需求池/05_记录附件/023_4.png",
-    "image": "./gallery/gallery-image-0196.avif",
+    "image": "./gallery/gallery-image-0210.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：023_4",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -3181,11 +3405,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0197",
+    "id": "gallery-image-0211",
     "type": "OUTPUT 产品与内容运营",
     "title": "024_15",
     "summary": "来源文件：OUTPUT管理/output相关材料/02_Monsora产品/001_DOCX_Monsora/004_BASE_Monsora 产品需求池/05_记录附件/024_15.png",
-    "image": "./gallery/gallery-image-0197.avif",
+    "image": "./gallery/gallery-image-0211.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：024_15",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -3197,11 +3421,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0198",
+    "id": "gallery-image-0212",
     "type": "OUTPUT 产品与内容运营",
     "title": "025_14",
     "summary": "来源文件：OUTPUT管理/output相关材料/02_Monsora产品/001_DOCX_Monsora/004_BASE_Monsora 产品需求池/05_记录附件/025_14.png",
-    "image": "./gallery/gallery-image-0198.avif",
+    "image": "./gallery/gallery-image-0212.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：025_14",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -3213,11 +3437,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0199",
+    "id": "gallery-image-0213",
     "type": "OUTPUT 产品与内容运营",
     "title": "026_16",
     "summary": "来源文件：OUTPUT管理/output相关材料/02_Monsora产品/001_DOCX_Monsora/004_BASE_Monsora 产品需求池/05_记录附件/026_16.png",
-    "image": "./gallery/gallery-image-0199.avif",
+    "image": "./gallery/gallery-image-0213.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：026_16",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -3229,11 +3453,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0200",
+    "id": "gallery-image-0214",
     "type": "OUTPUT 产品与内容运营",
     "title": "001_白板",
     "summary": "来源文件：OUTPUT管理/output相关材料/02_Monsora产品/002_DOCX_OPPIX产品逻辑讨论/04_素材/001_白板.jpg",
-    "image": "./gallery/gallery-image-0200.avif",
+    "image": "./gallery/gallery-image-0214.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：001_白板",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -3245,11 +3469,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0201",
+    "id": "gallery-image-0215",
     "type": "OUTPUT 产品与内容运营",
     "title": "001_白板",
     "summary": "来源文件：OUTPUT管理/output相关材料/02_Monsora产品/005_DOCX_Oppix MVP 核心机制/04_素材/001_白板.jpg",
-    "image": "./gallery/gallery-image-0201.avif",
+    "image": "./gallery/gallery-image-0215.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：001_白板",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -3261,11 +3485,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0202",
+    "id": "gallery-image-0216",
     "type": "OUTPUT 产品与内容运营",
     "title": "001_白板",
     "summary": "来源文件：OUTPUT管理/output相关材料/02_Monsora产品/006_DOCX_产品需求管理SOP/04_素材/001_白板.jpg",
-    "image": "./gallery/gallery-image-0202.avif",
+    "image": "./gallery/gallery-image-0216.webp",
     "imageAlt": "OUTPUT 产品与内容运营项目资料：001_白板",
     "facts": [
       "OUTPUT 产品与内容运营",
@@ -3277,11 +3501,1291 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0203",
+    "id": "gallery-image-0217",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "006_AhaCreator 产品调研与复现方案(游戏出海版)_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/006_AhaCreator 产品调研与复现方案(游戏出海版)_开头.png",
+    "image": "./gallery/gallery-image-0217.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：006_AhaCreator 产品调研与复现方案(游戏出海版)_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/006_AhaCreator 产品调研与复现方案(游戏出海版)_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0218",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "007_Monsora 产品方向严重偏移_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/007_Monsora 产品方向严重偏移_开头.png",
+    "image": "./gallery/gallery-image-0218.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：007_Monsora 产品方向严重偏移_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/007_Monsora 产品方向严重偏移_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0219",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "008_Monsora 官网 V1 PRD_Landing Page、Footer 与 UTM Attribution_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/008_Monsora 官网 V1 PRD_Landing Page、Footer 与 UTM Attribution_开头.png",
+    "image": "./gallery/gallery-image-0219.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：008_Monsora 官网 V1 PRD_Landing Page、Footer 与 UTM Attribution_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/008_Monsora 官网 V1 PRD_Landing Page、Footer 与 UTM Attribution_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0220",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "014_Monsora v0.6 聚类与可信关系图谱开发交付_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/014_Monsora v0.6 聚类与可信关系图谱开发交付_开头.png",
+    "image": "./gallery/gallery-image-0220.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：014_Monsora v0.6 聚类与可信关系图谱开发交付_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/014_Monsora v0.6 聚类与可信关系图谱开发交付_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0221",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "015_Monsora 资产搜索 v0.5_技术复现、验收与主线合并手册_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/015_Monsora 资产搜索 v0.5_技术复现、验收与主线合并手册_开头.png",
+    "image": "./gallery/gallery-image-0221.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：015_Monsora 资产搜索 v0.5_技术复现、验收与主线合并手册_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/015_Monsora 资产搜索 v0.5_技术复现、验收与主线合并手册_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0222",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "016_Monsora 分类级复测与算法演进报告 v0.7_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/016_Monsora 分类级复测与算法演进报告 v0.7_开头.png",
+    "image": "./gallery/gallery-image-0222.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：016_Monsora 分类级复测与算法演进报告 v0.7_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/016_Monsora 分类级复测与算法演进报告 v0.7_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0223",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "017_Monsora Group-First 资产理解与搜索算法 v0.3_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/017_Monsora Group-First 资产理解与搜索算法 v0.3_开头.png",
+    "image": "./gallery/gallery-image-0223.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：017_Monsora Group-First 资产理解与搜索算法 v0.3_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/017_Monsora Group-First 资产理解与搜索算法 v0.3_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0224",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "018_Monsora 资产智能_多模态搜索、Cluster Capsule 与资产血缘一体化方案_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/018_Monsora 资产智能_多模态搜索、Cluster Capsule 与资产血缘一体化方案_开头.png",
+    "image": "./gallery/gallery-image-0224.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：018_Monsora 资产智能_多模态搜索、Cluster Capsule 与资产血缘一体化方案_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/018_Monsora 资产智能_多模态搜索、Cluster Capsule 与资产血缘一体化方案_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0225",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "019_Monsora AI 原生资产搜索系统_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/019_Monsora AI 原生资产搜索系统_开头.png",
+    "image": "./gallery/gallery-image-0225.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：019_Monsora AI 原生资产搜索系统_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/019_Monsora AI 原生资产搜索系统_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0226",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "020_Monsora 资产搜索与关系图谱优化_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/020_Monsora 资产搜索与关系图谱优化_开头.png",
+    "image": "./gallery/gallery-image-0226.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：020_Monsora 资产搜索与关系图谱优化_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/020_Monsora 资产搜索与关系图谱优化_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0227",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "021_Monsora macOS V1 官网分发、本地核心与 Agent CLI 技术实施方案_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/021_Monsora macOS V1 官网分发、本地核心与 Agent CLI 技术实施方案_开头.png",
+    "image": "./gallery/gallery-image-0227.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：021_Monsora macOS V1 官网分发、本地核心与 Agent CLI 技术实施方案_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/021_Monsora macOS V1 官网分发、本地核心与 Agent CLI 技术实施方案_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0228",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "022_Monsora 知识图谱最终视觉设计_资产星图_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/022_Monsora 知识图谱最终视觉设计_资产星图_开头.png",
+    "image": "./gallery/gallery-image-0228.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：022_Monsora 知识图谱最终视觉设计_资产星图_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/022_Monsora 知识图谱最终视觉设计_资产星图_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0229",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "023_Monsora 面向 AI 理解的轻量级资产知识图谱方案_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/023_Monsora 面向 AI 理解的轻量级资产知识图谱方案_开头.png",
+    "image": "./gallery/gallery-image-0229.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：023_Monsora 面向 AI 理解的轻量级资产知识图谱方案_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/023_Monsora 面向 AI 理解的轻量级资产知识图谱方案_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0230",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "024_Monsora APP V1.0 产品需求文档_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/024_Monsora APP V1.0 产品需求文档_开头.png",
+    "image": "./gallery/gallery-image-0230.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：024_Monsora APP V1.0 产品需求文档_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/024_Monsora APP V1.0 产品需求文档_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0231",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "025_Monsora 产品规划 PRD_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/025_Monsora 产品规划 PRD_开头.png",
+    "image": "./gallery/gallery-image-0231.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：025_Monsora 产品规划 PRD_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/025_Monsora 产品规划 PRD_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0232",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "026_Monsora 资产平台竞品调研与模块设计决策_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/026_Monsora 资产平台竞品调研与模块设计决策_开头.png",
+    "image": "./gallery/gallery-image-0232.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：026_Monsora 资产平台竞品调研与模块设计决策_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/026_Monsora 资产平台竞品调研与模块设计决策_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0233",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "027_Monsora 用户协议与隐私政策(草案)_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/027_Monsora 用户协议与隐私政策(草案)_开头.png",
+    "image": "./gallery/gallery-image-0233.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：027_Monsora 用户协议与隐私政策(草案)_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/027_Monsora 用户协议与隐私政策(草案)_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0234",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "028_Monsora 反馈产品页内容 PRD(草案)_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/028_Monsora 反馈产品页内容 PRD(草案)_开头.png",
+    "image": "./gallery/gallery-image-0234.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：028_Monsora 反馈产品页内容 PRD(草案)_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/028_Monsora 反馈产品页内容 PRD(草案)_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0235",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "029_Monsora 反馈产品页内容与服务协议(草案)_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/029_Monsora 反馈产品页内容与服务协议(草案)_开头.png",
+    "image": "./gallery/gallery-image-0235.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：029_Monsora 反馈产品页内容与服务协议(草案)_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/029_Monsora 反馈产品页内容与服务协议(草案)_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0236",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "035_Oppix MVP V1.0 产品认知对齐_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/035_Oppix MVP V1.0 产品认知对齐_开头.png",
+    "image": "./gallery/gallery-image-0236.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：035_Oppix MVP V1.0 产品认知对齐_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/035_Oppix MVP V1.0 产品认知对齐_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0237",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "045_orbix产品开发进度_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/045_orbix产品开发进度_开头.png",
+    "image": "./gallery/gallery-image-0237.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：045_orbix产品开发进度_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/045_orbix产品开发进度_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0238",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "047_OrbiX Hub-产品说明文档+Dev Plan(Mar 18)(正在撰写中)_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/047_OrbiX Hub-产品说明文档+Dev Plan(Mar 18)(正在撰写中)_开头.png",
+    "image": "./gallery/gallery-image-0238.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：047_OrbiX Hub-产品说明文档+Dev Plan(Mar 18)(正在撰写中)_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/047_OrbiX Hub-产品说明文档+Dev Plan(Mar 18)(正在撰写中)_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0239",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "048_OrbiX-MVP开发与邀测计划(Fr. Mar 16)_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/048_OrbiX-MVP开发与邀测计划(Fr. Mar 16)_开头.png",
+    "image": "./gallery/gallery-image-0239.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：048_OrbiX-MVP开发与邀测计划(Fr. Mar 16)_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/048_OrbiX-MVP开发与邀测计划(Fr. Mar 16)_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0240",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "049_Orbix-产品说明文档_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/049_Orbix-产品说明文档_开头.png",
+    "image": "./gallery/gallery-image-0240.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：049_Orbix-产品说明文档_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/049_Orbix-产品说明文档_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0241",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "052_AI 视图_Monsora小组周会 2026年8月10日_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/052_AI 视图_Monsora小组周会 2026年8月10日_开头.png",
+    "image": "./gallery/gallery-image-0241.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：052_AI 视图_Monsora小组周会 2026年8月10日_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/052_AI 视图_Monsora小组周会 2026年8月10日_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0242",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "053_Monsora 服务协议(草案)_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/053_Monsora 服务协议(草案)_开头.png",
+    "image": "./gallery/gallery-image-0242.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：053_Monsora 服务协议(草案)_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/053_Monsora 服务协议(草案)_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0243",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "054_Monsora 隐私协议(草案)_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/054_Monsora 隐私协议(草案)_开头.png",
+    "image": "./gallery/gallery-image-0243.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：054_Monsora 隐私协议(草案)_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/054_Monsora 隐私协议(草案)_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0244",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "055_Oppix MVP V1.0 API接口规范文档_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/055_Oppix MVP V1.0 API接口规范文档_开头.png",
+    "image": "./gallery/gallery-image-0244.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：055_Oppix MVP V1.0 API接口规范文档_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/055_Oppix MVP V1.0 API接口规范文档_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0245",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "057_产品方向偏移_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/057_产品方向偏移_开头.png",
+    "image": "./gallery/gallery-image-0245.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：057_产品方向偏移_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/057_产品方向偏移_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0246",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "060_AI 理解导向的资产聚类优化方案(产品—开发对齐稿)_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/060_AI 理解导向的资产聚类优化方案(产品—开发对齐稿)_开头.png",
+    "image": "./gallery/gallery-image-0246.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：060_AI 理解导向的资产聚类优化方案(产品—开发对齐稿)_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/060_AI 理解导向的资产聚类优化方案(产品—开发对齐稿)_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0247",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "062_产品部门座位_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/062_产品部门座位_开头.png",
+    "image": "./gallery/gallery-image-0247.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：062_产品部门座位_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/062_产品部门座位_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0248",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "066_用户路径调研文档_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/066_用户路径调研文档_开头.png",
+    "image": "./gallery/gallery-image-0248.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：066_用户路径调研文档_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/066_用户路径调研文档_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0249",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "067_AI 产品 Apple Developer 落地方案(美国 OpCo 版)_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/067_AI 产品 Apple Developer 落地方案(美国 OpCo 版)_开头.png",
+    "image": "./gallery/gallery-image-0249.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：067_AI 产品 Apple Developer 落地方案(美国 OpCo 版)_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/067_AI 产品 Apple Developer 落地方案(美国 OpCo 版)_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0250",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "068_Oppix MVP V1.1_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/068_Oppix MVP V1.1_开头.png",
+    "image": "./gallery/gallery-image-0250.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：068_Oppix MVP V1.1_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/068_Oppix MVP V1.1_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0251",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "069_产品构想对齐_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/069_产品构想对齐_开头.png",
+    "image": "./gallery/gallery-image-0251.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：069_产品构想对齐_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/069_产品构想对齐_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0252",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "070_Bijabija产品需求对齐文档_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/070_Bijabija产品需求对齐文档_开头.png",
+    "image": "./gallery/gallery-image-0252.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：070_Bijabija产品需求对齐文档_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/070_Bijabija产品需求对齐文档_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0253",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "004_海外游戏 Creator 营销 Agent深度调研_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/02_AI营销与竞品调研/004_海外游戏 Creator 营销 Agent深度调研_开头.png",
+    "image": "./gallery/gallery-image-0253.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：004_海外游戏 Creator 营销 Agent深度调研_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/02_AI营销与竞品调研/004_海外游戏 Creator 营销 Agent深度调研_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0254",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "005_AhaCreator调研_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/02_AI营销与竞品调研/005_AhaCreator调研_开头.png",
+    "image": "./gallery/gallery-image-0254.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：005_AhaCreator调研_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/02_AI营销与竞品调研/005_AhaCreator调研_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0255",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "039_知识图谱可视化 技术组件调研评估报告_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/02_AI营销与竞品调研/039_知识图谱可视化 技术组件调研评估报告_开头.png",
+    "image": "./gallery/gallery-image-0255.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：039_知识图谱可视化 技术组件调研评估报告_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/02_AI营销与竞品调研/039_知识图谱可视化 技术组件调研评估报告_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0256",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "056_为什么国内平台各做各的,海外却能做跨平台达人营销__开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/02_AI营销与竞品调研/056_为什么国内平台各做各的,海外却能做跨平台达人营销__开头.png",
+    "image": "./gallery/gallery-image-0256.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：056_为什么国内平台各做各的,海外却能做跨平台达人营销__开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/02_AI营销与竞品调研/056_为什么国内平台各做各的,海外却能做跨平台达人营销__开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0257",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "063_AIGC 内容生成赛道竞品分析报告_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/02_AI营销与竞品调研/063_AIGC 内容生成赛道竞品分析报告_开头.png",
+    "image": "./gallery/gallery-image-0257.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：063_AIGC 内容生成赛道竞品分析报告_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/02_AI营销与竞品调研/063_AIGC 内容生成赛道竞品分析报告_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0258",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "072_Taptap对比分析_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/02_AI营销与竞品调研/072_Taptap对比分析_开头.png",
+    "image": "./gallery/gallery-image-0258.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：072_Taptap对比分析_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/02_AI营销与竞品调研/072_Taptap对比分析_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0259",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "074_Palantir深度分析_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/02_AI营销与竞品调研/074_Palantir深度分析_开头.png",
+    "image": "./gallery/gallery-image-0259.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：074_Palantir深度分析_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/02_AI营销与竞品调研/074_Palantir深度分析_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0260",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "075_Palantir与Bloomberg数据处理技术对比_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/02_AI营销与竞品调研/075_Palantir与Bloomberg数据处理技术对比_开头.png",
+    "image": "./gallery/gallery-image-0260.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：075_Palantir与Bloomberg数据处理技术对比_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/02_AI营销与竞品调研/075_Palantir与Bloomberg数据处理技术对比_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0261",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "009_AI创业培训_三天课堂互动优化版交付(2026-08-24)_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/03_培训与课件/009_AI创业培训_三天课堂互动优化版交付(2026-08-24)_开头.png",
+    "image": "./gallery/gallery-image-0261.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：009_AI创业培训_三天课堂互动优化版交付(2026-08-24)_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/03_培训与课件/009_AI创业培训_三天课堂互动优化版交付(2026-08-24)_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0262",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "010_AI创业培训PPT内容增强版_第1—3天_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/03_培训与课件/010_AI创业培训PPT内容增强版_第1—3天_开头.png",
+    "image": "./gallery/gallery-image-0262.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：010_AI创业培训PPT内容增强版_第1—3天_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/03_培训与课件/010_AI创业培训PPT内容增强版_第1—3天_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0263",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "011_AI创业培训前三天课件重构交付 V2(无备注·修订标注版)_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/03_培训与课件/011_AI创业培训前三天课件重构交付 V2(无备注·修订标注版)_开头.png",
+    "image": "./gallery/gallery-image-0263.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：011_AI创业培训前三天课件重构交付 V2(无备注·修订标注版)_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/03_培训与课件/011_AI创业培训前三天课件重构交付 V2(无备注·修订标注版)_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0264",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "012_AI创业培训前三天课件重构交付(可编辑版)_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/03_培训与课件/012_AI创业培训前三天课件重构交付(可编辑版)_开头.png",
+    "image": "./gallery/gallery-image-0264.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：012_AI创业培训前三天课件重构交付(可编辑版)_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/03_培训与课件/012_AI创业培训前三天课件重构交付(可编辑版)_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0265",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "013_AI创业培训PPT全量审阅报告(含课件附件)_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/03_培训与课件/013_AI创业培训PPT全量审阅报告(含课件附件)_开头.png",
+    "image": "./gallery/gallery-image-0265.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：013_AI创业培训PPT全量审阅报告(含课件附件)_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/03_培训与课件/013_AI创业培训PPT全量审阅报告(含课件附件)_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0266",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "036_《惊悚乐园》IP调研_202511_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/04_影视与创作项目/036_《惊悚乐园》IP调研_202511_开头.png",
+    "image": "./gallery/gallery-image-0266.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：036_《惊悚乐园》IP调研_202511_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/04_影视与创作项目/036_《惊悚乐园》IP调研_202511_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0267",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "046_【剧本】惊悚乐园第18集分镜脚本_完整版_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/04_影视与创作项目/046_【剧本】惊悚乐园第18集分镜脚本_完整版_开头.png",
+    "image": "./gallery/gallery-image-0267.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：046_【剧本】惊悚乐园第18集分镜脚本_完整版_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/04_影视与创作项目/046_【剧本】惊悚乐园第18集分镜脚本_完整版_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0268",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "050_惊悚乐园游戏产品_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/04_影视与创作项目/050_惊悚乐园游戏产品_开头.png",
+    "image": "./gallery/gallery-image-0268.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：050_惊悚乐园游戏产品_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/04_影视与创作项目/050_惊悚乐园游戏产品_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0269",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "051_《带上她的眼睛》AIGC网剧小结_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/04_影视与创作项目/051_《带上她的眼睛》AIGC网剧小结_开头.png",
+    "image": "./gallery/gallery-image-0269.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：051_《带上她的眼睛》AIGC网剧小结_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/04_影视与创作项目/051_《带上她的眼睛》AIGC网剧小结_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0270",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "059_《平国餐车》游戏设计与制作_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/04_影视与创作项目/059_《平国餐车》游戏设计与制作_开头.png",
+    "image": "./gallery/gallery-image-0270.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：059_《平国餐车》游戏设计与制作_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/04_影视与创作项目/059_《平国餐车》游戏设计与制作_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0271",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "071_四大Agent_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/05_技术架构与工作流/071_四大Agent_开头.png",
+    "image": "./gallery/gallery-image-0271.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：071_四大Agent_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/05_技术架构与工作流/071_四大Agent_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0272",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "073_开发成本估计_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/05_技术架构与工作流/073_开发成本估计_开头.png",
+    "image": "./gallery/gallery-image-0272.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：073_开发成本估计_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/05_技术架构与工作流/073_开发成本估计_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0273",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "076_开发排期_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/05_技术架构与工作流/076_开发排期_开头.png",
+    "image": "./gallery/gallery-image-0273.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：076_开发排期_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/05_技术架构与工作流/076_开发排期_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0274",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "078_数字内容IP孵化系统 Agent架构 V2.0_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/05_技术架构与工作流/078_数字内容IP孵化系统 Agent架构 V2.0_开头.png",
+    "image": "./gallery/gallery-image-0274.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：078_数字内容IP孵化系统 Agent架构 V2.0_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/05_技术架构与工作流/078_数字内容IP孵化系统 Agent架构 V2.0_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0275",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "079_GitHub管理指南_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/05_技术架构与工作流/079_GitHub管理指南_开头.png",
+    "image": "./gallery/gallery-image-0275.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：079_GitHub管理指南_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/05_技术架构与工作流/079_GitHub管理指南_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0276",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "001_智能纪要_Monsora产品原型评审及排期对齐会 2026年8月24日_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/06_会议纪要/001_智能纪要_Monsora产品原型评审及排期对齐会 2026年8月24日_开头.png",
+    "image": "./gallery/gallery-image-0276.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：001_智能纪要_Monsora产品原型评审及排期对齐会 2026年8月24日_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/06_会议纪要/001_智能纪要_Monsora产品原型评审及排期对齐会 2026年8月24日_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0277",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "002_智能纪要_创作者工具产品功能规划研讨会 2026年7月7日_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/06_会议纪要/002_智能纪要_创作者工具产品功能规划研讨会 2026年7月7日_开头.png",
+    "image": "./gallery/gallery-image-0277.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：002_智能纪要_创作者工具产品功能规划研讨会 2026年7月7日_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/06_会议纪要/002_智能纪要_创作者工具产品功能规划研讨会 2026年7月7日_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0278",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "003_智能纪要_海外AIGC创作者调研工作沟通会 2026年7月2日_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/06_会议纪要/003_智能纪要_海外AIGC创作者调研工作沟通会 2026年7月2日_开头.png",
+    "image": "./gallery/gallery-image-0278.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：003_智能纪要_海外AIGC创作者调研工作沟通会 2026年7月2日_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/06_会议纪要/003_智能纪要_海外AIGC创作者调研工作沟通会 2026年7月2日_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0279",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "030_智能纪要_创作者服务平台项目讨论会 2026年6月26日_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/06_会议纪要/030_智能纪要_创作者服务平台项目讨论会 2026年6月26日_开头.png",
+    "image": "./gallery/gallery-image-0279.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：030_智能纪要_创作者服务平台项目讨论会 2026年6月26日_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/06_会议纪要/030_智能纪要_创作者服务平台项目讨论会 2026年6月26日_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0280",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "031_智能纪要_Oppix与Monsora MVP开发会议 2026年6月1日_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/06_会议纪要/031_智能纪要_Oppix与Monsora MVP开发会议 2026年6月1日_开头.png",
+    "image": "./gallery/gallery-image-0280.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：031_智能纪要_Oppix与Monsora MVP开发会议 2026年6月1日_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/06_会议纪要/031_智能纪要_Oppix与Monsora MVP开发会议 2026年6月1日_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0281",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "032_智能纪要_创作者平台产品设计会议 2026年6月1日_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/06_会议纪要/032_智能纪要_创作者平台产品设计会议 2026年6月1日_开头.png",
+    "image": "./gallery/gallery-image-0281.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：032_智能纪要_创作者平台产品设计会议 2026年6月1日_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/06_会议纪要/032_智能纪要_创作者平台产品设计会议 2026年6月1日_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0282",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "033_智能纪要_Oppix产品方案及进度会议 2026年5月17日_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/06_会议纪要/033_智能纪要_Oppix产品方案及进度会议 2026年5月17日_开头.png",
+    "image": "./gallery/gallery-image-0282.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：033_智能纪要_Oppix产品方案及进度会议 2026年5月17日_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/06_会议纪要/033_智能纪要_Oppix产品方案及进度会议 2026年5月17日_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0283",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "034_智能纪要_高阶创作者需求分析 2026年5月11日_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/06_会议纪要/034_智能纪要_高阶创作者需求分析 2026年5月11日_开头.png",
+    "image": "./gallery/gallery-image-0283.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：034_智能纪要_高阶创作者需求分析 2026年5月11日_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/06_会议纪要/034_智能纪要_高阶创作者需求分析 2026年5月11日_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0284",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "037_智能纪要_创作者招募表单设计会议 2026年3月23日_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/06_会议纪要/037_智能纪要_创作者招募表单设计会议 2026年3月23日_开头.png",
+    "image": "./gallery/gallery-image-0284.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：037_智能纪要_创作者招募表单设计会议 2026年3月23日_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/06_会议纪要/037_智能纪要_创作者招募表单设计会议 2026年3月23日_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0285",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "038_智能纪要_《惊悚乐园》AIGC 付费工作安排会 2026年1月21日_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/06_会议纪要/038_智能纪要_《惊悚乐园》AIGC 付费工作安排会 2026年1月21日_开头.png",
+    "image": "./gallery/gallery-image-0285.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：038_智能纪要_《惊悚乐园》AIGC 付费工作安排会 2026年1月21日_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/06_会议纪要/038_智能纪要_《惊悚乐园》AIGC 付费工作安排会 2026年1月21日_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0286",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "040_智能纪要_AI Agent管理工具专项研讨会 2026年8月23日_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/06_会议纪要/040_智能纪要_AI Agent管理工具专项研讨会 2026年8月23日_开头.png",
+    "image": "./gallery/gallery-image-0286.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：040_智能纪要_AI Agent管理工具专项研讨会 2026年8月23日_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/06_会议纪要/040_智能纪要_AI Agent管理工具专项研讨会 2026年8月23日_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0287",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "041_智能纪要_马兰花AI创业课件开发研讨会议 2026年8月22日_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/06_会议纪要/041_智能纪要_马兰花AI创业课件开发研讨会议 2026年8月22日_开头.png",
+    "image": "./gallery/gallery-image-0287.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：041_智能纪要_马兰花AI创业课件开发研讨会议 2026年8月22日_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/06_会议纪要/041_智能纪要_马兰花AI创业课件开发研讨会议 2026年8月22日_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0288",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "042_智能纪要_项目排期与产研对齐沟通会议 2026年8月13日_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/06_会议纪要/042_智能纪要_项目排期与产研对齐沟通会议 2026年8月13日_开头.png",
+    "image": "./gallery/gallery-image-0288.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：042_智能纪要_项目排期与产研对齐沟通会议 2026年8月13日_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/06_会议纪要/042_智能纪要_项目排期与产研对齐沟通会议 2026年8月13日_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0289",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "043_智能纪要_Unity3D游戏开发岗位面试沟通会 2026年8月11日_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/06_会议纪要/043_智能纪要_Unity3D游戏开发岗位面试沟通会 2026年8月11日_开头.png",
+    "image": "./gallery/gallery-image-0289.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：043_智能纪要_Unity3D游戏开发岗位面试沟通会 2026年8月11日_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/06_会议纪要/043_智能纪要_Unity3D游戏开发岗位面试沟通会 2026年8月11日_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0290",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "044_智能纪要_产品架构与版本管理方案讨论会 2026年8月3日_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/06_会议纪要/044_智能纪要_产品架构与版本管理方案讨论会 2026年8月3日_开头.png",
+    "image": "./gallery/gallery-image-0290.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：044_智能纪要_产品架构与版本管理方案讨论会 2026年8月3日_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/06_会议纪要/044_智能纪要_产品架构与版本管理方案讨论会 2026年8月3日_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0291",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "058_UI设计清单_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/07_其他重要文档/058_UI设计清单_开头.png",
+    "image": "./gallery/gallery-image-0291.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：058_UI设计清单_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/07_其他重要文档/058_UI设计清单_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0292",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "061_图片 Asset 保存信息清单_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/07_其他重要文档/061_图片 Asset 保存信息清单_开头.png",
+    "image": "./gallery/gallery-image-0292.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：061_图片 Asset 保存信息清单_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/07_其他重要文档/061_图片 Asset 保存信息清单_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0293",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "064_AI 视频项目资产模板整理_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/07_其他重要文档/064_AI 视频项目资产模板整理_开头.png",
+    "image": "./gallery/gallery-image-0293.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：064_AI 视频项目资产模板整理_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/07_其他重要文档/064_AI 视频项目资产模板整理_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0294",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "065_关务与研究能力简历_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/07_其他重要文档/065_关务与研究能力简历_开头.png",
+    "image": "./gallery/gallery-image-0294.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：065_关务与研究能力简历_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/07_其他重要文档/065_关务与研究能力简历_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0295",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "077_中华人民共和国行政复议法实施条例_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/07_其他重要文档/077_中华人民共和国行政复议法实施条例_开头.png",
+    "image": "./gallery/gallery-image-0295.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：077_中华人民共和国行政复议法实施条例_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/07_其他重要文档/077_中华人民共和国行政复议法实施条例_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0296",
+    "type": "OUTPUT 产品与内容运营",
+    "title": "080_反馈表分析_开头",
+    "summary": "来源文件：OUTPUT管理/output相关材料/13_个人云文档_开头截图/07_其他重要文档/080_反馈表分析_开头.png",
+    "image": "./gallery/gallery-image-0296.webp",
+    "imageAlt": "OUTPUT 产品与内容运营项目资料：080_反馈表分析_开头",
+    "facts": [
+      "OUTPUT 产品与内容运营",
+      "PNG 原图",
+      "网页优化副本"
+    ],
+    "sourceCategory": "OUTPUT管理",
+    "sourcePath": "OUTPUT管理/output相关材料/13_个人云文档_开头截图/07_其他重要文档/080_反馈表分析_开头.png",
+    "public": true
+  },
+  {
+    "id": "gallery-image-0297",
     "type": "AIGC 影像与互动叙事",
     "title": "文档",
     "summary": "来源文件：AIGC视频&互动影游戏/05_超新星纪元/文档.png",
-    "image": "./gallery/gallery-image-0203.avif",
+    "image": "./gallery/gallery-image-0297.webp",
     "imageAlt": "AIGC 影像与互动叙事项目资料：文档",
     "facts": [
       "AIGC 影像与互动叙事",
@@ -3293,11 +4797,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0204",
+    "id": "gallery-image-0298",
     "type": "AIGC 影像与互动叙事",
     "title": "001_白板",
     "summary": "来源文件：AIGC视频&互动影游戏/90_引用与嵌入资料/038_DOCX_产品 × UIUX × 开发合作 SOP/04_素材/001_白板.jpg",
-    "image": "./gallery/gallery-image-0204.avif",
+    "image": "./gallery/gallery-image-0298.webp",
     "imageAlt": "AIGC 影像与互动叙事项目资料：001_白板",
     "facts": [
       "AIGC 影像与互动叙事",
@@ -3309,11 +4813,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0205",
+    "id": "gallery-image-0299",
     "type": "AIGC 影像与互动叙事",
     "title": "疯多",
     "summary": "来源文件：AIGC视频&互动影游戏/惊悚乐园/《惊悚乐园》图库/角色/角色多视图（for 即梦/疯多.png",
-    "image": "./gallery/gallery-image-0205.avif",
+    "image": "./gallery/gallery-image-0299.webp",
     "imageAlt": "AIGC 影像与互动叙事项目资料：疯多",
     "facts": [
       "AIGC 影像与互动叙事",
@@ -3325,11 +4829,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0206",
+    "id": "gallery-image-0300",
     "type": "AIGC 影像与互动叙事",
     "title": "骨单",
     "summary": "来源文件：AIGC视频&互动影游戏/惊悚乐园/《惊悚乐园》图库/角色/角色多视图（for 即梦/骨单.png",
-    "image": "./gallery/gallery-image-0206.avif",
+    "image": "./gallery/gallery-image-0300.webp",
     "imageAlt": "AIGC 影像与互动叙事项目资料：骨单",
     "facts": [
       "AIGC 影像与互动叙事",
@@ -3341,11 +4845,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0207",
+    "id": "gallery-image-0301",
     "type": "AIGC 影像与互动叙事",
     "title": "骨多",
     "summary": "来源文件：AIGC视频&互动影游戏/惊悚乐园/《惊悚乐园》图库/角色/角色多视图（for 即梦/骨多.png",
-    "image": "./gallery/gallery-image-0207.avif",
+    "image": "./gallery/gallery-image-0301.webp",
     "imageAlt": "AIGC 影像与互动叙事项目资料：骨多",
     "facts": [
       "AIGC 影像与互动叙事",
@@ -3357,11 +4861,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0208",
+    "id": "gallery-image-0302",
     "type": "AIGC 影像与互动叙事",
     "title": "龙单",
     "summary": "来源文件：AIGC视频&互动影游戏/惊悚乐园/《惊悚乐园》图库/角色/角色多视图（for 即梦/龙单.png",
-    "image": "./gallery/gallery-image-0208.avif",
+    "image": "./gallery/gallery-image-0302.webp",
     "imageAlt": "AIGC 影像与互动叙事项目资料：龙单",
     "facts": [
       "AIGC 影像与互动叙事",
@@ -3373,11 +4877,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0209",
+    "id": "gallery-image-0303",
     "type": "AIGC 影像与互动叙事",
     "title": "龙多",
     "summary": "来源文件：AIGC视频&互动影游戏/惊悚乐园/《惊悚乐园》图库/角色/角色多视图（for 即梦/龙多.png",
-    "image": "./gallery/gallery-image-0209.avif",
+    "image": "./gallery/gallery-image-0303.webp",
     "imageAlt": "AIGC 影像与互动叙事项目资料：龙多",
     "facts": [
       "AIGC 影像与互动叙事",
@@ -3389,11 +4893,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0210",
+    "id": "gallery-image-0304",
     "type": "AIGC 影像与互动叙事",
     "title": "王单",
     "summary": "来源文件：AIGC视频&互动影游戏/惊悚乐园/《惊悚乐园》图库/角色/角色多视图（for 即梦/王单.png",
-    "image": "./gallery/gallery-image-0210.avif",
+    "image": "./gallery/gallery-image-0304.webp",
     "imageAlt": "AIGC 影像与互动叙事项目资料：王单",
     "facts": [
       "AIGC 影像与互动叙事",
@@ -3405,11 +4909,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0211",
+    "id": "gallery-image-0305",
     "type": "AIGC 影像与互动叙事",
     "title": "洗-玛德琳成年",
     "summary": "来源文件：AIGC视频&互动影游戏/惊悚乐园/《惊悚乐园》图库/角色/角色多视图（for 即梦/洗-玛德琳成年.jpg",
-    "image": "./gallery/gallery-image-0211.avif",
+    "image": "./gallery/gallery-image-0305.webp",
     "imageAlt": "AIGC 影像与互动叙事项目资料：洗-玛德琳成年",
     "facts": [
       "AIGC 影像与互动叙事",
@@ -3421,11 +4925,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0212",
+    "id": "gallery-image-0306",
     "type": "AIGC 影像与互动叙事",
     "title": "新疯-单",
     "summary": "来源文件：AIGC视频&互动影游戏/惊悚乐园/《惊悚乐园》图库/角色/角色多视图（for 即梦/新疯-单.png",
-    "image": "./gallery/gallery-image-0212.avif",
+    "image": "./gallery/gallery-image-0306.webp",
     "imageAlt": "AIGC 影像与互动叙事项目资料：新疯-单",
     "facts": [
       "AIGC 影像与互动叙事",
@@ -3437,11 +4941,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0213",
+    "id": "gallery-image-0307",
     "type": "AIGC 影像与互动叙事",
     "title": "勇单",
     "summary": "来源文件：AIGC视频&互动影游戏/惊悚乐园/《惊悚乐园》图库/角色/角色多视图（for 即梦/勇单.png",
-    "image": "./gallery/gallery-image-0213.avif",
+    "image": "./gallery/gallery-image-0307.webp",
     "imageAlt": "AIGC 影像与互动叙事项目资料：勇单",
     "facts": [
       "AIGC 影像与互动叙事",
@@ -3453,11 +4957,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0214",
+    "id": "gallery-image-0308",
     "type": "AIGC 影像与互动叙事",
     "title": "勇多",
     "summary": "来源文件：AIGC视频&互动影游戏/惊悚乐园/《惊悚乐园》图库/角色/角色多视图（for 即梦/勇多.png",
-    "image": "./gallery/gallery-image-0214.avif",
+    "image": "./gallery/gallery-image-0308.webp",
     "imageAlt": "AIGC 影像与互动叙事项目资料：勇多",
     "facts": [
       "AIGC 影像与互动叙事",
@@ -3469,11 +4973,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0215",
+    "id": "gallery-image-0309",
     "type": "AIGC 影像与互动叙事",
     "title": "惊悚乐园开创",
     "summary": "来源文件：AIGC视频&互动影游戏/惊悚乐园/惊悚乐园开创.jpg",
-    "image": "./gallery/gallery-image-0215.avif",
+    "image": "./gallery/gallery-image-0309.webp",
     "imageAlt": "AIGC 影像与互动叙事项目资料：惊悚乐园开创",
     "facts": [
       "AIGC 影像与互动叙事",
@@ -3485,11 +4989,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0216",
+    "id": "gallery-image-0310",
     "type": "AIGC 影像与互动叙事",
     "title": "惊悚乐园文档png",
     "summary": "来源文件：AIGC视频&互动影游戏/惊悚乐园/惊悚乐园文档png.png",
-    "image": "./gallery/gallery-image-0216.avif",
+    "image": "./gallery/gallery-image-0310.webp",
     "imageAlt": "AIGC 影像与互动叙事项目资料：惊悚乐园文档png",
     "facts": [
       "AIGC 影像与互动叙事",
@@ -3501,11 +5005,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0217",
+    "id": "gallery-image-0311",
     "type": "AIGC 影像与互动叙事",
     "title": "空间运营主题办公室",
     "summary": "来源文件：AIGC视频&互动影游戏/惊悚乐园/空间运营主题办公室.jpg",
-    "image": "./gallery/gallery-image-0217.avif",
+    "image": "./gallery/gallery-image-0311.webp",
     "imageAlt": "AIGC 影像与互动叙事项目资料：空间运营主题办公室",
     "facts": [
       "AIGC 影像与互动叙事",
@@ -3517,11 +5021,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0218",
+    "id": "gallery-image-0312",
     "type": "AIGC 影像与互动叙事",
     "title": "片尾曲设计",
     "summary": "来源文件：AIGC视频&互动影游戏/惊悚乐园/片尾曲设计.jpg",
-    "image": "./gallery/gallery-image-0218.avif",
+    "image": "./gallery/gallery-image-0312.webp",
     "imageAlt": "AIGC 影像与互动叙事项目资料：片尾曲设计",
     "facts": [
       "AIGC 影像与互动叙事",
@@ -3533,11 +5037,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0219",
+    "id": "gallery-image-0313",
     "type": "AIGC 影像与互动叙事",
     "title": "b站颁奖",
     "summary": "来源文件：AIGC视频&互动影游戏/惊悚乐园/b站颁奖.jpg",
-    "image": "./gallery/gallery-image-0219.avif",
+    "image": "./gallery/gallery-image-0313.webp",
     "imageAlt": "AIGC 影像与互动叙事项目资料：b站颁奖",
     "facts": [
       "AIGC 影像与互动叙事",
@@ -3549,11 +5053,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0220",
+    "id": "gallery-image-0314",
     "type": "AIGC 影像与互动叙事",
     "title": "steam封面",
     "summary": "来源文件：AIGC视频&互动影游戏/惊悚乐园/steam封面.jpg",
-    "image": "./gallery/gallery-image-0220.avif",
+    "image": "./gallery/gallery-image-0314.webp",
     "imageAlt": "AIGC 影像与互动叙事项目资料：steam封面",
     "facts": [
       "AIGC 影像与互动叙事",
@@ -3565,11 +5069,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0221",
+    "id": "gallery-image-0315",
     "type": "AIGC 影像与互动叙事",
     "title": "steam心愿单",
     "summary": "来源文件：AIGC视频&互动影游戏/惊悚乐园/steam心愿单.jpg",
-    "image": "./gallery/gallery-image-0221.avif",
+    "image": "./gallery/gallery-image-0315.webp",
     "imageAlt": "AIGC 影像与互动叙事项目资料：steam心愿单",
     "facts": [
       "AIGC 影像与互动叙事",
@@ -3581,11 +5085,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0222",
+    "id": "gallery-image-0316",
     "type": "AIGC 影像与互动叙事",
     "title": "被澎湃新闻报道",
     "summary": "来源文件：AIGC视频&互动影游戏/科幻科普片/被澎湃新闻报道.jpg",
-    "image": "./gallery/gallery-image-0222.avif",
+    "image": "./gallery/gallery-image-0316.webp",
     "imageAlt": "AIGC 影像与互动叙事项目资料：被澎湃新闻报道",
     "facts": [
       "AIGC 影像与互动叙事",
@@ -3597,11 +5101,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0223",
+    "id": "gallery-image-0317",
     "type": "AIGC 影像与互动叙事",
     "title": "编写aigc工作流",
     "summary": "来源文件：AIGC视频&互动影游戏/科幻科普片/编写aigc工作流.jpg",
-    "image": "./gallery/gallery-image-0223.avif",
+    "image": "./gallery/gallery-image-0317.webp",
     "imageAlt": "AIGC 影像与互动叙事项目资料：编写aigc工作流",
     "facts": [
       "AIGC 影像与互动叙事",
@@ -3613,11 +5117,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0224",
+    "id": "gallery-image-0318",
     "type": "AIGC 影像与互动叙事",
     "title": "播放破百万",
     "summary": "来源文件：AIGC视频&互动影游戏/科幻科普片/播放破百万.jpg",
-    "image": "./gallery/gallery-image-0224.avif",
+    "image": "./gallery/gallery-image-0318.webp",
     "imageAlt": "AIGC 影像与互动叙事项目资料：播放破百万",
     "facts": [
       "AIGC 影像与互动叙事",
@@ -3629,11 +5133,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0225",
+    "id": "gallery-image-0319",
     "type": "AIGC 影像与互动叙事",
     "title": "带上她的眼镜获奖",
     "summary": "来源文件：AIGC视频&互动影游戏/科幻科普片/带上她的眼镜获奖.jpg",
-    "image": "./gallery/gallery-image-0225.avif",
+    "image": "./gallery/gallery-image-0319.webp",
     "imageAlt": "AIGC 影像与互动叙事项目资料：带上她的眼镜获奖",
     "facts": [
       "AIGC 影像与互动叙事",
@@ -3645,11 +5149,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0226",
+    "id": "gallery-image-0320",
     "type": "AIGC 影像与互动叙事",
     "title": "工作流联系",
     "summary": "来源文件：AIGC视频&互动影游戏/科幻科普片/工作流联系.jpg",
-    "image": "./gallery/gallery-image-0226.avif",
+    "image": "./gallery/gallery-image-0320.webp",
     "imageAlt": "AIGC 影像与互动叙事项目资料：工作流联系",
     "facts": [
       "AIGC 影像与互动叙事",
@@ -3661,11 +5165,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0227",
+    "id": "gallery-image-0321",
     "type": "AIGC 影像与互动叙事",
     "title": "科幻",
     "summary": "来源文件：AIGC视频&互动影游戏/科幻科普片/科幻.png",
-    "image": "./gallery/gallery-image-0227.avif",
+    "image": "./gallery/gallery-image-0321.webp",
     "imageAlt": "AIGC 影像与互动叙事项目资料：科幻",
     "facts": [
       "AIGC 影像与互动叙事",
@@ -3677,11 +5181,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0228",
+    "id": "gallery-image-0322",
     "type": "AIGC 影像与互动叙事",
     "title": "科普",
     "summary": "来源文件：AIGC视频&互动影游戏/科幻科普片/科普.png",
-    "image": "./gallery/gallery-image-0228.avif",
+    "image": "./gallery/gallery-image-0322.webp",
     "imageAlt": "AIGC 影像与互动叙事项目资料：科普",
     "facts": [
       "AIGC 影像与互动叙事",
@@ -3693,11 +5197,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0229",
+    "id": "gallery-image-0323",
     "type": "AIGC 影像与互动叙事",
     "title": "新账号被数字生命卡兹克推荐",
     "summary": "来源文件：AIGC视频&互动影游戏/科幻科普片/新账号被数字生命卡兹克推荐.jpg",
-    "image": "./gallery/gallery-image-0229.avif",
+    "image": "./gallery/gallery-image-0323.webp",
     "imageAlt": "AIGC 影像与互动叙事项目资料：新账号被数字生命卡兹克推荐",
     "facts": [
       "AIGC 影像与互动叙事",
@@ -3709,11 +5213,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0230",
+    "id": "gallery-image-0324",
     "type": "AIGC 影像与互动叙事",
     "title": "与同济大学合作",
     "summary": "来源文件：AIGC视频&互动影游戏/科幻科普片/与同济大学合作.jpg",
-    "image": "./gallery/gallery-image-0230.avif",
+    "image": "./gallery/gallery-image-0324.webp",
     "imageAlt": "AIGC 影像与互动叙事项目资料：与同济大学合作",
     "facts": [
       "AIGC 影像与互动叙事",
@@ -3725,11 +5229,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0231",
+    "id": "gallery-image-0325",
     "type": "AIGC 影像与互动叙事",
     "title": "waytoagi课程",
     "summary": "来源文件：AIGC视频&互动影游戏/科幻科普片/waytoagi课程.jpg",
-    "image": "./gallery/gallery-image-0231.avif",
+    "image": "./gallery/gallery-image-0325.webp",
     "imageAlt": "AIGC 影像与互动叙事项目资料：waytoagi课程",
     "facts": [
       "AIGC 影像与互动叙事",
@@ -3741,11 +5245,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0232",
+    "id": "gallery-image-0326",
     "type": "AIGC 影像与互动叙事",
     "title": "交互演示",
     "summary": "来源文件：AIGC视频&互动影游戏/世界语言博物馆/交互演示.jpg",
-    "image": "./gallery/gallery-image-0232.avif",
+    "image": "./gallery/gallery-image-0326.webp",
     "imageAlt": "AIGC 影像与互动叙事项目资料：交互演示",
     "facts": [
       "AIGC 影像与互动叙事",
@@ -3757,11 +5261,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0233",
+    "id": "gallery-image-0327",
     "type": "AIGC 影像与互动叙事",
     "title": "交互装备",
     "summary": "来源文件：AIGC视频&互动影游戏/世界语言博物馆/交互装备.jpg",
-    "image": "./gallery/gallery-image-0233.avif",
+    "image": "./gallery/gallery-image-0327.webp",
     "imageAlt": "AIGC 影像与互动叙事项目资料：交互装备",
     "facts": [
       "AIGC 影像与互动叙事",
@@ -3773,11 +5277,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0234",
+    "id": "gallery-image-0328",
     "type": "AIGC 影像与互动叙事",
     "title": "上海外国语大学aigc合作",
     "summary": "来源文件：AIGC视频&互动影游戏/世界语言博物馆/上海外国语大学aigc合作.jpg",
-    "image": "./gallery/gallery-image-0234.avif",
+    "image": "./gallery/gallery-image-0328.webp",
     "imageAlt": "AIGC 影像与互动叙事项目资料：上海外国语大学aigc合作",
     "facts": [
       "AIGC 影像与互动叙事",
@@ -3789,11 +5293,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0235",
+    "id": "gallery-image-0329",
     "type": "AIGC 影像与互动叙事",
     "title": "上外语料库会议",
     "summary": "来源文件：AIGC视频&互动影游戏/世界语言博物馆/上外语料库会议.jpg",
-    "image": "./gallery/gallery-image-0235.avif",
+    "image": "./gallery/gallery-image-0329.webp",
     "imageAlt": "AIGC 影像与互动叙事项目资料：上外语料库会议",
     "facts": [
       "AIGC 影像与互动叙事",
@@ -3805,11 +5309,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0236",
+    "id": "gallery-image-0330",
     "type": "创新创业与商业化",
     "title": "颁奖",
     "summary": "来源文件：创赛商业化/颁奖.jpg",
-    "image": "./gallery/gallery-image-0236.avif",
+    "image": "./gallery/gallery-image-0330.webp",
     "imageAlt": "创新创业与商业化项目资料：颁奖",
     "facts": [
       "创新创业与商业化",
@@ -3821,11 +5325,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0237",
+    "id": "gallery-image-0331",
     "type": "创新创业与商业化",
     "title": "北大临港大赛路演",
     "summary": "来源文件：创赛商业化/北大临港大赛路演.jpg",
-    "image": "./gallery/gallery-image-0237.avif",
+    "image": "./gallery/gallery-image-0331.webp",
     "imageAlt": "创新创业与商业化项目资料：北大临港大赛路演",
     "facts": [
       "创新创业与商业化",
@@ -3837,11 +5341,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0238",
+    "id": "gallery-image-0332",
     "type": "创新创业与商业化",
     "title": "创办社团",
     "summary": "来源文件：创赛商业化/创办社团.jpg",
-    "image": "./gallery/gallery-image-0238.avif",
+    "image": "./gallery/gallery-image-0332.webp",
     "imageAlt": "创新创业与商业化项目资料：创办社团",
     "facts": [
       "创新创业与商业化",
@@ -3853,11 +5357,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0239",
+    "id": "gallery-image-0333",
     "type": "创新创业与商业化",
     "title": "党校对接",
     "summary": "来源文件：创赛商业化/党校对接.jpg",
-    "image": "./gallery/gallery-image-0239.avif",
+    "image": "./gallery/gallery-image-0333.webp",
     "imageAlt": "创新创业与商业化项目资料：党校对接",
     "facts": [
       "创新创业与商业化",
@@ -3869,11 +5373,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0240",
+    "id": "gallery-image-0334",
     "type": "创新创业与商业化",
     "title": "返聘为指导老师",
     "summary": "来源文件：创赛商业化/返聘为指导老师.jpg",
-    "image": "./gallery/gallery-image-0240.avif",
+    "image": "./gallery/gallery-image-0334.webp",
     "imageAlt": "创新创业与商业化项目资料：返聘为指导老师",
     "facts": [
       "创新创业与商业化",
@@ -3885,11 +5389,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0241",
+    "id": "gallery-image-0335",
     "type": "创新创业与商业化",
     "title": "返校培训",
     "summary": "来源文件：创赛商业化/返校培训.jpg",
-    "image": "./gallery/gallery-image-0241.avif",
+    "image": "./gallery/gallery-image-0335.webp",
     "imageAlt": "创新创业与商业化项目资料：返校培训",
     "facts": [
       "创新创业与商业化",
@@ -3901,11 +5405,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0242",
+    "id": "gallery-image-0336",
     "type": "创新创业与商业化",
     "title": "返校培训自我介绍页",
     "summary": "来源文件：创赛商业化/返校培训自我介绍页.jpg",
-    "image": "./gallery/gallery-image-0242.avif",
+    "image": "./gallery/gallery-image-0336.webp",
     "imageAlt": "创新创业与商业化项目资料：返校培训自我介绍页",
     "facts": [
       "创新创业与商业化",
@@ -3917,11 +5421,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0243",
+    "id": "gallery-image-0337",
     "type": "创新创业与商业化",
     "title": "峰会分享",
     "summary": "来源文件：创赛商业化/峰会分享.jpg",
-    "image": "./gallery/gallery-image-0243.avif",
+    "image": "./gallery/gallery-image-0337.webp",
     "imageAlt": "创新创业与商业化项目资料：峰会分享",
     "facts": [
       "创新创业与商业化",
@@ -3933,11 +5437,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0244",
+    "id": "gallery-image-0338",
     "type": "创新创业与商业化",
     "title": "孵化器峰会",
     "summary": "来源文件：创赛商业化/孵化器峰会.jpg",
-    "image": "./gallery/gallery-image-0244.avif",
+    "image": "./gallery/gallery-image-0338.webp",
     "imageAlt": "创新创业与商业化项目资料：孵化器峰会",
     "facts": [
       "创新创业与商业化",
@@ -3949,11 +5453,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0245",
+    "id": "gallery-image-0339",
     "type": "创新创业与商业化",
     "title": "福建省创业大赛邀请函",
     "summary": "来源文件：创赛商业化/福建省创业大赛邀请函.jpg",
-    "image": "./gallery/gallery-image-0245.avif",
+    "image": "./gallery/gallery-image-0339.webp",
     "imageAlt": "创新创业与商业化项目资料：福建省创业大赛邀请函",
     "facts": [
       "创新创业与商业化",
@@ -3965,11 +5469,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0246",
+    "id": "gallery-image-0340",
     "type": "创新创业与商业化",
     "title": "感谢信",
     "summary": "来源文件：创赛商业化/感谢信.jpg",
-    "image": "./gallery/gallery-image-0246.avif",
+    "image": "./gallery/gallery-image-0340.webp",
     "imageAlt": "创新创业与商业化项目资料：感谢信",
     "facts": [
       "创新创业与商业化",
@@ -3981,11 +5485,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0247",
+    "id": "gallery-image-0341",
     "type": "创新创业与商业化",
     "title": "给研究生上课",
     "summary": "来源文件：创赛商业化/给研究生上课.jpg",
-    "image": "./gallery/gallery-image-0247.avif",
+    "image": "./gallery/gallery-image-0341.webp",
     "imageAlt": "创新创业与商业化项目资料：给研究生上课",
     "facts": [
       "创新创业与商业化",
@@ -3997,11 +5501,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0248",
+    "id": "gallery-image-0342",
     "type": "创新创业与商业化",
     "title": "公益活动",
     "summary": "来源文件：创赛商业化/公益活动.jpg",
-    "image": "./gallery/gallery-image-0248.avif",
+    "image": "./gallery/gallery-image-0342.webp",
     "imageAlt": "创新创业与商业化项目资料：公益活动",
     "facts": [
       "创新创业与商业化",
@@ -4013,11 +5517,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0249",
+    "id": "gallery-image-0343",
     "type": "创新创业与商业化",
     "title": "互联网➕获奖",
     "summary": "来源文件：创赛商业化/互联网➕获奖.jpg",
-    "image": "./gallery/gallery-image-0249.avif",
+    "image": "./gallery/gallery-image-0343.webp",
     "imageAlt": "创新创业与商业化项目资料：互联网➕获奖",
     "facts": [
       "创新创业与商业化",
@@ -4029,11 +5533,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0250",
+    "id": "gallery-image-0344",
     "type": "创新创业与商业化",
     "title": "华为ai创新大赛总决赛",
     "summary": "来源文件：创赛商业化/华为ai创新大赛总决赛.jpg",
-    "image": "./gallery/gallery-image-0250.avif",
+    "image": "./gallery/gallery-image-0344.webp",
     "imageAlt": "创新创业与商业化项目资料：华为ai创新大赛总决赛",
     "facts": [
       "创新创业与商业化",
@@ -4045,11 +5549,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0251",
+    "id": "gallery-image-0345",
     "type": "创新创业与商业化",
     "title": "回校培训",
     "summary": "来源文件：创赛商业化/回校培训.jpg",
-    "image": "./gallery/gallery-image-0251.avif",
+    "image": "./gallery/gallery-image-0345.webp",
     "imageAlt": "创新创业与商业化项目资料：回校培训",
     "facts": [
       "创新创业与商业化",
@@ -4061,11 +5565,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0252",
+    "id": "gallery-image-0346",
     "type": "创新创业与商业化",
     "title": "机构邀请上课",
     "summary": "来源文件：创赛商业化/机构邀请上课.jpg",
-    "image": "./gallery/gallery-image-0252.avif",
+    "image": "./gallery/gallery-image-0346.webp",
     "imageAlt": "创新创业与商业化项目资料：机构邀请上课",
     "facts": [
       "创新创业与商业化",
@@ -4077,11 +5581,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0253",
+    "id": "gallery-image-0347",
     "type": "创新创业与商业化",
     "title": "路演得分第一名",
     "summary": "来源文件：创赛商业化/路演得分第一名.jpg",
-    "image": "./gallery/gallery-image-0253.avif",
+    "image": "./gallery/gallery-image-0347.webp",
     "imageAlt": "创新创业与商业化项目资料：路演得分第一名",
     "facts": [
       "创新创业与商业化",
@@ -4093,11 +5597,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0254",
+    "id": "gallery-image-0348",
     "type": "创新创业与商业化",
     "title": "马兰花年度会议",
     "summary": "来源文件：创赛商业化/马兰花年度会议.jpg",
-    "image": "./gallery/gallery-image-0254.avif",
+    "image": "./gallery/gallery-image-0348.webp",
     "imageAlt": "创新创业与商业化项目资料：马兰花年度会议",
     "facts": [
       "创新创业与商业化",
@@ -4109,11 +5613,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0255",
+    "id": "gallery-image-0349",
     "type": "创新创业与商业化",
     "title": "青年人才权益中心",
     "summary": "来源文件：创赛商业化/青年人才权益中心.jpg",
-    "image": "./gallery/gallery-image-0255.avif",
+    "image": "./gallery/gallery-image-0349.webp",
     "imageAlt": "创新创业与商业化项目资料：青年人才权益中心",
     "facts": [
       "创新创业与商业化",
@@ -4125,11 +5629,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0256",
+    "id": "gallery-image-0350",
     "type": "创新创业与商业化",
     "title": "青年人才认定",
     "summary": "来源文件：创赛商业化/青年人才认定.jpg",
-    "image": "./gallery/gallery-image-0256.avif",
+    "image": "./gallery/gallery-image-0350.webp",
     "imageAlt": "创新创业与商业化项目资料：青年人才认定",
     "facts": [
       "创新创业与商业化",
@@ -4141,11 +5645,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0257",
+    "id": "gallery-image-0351",
     "type": "创新创业与商业化",
     "title": "上海外国语大学合作",
     "summary": "来源文件：创赛商业化/上海外国语大学合作.jpg",
-    "image": "./gallery/gallery-image-0257.avif",
+    "image": "./gallery/gallery-image-0351.webp",
     "imageAlt": "创新创业与商业化项目资料：上海外国语大学合作",
     "facts": [
       "创新创业与商业化",
@@ -4157,11 +5661,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0258",
+    "id": "gallery-image-0352",
     "type": "创新创业与商业化",
     "title": "受机构邀请进行ai培训",
     "summary": "来源文件：创赛商业化/受机构邀请进行ai培训.jpg",
-    "image": "./gallery/gallery-image-0258.avif",
+    "image": "./gallery/gallery-image-0352.webp",
     "imageAlt": "创新创业与商业化项目资料：受机构邀请进行ai培训",
     "facts": [
       "创新创业与商业化",
@@ -4173,11 +5677,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0259",
+    "id": "gallery-image-0353",
     "type": "创新创业与商业化",
     "title": "受邀ai集训营圆桌",
     "summary": "来源文件：创赛商业化/受邀ai集训营圆桌.jpg",
-    "image": "./gallery/gallery-image-0259.avif",
+    "image": "./gallery/gallery-image-0353.webp",
     "imageAlt": "创新创业与商业化项目资料：受邀ai集训营圆桌",
     "facts": [
       "创新创业与商业化",
@@ -4189,11 +5693,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0260",
+    "id": "gallery-image-0354",
     "type": "创新创业与商业化",
     "title": "授课课堂",
     "summary": "来源文件：创赛商业化/授课课堂.jpg",
-    "image": "./gallery/gallery-image-0260.avif",
+    "image": "./gallery/gallery-image-0354.webp",
     "imageAlt": "创新创业与商业化项目资料：授课课堂",
     "facts": [
       "创新创业与商业化",
@@ -4205,11 +5709,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0261",
+    "id": "gallery-image-0355",
     "type": "创新创业与商业化",
     "title": "私募基金交易员成员",
     "summary": "来源文件：创赛商业化/私募基金交易员成员.jpg",
-    "image": "./gallery/gallery-image-0261.avif",
+    "image": "./gallery/gallery-image-0355.webp",
     "imageAlt": "创新创业与商业化项目资料：私募基金交易员成员",
     "facts": [
       "创新创业与商业化",
@@ -4221,11 +5725,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0262",
+    "id": "gallery-image-0356",
     "type": "创新创业与商业化",
     "title": "私募基金团队长",
     "summary": "来源文件：创赛商业化/私募基金团队长.jpg",
-    "image": "./gallery/gallery-image-0262.avif",
+    "image": "./gallery/gallery-image-0356.webp",
     "imageAlt": "创新创业与商业化项目资料：私募基金团队长",
     "facts": [
       "创新创业与商业化",
@@ -4237,11 +5741,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0263",
+    "id": "gallery-image-0357",
     "type": "创新创业与商业化",
     "title": "团队长招聘",
     "summary": "来源文件：创赛商业化/团队长招聘.jpg",
-    "image": "./gallery/gallery-image-0263.avif",
+    "image": "./gallery/gallery-image-0357.webp",
     "imageAlt": "创新创业与商业化项目资料：团队长招聘",
     "facts": [
       "创新创业与商业化",
@@ -4253,11 +5757,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0264",
+    "id": "gallery-image-0358",
     "type": "创新创业与商业化",
     "title": "外聘系统录入",
     "summary": "来源文件：创赛商业化/外聘系统录入.jpg",
-    "image": "./gallery/gallery-image-0264.avif",
+    "image": "./gallery/gallery-image-0358.webp",
     "imageAlt": "创新创业与商业化项目资料：外聘系统录入",
     "facts": [
       "创新创业与商业化",
@@ -4269,11 +5773,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0265",
+    "id": "gallery-image-0359",
     "type": "创新创业与商业化",
     "title": "香港科技园",
     "summary": "来源文件：创赛商业化/香港科技园.jpg",
-    "image": "./gallery/gallery-image-0265.avif",
+    "image": "./gallery/gallery-image-0359.webp",
     "imageAlt": "创新创业与商业化项目资料：香港科技园",
     "facts": [
       "创新创业与商业化",
@@ -4285,11 +5789,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0266",
+    "id": "gallery-image-0360",
     "type": "创新创业与商业化",
     "title": "香港科技园邀请函",
     "summary": "来源文件：创赛商业化/香港科技园邀请函.jpg",
-    "image": "./gallery/gallery-image-0266.avif",
+    "image": "./gallery/gallery-image-0360.webp",
     "imageAlt": "创新创业与商业化项目资料：香港科技园邀请函",
     "facts": [
       "创新创业与商业化",
@@ -4301,11 +5805,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0267",
+    "id": "gallery-image-0361",
     "type": "创新创业与商业化",
     "title": "学校外聘报道",
     "summary": "来源文件：创赛商业化/学校外聘报道.jpg",
-    "image": "./gallery/gallery-image-0267.avif",
+    "image": "./gallery/gallery-image-0361.webp",
     "imageAlt": "创新创业与商业化项目资料：学校外聘报道",
     "facts": [
       "创新创业与商业化",
@@ -4317,11 +5821,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0268",
+    "id": "gallery-image-0362",
     "type": "创新创业与商业化",
     "title": "学校外聘动态",
     "summary": "来源文件：创赛商业化/学校外聘动态.jpg",
-    "image": "./gallery/gallery-image-0268.avif",
+    "image": "./gallery/gallery-image-0362.webp",
     "imageAlt": "创新创业与商业化项目资料：学校外聘动态",
     "facts": [
       "创新创业与商业化",
@@ -4333,11 +5837,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0269",
+    "id": "gallery-image-0363",
     "type": "创新创业与商业化",
     "title": "长三角科技产品金融研究联盟",
     "summary": "来源文件：创赛商业化/长三角科技产品金融研究联盟.jpg",
-    "image": "./gallery/gallery-image-0269.avif",
+    "image": "./gallery/gallery-image-0363.webp",
     "imageAlt": "创新创业与商业化项目资料：长三角科技产品金融研究联盟",
     "facts": [
       "创新创业与商业化",
@@ -4349,11 +5853,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0270",
+    "id": "gallery-image-0364",
     "type": "创新创业与商业化",
     "title": "直播授课",
     "summary": "来源文件：创赛商业化/直播授课.jpg",
-    "image": "./gallery/gallery-image-0270.avif",
+    "image": "./gallery/gallery-image-0364.webp",
     "imageAlt": "创新创业与商业化项目资料：直播授课",
     "facts": [
       "创新创业与商业化",
@@ -4365,11 +5869,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0271",
+    "id": "gallery-image-0365",
     "type": "创新创业与商业化",
     "title": "指导老师证书",
     "summary": "来源文件：创赛商业化/指导老师证书.jpg",
-    "image": "./gallery/gallery-image-0271.avif",
+    "image": "./gallery/gallery-image-0365.webp",
     "imageAlt": "创新创业与商业化项目资料：指导老师证书",
     "facts": [
       "创新创业与商业化",
@@ -4381,11 +5885,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0272",
+    "id": "gallery-image-0366",
     "type": "创新创业与商业化",
     "title": "字节生态伙伴",
     "summary": "来源文件：创赛商业化/字节生态伙伴.jpg",
-    "image": "./gallery/gallery-image-0272.avif",
+    "image": "./gallery/gallery-image-0366.webp",
     "imageAlt": "创新创业与商业化项目资料：字节生态伙伴",
     "facts": [
       "创新创业与商业化",
@@ -4397,11 +5901,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0273",
+    "id": "gallery-image-0367",
     "type": "关务产品项目",
     "title": "百度搜索",
     "summary": "来源文件：海关总署立项/百度搜索.jpg",
-    "image": "./gallery/gallery-image-0273.avif",
+    "image": "./gallery/gallery-image-0367.webp",
     "imageAlt": "关务产品项目项目资料：百度搜索",
     "facts": [
       "关务产品项目",
@@ -4413,11 +5917,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0274",
+    "id": "gallery-image-0368",
     "type": "关务产品项目",
     "title": "被上海市公共数据开放平台录用",
     "summary": "来源文件：海关总署立项/被上海市公共数据开放平台录用.jpg",
-    "image": "./gallery/gallery-image-0274.avif",
+    "image": "./gallery/gallery-image-0368.webp",
     "imageAlt": "关务产品项目项目资料：被上海市公共数据开放平台录用",
     "facts": [
       "关务产品项目",
@@ -4429,11 +5933,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0275",
+    "id": "gallery-image-0369",
     "type": "关务产品项目",
     "title": "表彰大会",
     "summary": "来源文件：海关总署立项/表彰大会.jpg",
-    "image": "./gallery/gallery-image-0275.avif",
+    "image": "./gallery/gallery-image-0369.webp",
     "imageAlt": "关务产品项目项目资料：表彰大会",
     "facts": [
       "关务产品项目",
@@ -4445,11 +5949,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0276",
+    "id": "gallery-image-0370",
     "type": "关务产品项目",
     "title": "参与总署项目",
     "summary": "来源文件：海关总署立项/参与总署项目.jpg",
-    "image": "./gallery/gallery-image-0276.avif",
+    "image": "./gallery/gallery-image-0370.webp",
     "imageAlt": "关务产品项目项目资料：参与总署项目",
     "facts": [
       "关务产品项目",
@@ -4461,11 +5965,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0277",
+    "id": "gallery-image-0371",
     "type": "关务产品项目",
     "title": "创办关通agi社团",
     "summary": "来源文件：海关总署立项/创办关通agi社团.jpg",
-    "image": "./gallery/gallery-image-0277.avif",
+    "image": "./gallery/gallery-image-0371.webp",
     "imageAlt": "关务产品项目项目资料：创办关通agi社团",
     "facts": [
       "关务产品项目",
@@ -4477,11 +5981,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0278",
+    "id": "gallery-image-0372",
     "type": "关务产品项目",
     "title": "创办社团",
     "summary": "来源文件：海关总署立项/创办社团.jpg",
-    "image": "./gallery/gallery-image-0278.avif",
+    "image": "./gallery/gallery-image-0372.webp",
     "imageAlt": "关务产品项目项目资料：创办社团",
     "facts": [
       "关务产品项目",
@@ -4493,11 +5997,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0279",
+    "id": "gallery-image-0373",
     "type": "关务产品项目",
     "title": "返聘为指导老师",
     "summary": "来源文件：海关总署立项/返聘为指导老师.jpg",
-    "image": "./gallery/gallery-image-0279.avif",
+    "image": "./gallery/gallery-image-0373.webp",
     "imageAlt": "关务产品项目项目资料：返聘为指导老师",
     "facts": [
       "关务产品项目",
@@ -4509,11 +6013,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0280",
+    "id": "gallery-image-0374",
     "type": "关务产品项目",
     "title": "关区好评",
     "summary": "来源文件：海关总署立项/关区好评.jpg",
-    "image": "./gallery/gallery-image-0280.avif",
+    "image": "./gallery/gallery-image-0374.webp",
     "imageAlt": "关务产品项目项目资料：关区好评",
     "facts": [
       "关务产品项目",
@@ -4525,11 +6029,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0281",
+    "id": "gallery-image-0375",
     "type": "关务产品项目",
     "title": "关长推荐",
     "summary": "来源文件：海关总署立项/关长推荐.jpg",
-    "image": "./gallery/gallery-image-0281.avif",
+    "image": "./gallery/gallery-image-0375.webp",
     "imageAlt": "关务产品项目项目资料：关长推荐",
     "facts": [
       "关务产品项目",
@@ -4541,11 +6045,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0282",
+    "id": "gallery-image-0376",
     "type": "关务产品项目",
     "title": "海关监管区推荐信",
     "summary": "来源文件：海关总署立项/海关监管区推荐信.jpg",
-    "image": "./gallery/gallery-image-0282.avif",
+    "image": "./gallery/gallery-image-0376.webp",
     "imageAlt": "关务产品项目项目资料：海关监管区推荐信",
     "facts": [
       "关务产品项目",
@@ -4557,11 +6061,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0283",
+    "id": "gallery-image-0377",
     "type": "关务产品项目",
     "title": "海关项目对接",
     "summary": "来源文件：海关总署立项/海关项目对接.jpg",
-    "image": "./gallery/gallery-image-0283.avif",
+    "image": "./gallery/gallery-image-0377.webp",
     "imageAlt": "关务产品项目项目资料：海关项目对接",
     "facts": [
       "关务产品项目",
@@ -4573,11 +6077,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0284",
+    "id": "gallery-image-0378",
     "type": "关务产品项目",
     "title": "海关总署标法中心推荐信",
     "summary": "来源文件：海关总署立项/海关总署标法中心推荐信.jpg",
-    "image": "./gallery/gallery-image-0284.avif",
+    "image": "./gallery/gallery-image-0378.webp",
     "imageAlt": "关务产品项目项目资料：海关总署标法中心推荐信",
     "facts": [
       "关务产品项目",
@@ -4589,11 +6093,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0285",
+    "id": "gallery-image-0379",
     "type": "关务产品项目",
     "title": "海关总署司长推荐信",
     "summary": "来源文件：海关总署立项/海关总署司长推荐信.jpg",
-    "image": "./gallery/gallery-image-0285.avif",
+    "image": "./gallery/gallery-image-0379.webp",
     "imageAlt": "关务产品项目项目资料：海关总署司长推荐信",
     "facts": [
       "关务产品项目",
@@ -4605,11 +6109,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0286",
+    "id": "gallery-image-0380",
     "type": "关务产品项目",
     "title": "教授推荐信",
     "summary": "来源文件：海关总署立项/教授推荐信.png",
-    "image": "./gallery/gallery-image-0286.avif",
+    "image": "./gallery/gallery-image-0380.webp",
     "imageAlt": "关务产品项目项目资料：教授推荐信",
     "facts": [
       "关务产品项目",
@@ -4621,11 +6125,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0287",
+    "id": "gallery-image-0381",
     "type": "关务产品项目",
     "title": "教育评估",
     "summary": "来源文件：海关总署立项/教育评估.jpg",
-    "image": "./gallery/gallery-image-0287.avif",
+    "image": "./gallery/gallery-image-0381.webp",
     "imageAlt": "关务产品项目项目资料：教育评估",
     "facts": [
       "关务产品项目",
@@ -4637,11 +6141,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0288",
+    "id": "gallery-image-0382",
     "type": "关务产品项目",
     "title": "立项审查",
     "summary": "来源文件：海关总署立项/立项审查.jpg",
-    "image": "./gallery/gallery-image-0288.avif",
+    "image": "./gallery/gallery-image-0382.webp",
     "imageAlt": "关务产品项目项目资料：立项审查",
     "facts": [
       "关务产品项目",
@@ -4653,11 +6157,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0289",
+    "id": "gallery-image-0383",
     "type": "关务产品项目",
     "title": "领导对接",
     "summary": "来源文件：海关总署立项/领导对接.jpg",
-    "image": "./gallery/gallery-image-0289.avif",
+    "image": "./gallery/gallery-image-0383.webp",
     "imageAlt": "关务产品项目项目资料：领导对接",
     "facts": [
       "关务产品项目",
@@ -4669,11 +6173,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0290",
+    "id": "gallery-image-0384",
     "type": "关务产品项目",
     "title": "领导同行",
     "summary": "来源文件：海关总署立项/领导同行.jpg",
-    "image": "./gallery/gallery-image-0290.avif",
+    "image": "./gallery/gallery-image-0384.webp",
     "imageAlt": "关务产品项目项目资料：领导同行",
     "facts": [
       "关务产品项目",
@@ -4685,11 +6189,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0291",
+    "id": "gallery-image-0385",
     "type": "关务产品项目",
     "title": "录用产品详情",
     "summary": "来源文件：海关总署立项/录用产品详情.jpg",
-    "image": "./gallery/gallery-image-0291.avif",
+    "image": "./gallery/gallery-image-0385.webp",
     "imageAlt": "关务产品项目项目资料：录用产品详情",
     "facts": [
       "关务产品项目",
@@ -4701,11 +6205,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0292",
+    "id": "gallery-image-0386",
     "type": "关务产品项目",
     "title": "上海海关干部推荐信",
     "summary": "来源文件：海关总署立项/上海海关干部推荐信.jpg",
-    "image": "./gallery/gallery-image-0292.avif",
+    "image": "./gallery/gallery-image-0386.webp",
     "imageAlt": "关务产品项目项目资料：上海海关干部推荐信",
     "facts": [
       "关务产品项目",
@@ -4717,11 +6221,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0293",
+    "id": "gallery-image-0387",
     "type": "关务产品项目",
     "title": "社团领导发言",
     "summary": "来源文件：海关总署立项/社团领导发言.jpg",
-    "image": "./gallery/gallery-image-0293.avif",
+    "image": "./gallery/gallery-image-0387.webp",
     "imageAlt": "关务产品项目项目资料：社团领导发言",
     "facts": [
       "关务产品项目",
@@ -4733,11 +6237,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0294",
+    "id": "gallery-image-0388",
     "type": "关务产品项目",
     "title": "社长发言",
     "summary": "来源文件：海关总署立项/社长发言.jpg",
-    "image": "./gallery/gallery-image-0294.avif",
+    "image": "./gallery/gallery-image-0388.webp",
     "imageAlt": "关务产品项目项目资料：社长发言",
     "facts": [
       "关务产品项目",
@@ -4749,11 +6253,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0295",
+    "id": "gallery-image-0389",
     "type": "关务产品项目",
     "title": "项目对接",
     "summary": "来源文件：海关总署立项/项目对接.jpg",
-    "image": "./gallery/gallery-image-0295.avif",
+    "image": "./gallery/gallery-image-0389.webp",
     "imageAlt": "关务产品项目项目资料：项目对接",
     "facts": [
       "关务产品项目",
@@ -4765,11 +6269,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0296",
+    "id": "gallery-image-0390",
     "type": "关务产品项目",
     "title": "项目讨论",
     "summary": "来源文件：海关总署立项/项目讨论.jpg",
-    "image": "./gallery/gallery-image-0296.avif",
+    "image": "./gallery/gallery-image-0390.webp",
     "imageAlt": "关务产品项目项目资料：项目讨论",
     "facts": [
       "关务产品项目",
@@ -4781,11 +6285,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0297",
+    "id": "gallery-image-0391",
     "type": "关务产品项目",
     "title": "与报关协会开会",
     "summary": "来源文件：海关总署立项/与报关协会开会.jpg",
-    "image": "./gallery/gallery-image-0297.avif",
+    "image": "./gallery/gallery-image-0391.webp",
     "imageAlt": "关务产品项目项目资料：与报关协会开会",
     "facts": [
       "关务产品项目",
@@ -4797,11 +6301,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0298",
+    "id": "gallery-image-0392",
     "type": "关务产品项目",
     "title": "智慧海关建设培训",
     "summary": "来源文件：海关总署立项/智慧海关建设培训.jpg",
-    "image": "./gallery/gallery-image-0298.avif",
+    "image": "./gallery/gallery-image-0392.webp",
     "imageAlt": "关务产品项目项目资料：智慧海关建设培训",
     "facts": [
       "关务产品项目",
@@ -4813,11 +6317,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0299",
+    "id": "gallery-image-0393",
     "type": "关务产品项目",
     "title": "中国海关协会",
     "summary": "来源文件：海关总署立项/中国海关协会.jpg",
-    "image": "./gallery/gallery-image-0299.avif",
+    "image": "./gallery/gallery-image-0393.webp",
     "imageAlt": "关务产品项目项目资料：中国海关协会",
     "facts": [
       "关务产品项目",
@@ -4829,11 +6333,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0300",
+    "id": "gallery-image-0394",
     "type": "关务产品项目",
     "title": "字节联动活动",
     "summary": "来源文件：海关总署立项/字节联动活动.jpg",
-    "image": "./gallery/gallery-image-0300.avif",
+    "image": "./gallery/gallery-image-0394.webp",
     "imageAlt": "关务产品项目项目资料：字节联动活动",
     "facts": [
       "关务产品项目",
@@ -4845,11 +6349,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0301",
+    "id": "gallery-image-0395",
     "type": "关务产品项目",
     "title": "总署立项",
     "summary": "来源文件：海关总署立项/总署立项.jpg",
-    "image": "./gallery/gallery-image-0301.avif",
+    "image": "./gallery/gallery-image-0395.webp",
     "imageAlt": "关务产品项目项目资料：总署立项",
     "facts": [
       "关务产品项目",
@@ -4861,11 +6365,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0302",
+    "id": "gallery-image-0396",
     "type": "竞赛与荣誉",
     "title": "0bea6887a0c2a7284c8caf8a981e1839",
     "summary": "来源文件：学科竞赛获奖情况/0bea6887a0c2a7284c8caf8a981e1839.jpg",
-    "image": "./gallery/gallery-image-0302.avif",
+    "image": "./gallery/gallery-image-0396.webp",
     "imageAlt": "竞赛与荣誉项目资料：0bea6887a0c2a7284c8caf8a981e1839",
     "facts": [
       "竞赛与荣誉",
@@ -4877,11 +6381,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0303",
+    "id": "gallery-image-0397",
     "type": "竞赛与荣誉",
     "title": "10f5e4a8f33506aaa06b0dd55591d12f",
     "summary": "来源文件：学科竞赛获奖情况/10f5e4a8f33506aaa06b0dd55591d12f.jpg",
-    "image": "./gallery/gallery-image-0303.avif",
+    "image": "./gallery/gallery-image-0397.webp",
     "imageAlt": "竞赛与荣誉项目资料：10f5e4a8f33506aaa06b0dd55591d12f",
     "facts": [
       "竞赛与荣誉",
@@ -4893,11 +6397,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0304",
+    "id": "gallery-image-0398",
     "type": "竞赛与荣誉",
     "title": "20",
     "summary": "来源文件：学科竞赛获奖情况/20.png",
-    "image": "./gallery/gallery-image-0304.avif",
+    "image": "./gallery/gallery-image-0398.webp",
     "imageAlt": "竞赛与荣誉项目资料：20",
     "facts": [
       "竞赛与荣誉",
@@ -4909,11 +6413,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0305",
+    "id": "gallery-image-0399",
     "type": "竞赛与荣誉",
     "title": "21",
     "summary": "来源文件：学科竞赛获奖情况/21.jpg",
-    "image": "./gallery/gallery-image-0305.avif",
+    "image": "./gallery/gallery-image-0399.webp",
     "imageAlt": "竞赛与荣誉项目资料：21",
     "facts": [
       "竞赛与荣誉",
@@ -4925,11 +6429,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0306",
+    "id": "gallery-image-0400",
     "type": "竞赛与荣誉",
     "title": "22",
     "summary": "来源文件：学科竞赛获奖情况/22.jpg",
-    "image": "./gallery/gallery-image-0306.avif",
+    "image": "./gallery/gallery-image-0400.webp",
     "imageAlt": "竞赛与荣誉项目资料：22",
     "facts": [
       "竞赛与荣誉",
@@ -4941,11 +6445,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0307",
+    "id": "gallery-image-0401",
     "type": "竞赛与荣誉",
     "title": "23",
     "summary": "来源文件：学科竞赛获奖情况/23.jpg",
-    "image": "./gallery/gallery-image-0307.avif",
+    "image": "./gallery/gallery-image-0401.webp",
     "imageAlt": "竞赛与荣誉项目资料：23",
     "facts": [
       "竞赛与荣誉",
@@ -4957,11 +6461,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0308",
+    "id": "gallery-image-0402",
     "type": "竞赛与荣誉",
     "title": "24",
     "summary": "来源文件：学科竞赛获奖情况/24.jpg",
-    "image": "./gallery/gallery-image-0308.avif",
+    "image": "./gallery/gallery-image-0402.webp",
     "imageAlt": "竞赛与荣誉项目资料：24",
     "facts": [
       "竞赛与荣誉",
@@ -4973,11 +6477,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0309",
+    "id": "gallery-image-0403",
     "type": "竞赛与荣誉",
     "title": "25",
     "summary": "来源文件：学科竞赛获奖情况/25.jpg",
-    "image": "./gallery/gallery-image-0309.avif",
+    "image": "./gallery/gallery-image-0403.webp",
     "imageAlt": "竞赛与荣誉项目资料：25",
     "facts": [
       "竞赛与荣誉",
@@ -4989,11 +6493,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0310",
+    "id": "gallery-image-0404",
     "type": "竞赛与荣誉",
     "title": "84f3d38883e416625e8dfb37087989bb",
     "summary": "来源文件：学科竞赛获奖情况/84f3d38883e416625e8dfb37087989bb.jpg",
-    "image": "./gallery/gallery-image-0310.avif",
+    "image": "./gallery/gallery-image-0404.webp",
     "imageAlt": "竞赛与荣誉项目资料：84f3d38883e416625e8dfb37087989bb",
     "facts": [
       "竞赛与荣誉",
@@ -5005,11 +6509,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0311",
+    "id": "gallery-image-0405",
     "type": "竞赛与荣誉",
     "title": "232ae23827ce5efbaf9c720465b47e57",
     "summary": "来源文件：学科竞赛获奖情况/232ae23827ce5efbaf9c720465b47e57.jpg",
-    "image": "./gallery/gallery-image-0311.avif",
+    "image": "./gallery/gallery-image-0405.webp",
     "imageAlt": "竞赛与荣誉项目资料：232ae23827ce5efbaf9c720465b47e57",
     "facts": [
       "竞赛与荣誉",
@@ -5021,11 +6525,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0312",
+    "id": "gallery-image-0406",
     "type": "竞赛与荣誉",
     "title": "525e03469b71185ec8ea93d30f43e160",
     "summary": "来源文件：学科竞赛获奖情况/525e03469b71185ec8ea93d30f43e160.jpg",
-    "image": "./gallery/gallery-image-0312.avif",
+    "image": "./gallery/gallery-image-0406.webp",
     "imageAlt": "竞赛与荣誉项目资料：525e03469b71185ec8ea93d30f43e160",
     "facts": [
       "竞赛与荣誉",
@@ -5037,11 +6541,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0313",
+    "id": "gallery-image-0407",
     "type": "竞赛与荣誉",
     "title": "阿里云aca工程师证书",
     "summary": "来源文件：学科竞赛获奖情况/阿里云aca工程师证书.jpg",
-    "image": "./gallery/gallery-image-0313.avif",
+    "image": "./gallery/gallery-image-0407.webp",
     "imageAlt": "竞赛与荣誉项目资料：阿里云aca工程师证书",
     "facts": [
       "竞赛与荣誉",
@@ -5053,11 +6557,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0314",
+    "id": "gallery-image-0408",
     "type": "竞赛与荣誉",
     "title": "优秀科创个人",
     "summary": "来源文件：学科竞赛获奖情况/优秀科创个人.jpg",
-    "image": "./gallery/gallery-image-0314.avif",
+    "image": "./gallery/gallery-image-0408.webp",
     "imageAlt": "竞赛与荣誉项目资料：优秀科创个人",
     "facts": [
       "竞赛与荣誉",
@@ -5069,11 +6573,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0315",
+    "id": "gallery-image-0409",
     "type": "竞赛与荣誉",
     "title": "中国高校计算机大赛获奖",
     "summary": "来源文件：学科竞赛获奖情况/中国高校计算机大赛获奖.jpg",
-    "image": "./gallery/gallery-image-0315.avif",
+    "image": "./gallery/gallery-image-0409.webp",
     "imageAlt": "竞赛与荣誉项目资料：中国高校计算机大赛获奖",
     "facts": [
       "竞赛与荣誉",
@@ -5085,11 +6589,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0316",
+    "id": "gallery-image-0410",
     "type": "竞赛与荣誉",
     "title": "中国通信协会认证分布式智能体架构师",
     "summary": "来源文件：学科竞赛获奖情况/中国通信协会认证分布式智能体架构师.jpg",
-    "image": "./gallery/gallery-image-0316.avif",
+    "image": "./gallery/gallery-image-0410.webp",
     "imageAlt": "竞赛与荣誉项目资料：中国通信协会认证分布式智能体架构师",
     "facts": [
       "竞赛与荣誉",
@@ -5101,11 +6605,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0317",
+    "id": "gallery-image-0411",
     "type": "竞赛与荣誉",
     "title": "b2b4707ebfcfd19ea4df6f75ec419c24",
     "summary": "来源文件：学科竞赛获奖情况/b2b4707ebfcfd19ea4df6f75ec419c24.jpg",
-    "image": "./gallery/gallery-image-0317.avif",
+    "image": "./gallery/gallery-image-0411.webp",
     "imageAlt": "竞赛与荣誉项目资料：b2b4707ebfcfd19ea4df6f75ec419c24",
     "facts": [
       "竞赛与荣誉",
@@ -5117,11 +6621,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0318",
+    "id": "gallery-image-0412",
     "type": "竞赛与荣誉",
     "title": "bba13d028cf12488761e3097bf7ff43b",
     "summary": "来源文件：学科竞赛获奖情况/bba13d028cf12488761e3097bf7ff43b.jpg",
-    "image": "./gallery/gallery-image-0318.avif",
+    "image": "./gallery/gallery-image-0412.webp",
     "imageAlt": "竞赛与荣誉项目资料：bba13d028cf12488761e3097bf7ff43b",
     "facts": [
       "竞赛与荣誉",
@@ -5133,11 +6637,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0319",
+    "id": "gallery-image-0413",
     "type": "竞赛与荣誉",
     "title": "ce956eb4182bdb13af530f64fc2a8cdf",
     "summary": "来源文件：学科竞赛获奖情况/ce956eb4182bdb13af530f64fc2a8cdf.jpg",
-    "image": "./gallery/gallery-image-0319.avif",
+    "image": "./gallery/gallery-image-0413.webp",
     "imageAlt": "竞赛与荣誉项目资料：ce956eb4182bdb13af530f64fc2a8cdf",
     "facts": [
       "竞赛与荣誉",
@@ -5149,11 +6653,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0320",
+    "id": "gallery-image-0414",
     "type": "竞赛与荣誉",
     "title": "f1f077e1ccfcab0caac334659717fc1d",
     "summary": "来源文件：学科竞赛获奖情况/f1f077e1ccfcab0caac334659717fc1d.jpg",
-    "image": "./gallery/gallery-image-0320.avif",
+    "image": "./gallery/gallery-image-0414.webp",
     "imageAlt": "竞赛与荣誉项目资料：f1f077e1ccfcab0caac334659717fc1d",
     "facts": [
       "竞赛与荣誉",
@@ -5165,11 +6669,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0321",
+    "id": "gallery-image-0415",
     "type": "竞赛与荣誉",
     "title": "f3d6886a8043951752cd8df574175b32",
     "summary": "来源文件：学科竞赛获奖情况/f3d6886a8043951752cd8df574175b32.jpg",
-    "image": "./gallery/gallery-image-0321.avif",
+    "image": "./gallery/gallery-image-0415.webp",
     "imageAlt": "竞赛与荣誉项目资料：f3d6886a8043951752cd8df574175b32",
     "facts": [
       "竞赛与荣誉",
@@ -5181,11 +6685,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0322",
+    "id": "gallery-image-0416",
     "type": "新闻与媒体报道",
     "title": "东方网报道",
     "summary": "来源文件：新闻报道/东方网报道.jpg",
-    "image": "./gallery/gallery-image-0322.avif",
+    "image": "./gallery/gallery-image-0416.webp",
     "imageAlt": "新闻与媒体报道项目资料：东方网报道",
     "facts": [
       "新闻与媒体报道",
@@ -5197,11 +6701,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0323",
+    "id": "gallery-image-0417",
     "type": "新闻与媒体报道",
     "title": "海峡人才报报道项目对接",
     "summary": "来源文件：新闻报道/海峡人才报报道项目对接.jpg",
-    "image": "./gallery/gallery-image-0323.avif",
+    "image": "./gallery/gallery-image-0417.webp",
     "imageAlt": "新闻与媒体报道项目资料：海峡人才报报道项目对接",
     "facts": [
       "新闻与媒体报道",
@@ -5213,11 +6717,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0324",
+    "id": "gallery-image-0418",
     "type": "新闻与媒体报道",
     "title": "海峡人才报报道项目对接成功",
     "summary": "来源文件：新闻报道/海峡人才报报道项目对接成功.jpg",
-    "image": "./gallery/gallery-image-0324.avif",
+    "image": "./gallery/gallery-image-0418.webp",
     "imageAlt": "新闻与媒体报道项目资料：海峡人才报报道项目对接成功",
     "facts": [
       "新闻与媒体报道",
@@ -5229,11 +6733,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0325",
+    "id": "gallery-image-0419",
     "type": "新闻与媒体报道",
     "title": "海峡人才报报道项目合作",
     "summary": "来源文件：新闻报道/海峡人才报报道项目合作.jpg",
-    "image": "./gallery/gallery-image-0325.avif",
+    "image": "./gallery/gallery-image-0419.webp",
     "imageAlt": "新闻与媒体报道项目资料：海峡人才报报道项目合作",
     "facts": [
       "新闻与媒体报道",
@@ -5245,11 +6749,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0326",
+    "id": "gallery-image-0420",
     "type": "新闻与媒体报道",
     "title": "海峡人才报报道政府招商引资",
     "summary": "来源文件：新闻报道/海峡人才报报道政府招商引资.jpg",
-    "image": "./gallery/gallery-image-0326.avif",
+    "image": "./gallery/gallery-image-0420.webp",
     "imageAlt": "新闻与媒体报道项目资料：海峡人才报报道政府招商引资",
     "facts": [
       "新闻与媒体报道",
@@ -5261,11 +6765,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0327",
+    "id": "gallery-image-0421",
     "type": "新闻与媒体报道",
     "title": "炬甄孵化器报道",
     "summary": "来源文件：新闻报道/炬甄孵化器报道.jpg",
-    "image": "./gallery/gallery-image-0327.avif",
+    "image": "./gallery/gallery-image-0421.webp",
     "imageAlt": "新闻与媒体报道项目资料：炬甄孵化器报道",
     "facts": [
       "新闻与媒体报道",
@@ -5277,11 +6781,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0328",
+    "id": "gallery-image-0422",
     "type": "新闻与媒体报道",
     "title": "浦东促就报道联动字节跳动活动",
     "summary": "来源文件：新闻报道/浦东促就报道联动字节跳动活动.jpg",
-    "image": "./gallery/gallery-image-0328.avif",
+    "image": "./gallery/gallery-image-0422.webp",
     "imageAlt": "新闻与媒体报道项目资料：浦东促就报道联动字节跳动活动",
     "facts": [
       "新闻与媒体报道",
@@ -5293,11 +6797,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0329",
+    "id": "gallery-image-0423",
     "type": "新闻与媒体报道",
     "title": "浦东就促报道联动字节跳动举办活动",
     "summary": "来源文件：新闻报道/浦东就促报道联动字节跳动举办活动.jpg",
-    "image": "./gallery/gallery-image-0329.avif",
+    "image": "./gallery/gallery-image-0423.webp",
     "imageAlt": "新闻与媒体报道项目资料：浦东就促报道联动字节跳动举办活动",
     "facts": [
       "新闻与媒体报道",
@@ -5309,11 +6813,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0330",
+    "id": "gallery-image-0424",
     "type": "新闻与媒体报道",
     "title": "上海海关学院报道",
     "summary": "来源文件：新闻报道/上海海关学院报道.jpg",
-    "image": "./gallery/gallery-image-0330.avif",
+    "image": "./gallery/gallery-image-0424.webp",
     "imageAlt": "新闻与媒体报道项目资料：上海海关学院报道",
     "facts": [
       "新闻与媒体报道",
@@ -5325,11 +6829,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0331",
+    "id": "gallery-image-0425",
     "type": "新闻与媒体报道",
     "title": "上海海关学院报道产品",
     "summary": "来源文件：新闻报道/上海海关学院报道产品.jpg",
-    "image": "./gallery/gallery-image-0331.avif",
+    "image": "./gallery/gallery-image-0425.webp",
     "imageAlt": "新闻与媒体报道项目资料：上海海关学院报道产品",
     "facts": [
       "新闻与媒体报道",
@@ -5341,11 +6845,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0332",
+    "id": "gallery-image-0426",
     "type": "新闻与媒体报道",
     "title": "上海海关学院报道企业推荐产品",
     "summary": "来源文件：新闻报道/上海海关学院报道企业推荐产品.jpg",
-    "image": "./gallery/gallery-image-0332.avif",
+    "image": "./gallery/gallery-image-0426.webp",
     "imageAlt": "新闻与媒体报道项目资料：上海海关学院报道企业推荐产品",
     "facts": [
       "新闻与媒体报道",
@@ -5357,11 +6861,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0333",
+    "id": "gallery-image-0427",
     "type": "新闻与媒体报道",
     "title": "上海海关学院报道团队",
     "summary": "来源文件：新闻报道/上海海关学院报道团队.jpg",
-    "image": "./gallery/gallery-image-0333.avif",
+    "image": "./gallery/gallery-image-0427.webp",
     "imageAlt": "新闻与媒体报道项目资料：上海海关学院报道团队",
     "facts": [
       "新闻与媒体报道",
@@ -5373,11 +6877,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0334",
+    "id": "gallery-image-0428",
     "type": "新闻与媒体报道",
     "title": "上海教育报道人工智能项目",
     "summary": "来源文件：新闻报道/上海教育报道人工智能项目.png",
-    "image": "./gallery/gallery-image-0334.avif",
+    "image": "./gallery/gallery-image-0428.webp",
     "imageAlt": "新闻与媒体报道项目资料：上海教育报道人工智能项目",
     "facts": [
       "新闻与媒体报道",
@@ -5389,11 +6893,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0335",
+    "id": "gallery-image-0429",
     "type": "新闻与媒体报道",
     "title": "上海教育报道项目组",
     "summary": "来源文件：新闻报道/上海教育报道项目组.png",
-    "image": "./gallery/gallery-image-0335.avif",
+    "image": "./gallery/gallery-image-0429.webp",
     "imageAlt": "新闻与媒体报道项目资料：上海教育报道项目组",
     "facts": [
       "新闻与媒体报道",
@@ -5405,11 +6909,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0336",
+    "id": "gallery-image-0430",
     "type": "新闻与媒体报道",
     "title": "学校外聘报道",
     "summary": "来源文件：新闻报道/学校外聘报道.jpg",
-    "image": "./gallery/gallery-image-0336.avif",
+    "image": "./gallery/gallery-image-0430.webp",
     "imageAlt": "新闻与媒体报道项目资料：学校外聘报道",
     "facts": [
       "新闻与媒体报道",
@@ -5421,11 +6925,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0337",
+    "id": "gallery-image-0431",
     "type": "新闻与媒体报道",
     "title": "ai科技评论发表文章",
     "summary": "来源文件：新闻报道/ai科技评论发表文章.jpg",
-    "image": "./gallery/gallery-image-0337.avif",
+    "image": "./gallery/gallery-image-0431.webp",
     "imageAlt": "新闻与媒体报道项目资料：ai科技评论发表文章",
     "facts": [
       "新闻与媒体报道",
@@ -5437,11 +6941,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0338",
+    "id": "gallery-image-0432",
     "type": "新闻与媒体报道",
     "title": "cctv报道ai活动",
     "summary": "来源文件：新闻报道/cctv报道ai活动.jpg",
-    "image": "./gallery/gallery-image-0338.avif",
+    "image": "./gallery/gallery-image-0432.webp",
     "imageAlt": "新闻与媒体报道项目资料：cctv报道ai活动",
     "facts": [
       "新闻与媒体报道",
@@ -5453,11 +6957,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0339",
+    "id": "gallery-image-0433",
     "type": "新闻与媒体报道",
     "title": "waytoagi报道",
     "summary": "来源文件：新闻报道/waytoagi报道.png",
-    "image": "./gallery/gallery-image-0339.avif",
+    "image": "./gallery/gallery-image-0433.webp",
     "imageAlt": "新闻与媒体报道项目资料：waytoagi报道",
     "facts": [
       "新闻与媒体报道",
@@ -5469,11 +6973,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0340",
+    "id": "gallery-image-0434",
     "type": "新闻与媒体报道",
     "title": "waytoagi飞书知识库",
     "summary": "来源文件：新闻报道/waytoagi飞书知识库.png",
-    "image": "./gallery/gallery-image-0340.avif",
+    "image": "./gallery/gallery-image-0434.webp",
     "imageAlt": "新闻与媒体报道项目资料：waytoagi飞书知识库",
     "facts": [
       "新闻与媒体报道",
@@ -5485,11 +6989,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0341",
+    "id": "gallery-image-0435",
     "type": "实习与项目经历",
     "title": "百度和中国计算机学会项目",
     "summary": "来源文件：实习:项目经历/百度和中国计算机学会项目.jpg",
-    "image": "./gallery/gallery-image-0341.avif",
+    "image": "./gallery/gallery-image-0435.webp",
     "imageAlt": "实习与项目经历项目资料：百度和中国计算机学会项目",
     "facts": [
       "实习与项目经历",
@@ -5501,11 +7005,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0342",
+    "id": "gallery-image-0436",
     "type": "实习与项目经历",
     "title": "加入国际ai俱乐部",
     "summary": "来源文件：实习:项目经历/加入国际ai俱乐部.jpg",
-    "image": "./gallery/gallery-image-0342.avif",
+    "image": "./gallery/gallery-image-0436.webp",
     "imageAlt": "实习与项目经历项目资料：加入国际ai俱乐部",
     "facts": [
       "实习与项目经历",
@@ -5517,11 +7021,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0343",
+    "id": "gallery-image-0437",
     "type": "实习与项目经历",
     "title": "上海外国语大学辅修",
     "summary": "来源文件：实习:项目经历/上海外国语大学辅修.jpg",
-    "image": "./gallery/gallery-image-0343.avif",
+    "image": "./gallery/gallery-image-0437.webp",
     "imageAlt": "实习与项目经历项目资料：上海外国语大学辅修",
     "facts": [
       "实习与项目经历",
@@ -5533,11 +7037,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0344",
+    "id": "gallery-image-0438",
     "type": "实习与项目经历",
     "title": "受邀加入国际ai俱乐部",
     "summary": "来源文件：实习:项目经历/受邀加入国际ai俱乐部.jpg",
-    "image": "./gallery/gallery-image-0344.avif",
+    "image": "./gallery/gallery-image-0438.webp",
     "imageAlt": "实习与项目经历项目资料：受邀加入国际ai俱乐部",
     "facts": [
       "实习与项目经历",
@@ -5549,11 +7053,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0345",
+    "id": "gallery-image-0439",
     "type": "实习与项目经历",
     "title": "项目立项",
     "summary": "来源文件：实习:项目经历/项目立项.jpg",
-    "image": "./gallery/gallery-image-0345.avif",
+    "image": "./gallery/gallery-image-0439.webp",
     "imageAlt": "实习与项目经历项目资料：项目立项",
     "facts": [
       "实习与项目经历",
@@ -5565,11 +7069,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0346",
+    "id": "gallery-image-0440",
     "type": "实习与项目经历",
     "title": "中国银行实习",
     "summary": "来源文件：实习:项目经历/中国银行实习.jpg",
-    "image": "./gallery/gallery-image-0346.avif",
+    "image": "./gallery/gallery-image-0440.webp",
     "imageAlt": "实习与项目经历项目资料：中国银行实习",
     "facts": [
       "实习与项目经历",
@@ -5581,11 +7085,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0347",
+    "id": "gallery-image-0441",
     "type": "知识产权",
     "title": "多语种海关术语翻译平台V1.0",
     "summary": "来源文件：专利软著/多语种海关术语翻译平台V1.0.jpg",
-    "image": "./gallery/gallery-image-0347.avif",
+    "image": "./gallery/gallery-image-0441.webp",
     "imageAlt": "知识产权项目资料：多语种海关术语翻译平台V1.0",
     "facts": [
       "知识产权",
@@ -5597,11 +7101,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0348",
+    "id": "gallery-image-0442",
     "type": "知识产权",
     "title": "FRY无人机电量监管软件",
     "summary": "来源文件：专利软著/FRY无人机电量监管软件.jpg",
-    "image": "./gallery/gallery-image-0348.avif",
+    "image": "./gallery/gallery-image-0442.webp",
     "imageAlt": "知识产权项目资料：FRY无人机电量监管软件",
     "facts": [
       "知识产权",
@@ -5613,11 +7117,11 @@ export const galleryItems = [
     "public": true
   },
   {
-    "id": "gallery-image-0349",
+    "id": "gallery-image-0443",
     "type": "知识产权",
     "title": "FRY无人机续航管理系统",
     "summary": "来源文件：专利软著/FRY无人机续航管理系统.jpg",
-    "image": "./gallery/gallery-image-0349.avif",
+    "image": "./gallery/gallery-image-0443.webp",
     "imageAlt": "知识产权项目资料：FRY无人机续航管理系统",
     "facts": [
       "知识产权",

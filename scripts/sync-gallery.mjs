@@ -8,6 +8,7 @@ const siteRoot = path.resolve(scriptDirectory, '..')
 const sourceRoot = path.resolve(siteRoot, '..')
 const galleryDirectory = path.join(siteRoot, 'public', 'gallery')
 const dataFile = path.join(siteRoot, 'src', 'gallery-data.js')
+const converterScript = path.join(scriptDirectory, 'convert-gallery-image.py')
 const imagePattern = /\.(?:jpe?g|png|webp|gif)$/i
 
 const categoryLabels = new Map([
@@ -27,7 +28,7 @@ const allFiles = execFileSync('rg', ['--files'], { cwd: sourceRoot, encoding: 'u
   .filter(Boolean)
 
 const sourceImages = allFiles
-  .filter((file) => imagePattern.test(file) && !file.startsWith('portfolio-site/'))
+  .filter((file) => imagePattern.test(file) && categoryLabels.has(file.split('/')[0]))
   .sort((left, right) => {
     const leftCategory = categoryOrder.indexOf(left.split('/')[0])
     const rightCategory = categoryOrder.indexOf(right.split('/')[0])
@@ -41,20 +42,14 @@ const galleryItems = []
 for (const [index, relativePath] of sourceImages.entries()) {
   const sourcePath = path.join(sourceRoot, relativePath)
   const id = `gallery-image-${String(index + 1).padStart(4, '0')}`
-  const outputName = `${id}.avif`
+  const outputName = `${id}.webp`
   const outputPath = path.join(galleryDirectory, outputName)
   const category = relativePath.split('/')[0]
   const categoryLabel = categoryLabels.get(category) ?? category
   const extension = path.extname(relativePath).slice(1).toUpperCase()
   const title = path.basename(relativePath, path.extname(relativePath))
 
-  const conversion = spawnSync('sips', [
-    '-Z', '1600',
-    '-s', 'format', 'avif',
-    '-s', 'formatOptions', '68',
-    sourcePath,
-    '--out', outputPath,
-  ], { stdio: 'ignore' })
+  const conversion = spawnSync('python3', [converterScript, sourcePath, outputPath], { stdio: 'ignore' })
 
   if (conversion.status !== 0) {
     throw new Error(`无法生成网页图片：${relativePath}`)

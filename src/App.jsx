@@ -70,7 +70,7 @@ function SectionTitle({ eyebrow, title, meta }) {
 function FolderCollection({ onOpenFolder }) {
   return (
     <section className="folder-section" id="archive">
-      <SectionTitle eyebrow="PROJECT ARCHIVE" title="代表性项目与完整资料索引。" meta="内容按 AI 产品、AIGC 创作、技术写作、行业实践、荣誉成果和项目影像分类，支持逐项查看。" />
+      <SectionTitle eyebrow="PROJECT ARCHIVE" title="沿着简历主线，查看项目与证据。" meta="六个核心项目按职责、成果与证据组织；原创文章、新闻报道和完整影像库分别归档，避免不同叙事混在一起。" />
       <div className="folder-grid">
         {archiveFolders.map((folder) => (
           <button className={folder.id === 'gallery' ? 'folder-card folder-card-gallery' : 'folder-card'} type="button" key={folder.id} style={{ '--folder-accent': folder.accent }} onClick={() => onOpenFolder(folder.id)}>
@@ -79,7 +79,7 @@ function FolderCollection({ onOpenFolder }) {
           </button>
         ))}
       </div>
-      <div className="archive-policy"><span>ARCHIVE SCOPE</span><p>项目影像索引收录当前作品资料目录中的全部图片，并保留来源路径；视频文件不在本网页范围内。文章、代码和专利文件在可公开范围内提供原始链接。</p></div>
+      <div className="archive-policy"><span>ARCHIVE SCOPE</span><p>代表项目依据简历经历策展，图片不重复承担同一叙事；“完整项目影像库”另行收录正式资料目录中的全部 443 张图片并保留来源路径。视频文件不在本网页范围内。</p></div>
     </section>
   )
 }
@@ -117,7 +117,7 @@ function Writing() {
         <SectionTitle eyebrow="AI 科技评论 / PUBLISHED WRITING" title="持续研究模型能力，形成产品判断。" meta="六篇公开文章，覆盖生成视觉、模型评测、智能体和 AI 产品，均可阅读原文。" />
         <figure><img src="./archive/ai-review-proof.jpg" alt="AI 科技评论文章页面" loading="lazy" /><figcaption>PUBLICATION PROOF / 2026</figcaption></figure>
       </div>
-      <div className="article-index">{articles.map((article, index) => <a href={article.href} target="_blank" rel="noreferrer" key={article.id}><span>{String(index + 1).padStart(2, '0')}</span><small>{article.category}</small><h3>{article.title}</h3><Arrow /></a>)}</div>
+      <div className="article-index">{articles.map((article, index) => <a href={article.href} target="_blank" rel="noreferrer" key={article.id}><span>{String(index + 1).padStart(2, '0')}</span><small>{article.category}</small><span className="article-cover"><img src={article.image} alt="" loading="lazy" decoding="async" /></span><h3>{article.title}</h3><Arrow /></a>)}</div>
     </section>
   )
 }
@@ -152,7 +152,7 @@ function GalleryWorkspace({ folder }) {
   return (
     <section className="gallery-workspace" aria-labelledby="gallery-index-title">
       <header className="gallery-index-heading">
-        <div><span>COMPLETE PROJECT EVIDENCE</span><h2 id="gallery-index-title">项目影像索引</h2><p>按项目资料的原始目录组织，保留文件名和来源路径。点击任一影像查看完整画面与来源信息。</p></div>
+        <div><span>COMPLETE PROJECT IMAGE LIBRARY</span><h2 id="gallery-index-title">完整项目影像库</h2><p>按正式项目资料的原始目录组织，保留文件名与来源路径。代表项目已经过策展；本入口用于完整检索和材料核验。</p></div>
         <div className="gallery-index-count"><strong>{folder.items.length}</strong><span>IMAGES<br />{folder.categories.length} SOURCE GROUPS</span></div>
       </header>
       <div className="gallery-index-toolbar">
@@ -202,18 +202,18 @@ function ArchiveDialog({ open, folderId, onFolderChange, onClose }) {
   return (
     <div className="archive-overlay" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) onClose() }}>
       <section className="archive-window" role="dialog" aria-modal="true" aria-labelledby="archive-title">
-        <header className="archive-window-header"><div className="window-controls" aria-hidden="true"><i /><i /><i /></div><div className="archive-path"><span>YIFAN_ARCHIVE</span><b>/</b><strong id="archive-title">{activeFolder.en}</strong></div><button ref={closeRef} type="button" onClick={onClose} aria-label="关闭作品档案">关闭 ESC</button></header>
+        <header className="archive-window-header"><div className="archive-window-brand" aria-hidden="true"><strong>ZYF</strong><span>PROJECT ARCHIVE</span></div><div className="archive-path"><span>项目档案</span><b>/</b><strong id="archive-title">{activeFolder.title}</strong></div><button ref={closeRef} type="button" onClick={onClose} aria-label="关闭作品档案">关闭 · ESC</button></header>
         <div className={isGallery ? 'archive-layout archive-layout-gallery' : 'archive-layout'}>
           <aside className="archive-sidebar" aria-label="作品文件夹">
             <div className="archive-profile"><span>ZYF</span><div><strong>张一帆</strong><small>AI PRODUCT PORTFOLIO</small></div></div>
             <nav>{archiveFolders.map((folder) => <button type="button" className={folder.id === activeFolder.id ? 'is-active' : ''} key={folder.id} onClick={() => onFolderChange(folder.id)}><FolderGlyph open={folder.id === activeFolder.id} /><span><strong>{folder.title}</strong><small>{folder.en}</small></span><em>{String(folder.items.length).padStart(2, '0')}</em></button>)}</nav>
-            <p>项目影像保留来源目录与文件名；视频文件未纳入。</p>
+            <p>按简历项目主线策展。完整影像库保留来源目录与文件名；视频未纳入。</p>
           </aside>
           {isGallery ? <GalleryWorkspace folder={activeFolder} /> : <><div className="archive-records">
             <div className="records-heading"><div><span>FOLDER {activeFolder.code}</span><h2>{activeFolder.title}</h2></div><small>{activeFolder.items.length} RECORDS</small></div>
             <p className="records-description">{activeFolder.description}</p>
             <div className="record-list">{activeFolder.items.map((item, index) => {
-              const status = item.href ? 'OPEN ↗' : 'PREVIEW'
+              const status = item.href ? '公开原文 ↗' : '档案'
               return <button type="button" className={item.id === activeItem.id ? 'record is-active' : 'record'} onClick={() => setItemId(item.id)} key={item.id}><span className="record-index">{String(index + 1).padStart(2, '0')}</span><span className="record-thumb"><img src={item.image} alt="" loading="lazy" decoding="async" /></span><span className="record-copy"><small>{item.type}</small><strong>{item.title}</strong></span><span className="record-status">{status}</span></button>
             })}</div>
           </div>

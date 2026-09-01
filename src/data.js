@@ -1,166 +1,259 @@
 import { galleryCategories, galleryItems } from './gallery-data.js'
 
+const galleryBySource = new Map(galleryItems.map((item) => [item.sourcePath, item]))
+
+function sourceImage(sourcePath) {
+  const item = galleryBySource.get(sourcePath)
+  if (!item) throw new Error(`项目图片未进入完整索引：${sourcePath}`)
+  return item.image
+}
+
+const paths = {
+  monsoraLibrary: 'OUTPUT管理/output相关材料/02_Monsora产品/001_DOCX_Monsora/004_BASE_Monsora 产品需求池/05_记录附件/002_image.png',
+  monsoraProjects: 'OUTPUT管理/output相关材料/02_Monsora产品/001_DOCX_Monsora/004_BASE_Monsora 产品需求池/05_记录附件/003_image.png',
+  monsoraProfile: 'OUTPUT管理/output相关材料/02_Monsora产品/001_DOCX_Monsora/004_BASE_Monsora 产品需求池/05_记录附件/004_image.png',
+  monsoraGraph: 'OUTPUT管理/output相关材料/13_个人云文档_开头截图/01_产品与Monsora_Orbix/022_Monsora 知识图谱最终视觉设计_资产星图_开头.png',
+  monsoraIndex: 'OUTPUT管理/Monsora/MonsoraV2/diagrams/2026-07-17T180000-phase3/c06-c07-index-search.png',
+  film1888: 'OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/002_1888年的春夏秋/01_封面附件/image.png',
+  withHerEyes: 'OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/005_自制AI网剧《带上她的眼睛》/01_封面附件/image.png',
+  hidreamSample: 'OUTPUT管理/output相关材料/01_AI知识库/004_DOCX_OUTPUT stuio项目案例⭐/04_项目案例入口文档/008_Lisa mv 二创短片/01_封面附件/Back view of woman in @freedom789_.jpg',
+  liminalSteam: 'AIGC视频&互动影游戏/惊悚乐园/steam封面.jpg',
+  aigcWorkflow: 'AIGC视频&互动影游戏/科幻科普片/编写aigc工作流.jpg',
+  aigcCover: 'AIGC视频&互动影游戏/科幻科普片/科幻.png',
+  aigcMillion: 'AIGC视频&互动影游戏/科幻科普片/播放破百万.jpg',
+  customsPublic: '海关总署立项/被上海市公共数据开放平台录用.jpg',
+  customsMeeting: '海关总署立项/与报关协会开会.jpg',
+  customsRecommendation: '海关总署立项/海关总署司长推荐信.jpg',
+  customsAssociation: '海关总署立项/中国海关协会.jpg',
+  customsProjectConnection: '海关总署立项/海关项目对接.jpg',
+  baiduPoster: '实习:项目经历/百度和中国计算机学会项目.jpg',
+  baiduApproval: '实习:项目经历/项目立项.jpg',
+  classTeaching: '创赛商业化/授课课堂.jpg',
+  organizationTraining: '创赛商业化/受机构邀请进行ai培训.jpg',
+  pkuPitch: '创赛商业化/北大临港大赛路演.jpg',
+  graduateTeaching: '创赛商业化/给研究生上课.jpg',
+}
+
 export const articles = [
-  { id: 'hidream-o1', title: 'HiDream-O1-Image-1.5 刷新国产图像生成模型纪录：砍掉 VAE，是图像模型的未来吗？', category: '生成视觉', href: 'https://mp.weixin.qq.com/s/mhMZe2_-VJBAdCue1K4mPQ' },
-  { id: 'kimi-k27', title: 'Kimi K2.7 Code 有多能打？找 Bug，写 3D 游戏，2000 行代码砍掉 55%', category: '模型评测', href: 'https://mp.weixin.qq.com/s/87Fvkapo430j5_RpZDl6oQ' },
-  { id: 'openclaw', title: '看屏幕、用键鼠，我的 OpenClaw「睁眼」了', category: '智能体', href: 'https://mp.weixin.qq.com/s/2PZC5PV5Zv-w1clNFcyptw' },
-  { id: 'minimax-m3', title: 'MiniMax M3 实测：第一流的模型，已经对执行层动手了', category: '模型评测', href: 'https://mp.weixin.qq.com/s/2TDwOL5LcJWBti93EoORrg' },
-  { id: 'hidream-open', title: '文生图开源第一易主，但 HiDream-O1-Image 为什么褒贬不一？', category: '生成视觉', href: 'https://mp.weixin.qq.com/s?__biz=MzA5ODEzMjIyMA==&mid=2247735607&idx=1&sn=f2d592f49d7f0f48a6f8c37ffa159766&scene=21#wechat_redirect' },
-  { id: 'genflow', title: 'GenFlow 4.0，终于挖开百度网盘的富矿', category: 'AI 产品', href: 'https://mp.weixin.qq.com/s/1MdvRjIO6hj2k1mQzcppaA' },
+  { id: 'hidream-o1', title: 'HiDream-O1-Image-1.5 刷新国产图像生成模型纪录：砍掉 VAE，是图像模型的未来吗？', category: '生成视觉', href: 'https://mp.weixin.qq.com/s/mhMZe2_-VJBAdCue1K4mPQ', image: './articles/hidream-o1.jpg' },
+  { id: 'kimi-k27', title: 'Kimi K2.7 Code 有多能打？找 Bug，写 3D 游戏，2000 行代码砍掉 55%', category: '模型评测', href: 'https://mp.weixin.qq.com/s/87Fvkapo430j5_RpZDl6oQ', image: './articles/kimi-k27.jpg' },
+  { id: 'openclaw', title: '看屏幕、用键鼠，我的 OpenClaw「睁眼」了', category: '智能体', href: 'https://mp.weixin.qq.com/s/2PZC5PV5Zv-w1clNFcyptw', image: './articles/openclaw.jpg' },
+  { id: 'minimax-m3', title: 'MiniMax M3 实测：第一流的模型，已经对执行层动手了', category: '模型评测', href: 'https://mp.weixin.qq.com/s/2TDwOL5LcJWBti93EoORrg', image: './articles/minimax-m3.jpg' },
+  { id: 'hidream-open', title: '文生图开源第一易主，但 HiDream-O1-Image 为什么褒贬不一？', category: '生成视觉', href: 'https://mp.weixin.qq.com/s?__biz=MzA5ODEzMjIyMA==&mid=2247735607&idx=1&sn=f2d592f49d7f0f48a6f8c37ffa159766&scene=21#wechat_redirect', image: sourceImage(paths.hidreamSample) },
+  { id: 'genflow', title: 'GenFlow 4.0，终于挖开百度网盘的富矿', category: 'AI 产品', href: 'https://mp.weixin.qq.com/s/1MdvRjIO6hj2k1mQzcppaA', image: './articles/genflow.jpg' },
 ]
 
 const articleItems = articles.map((article) => ({
   ...article,
-  type: 'PUBLISHED ARTICLE',
-  summary: '发表于《AI 科技评论》。文章基于产品实测与资料研究，分析模型能力、技术路径和应用价值。',
-  image: './archive/ai-review-proof.jpg',
-  imageAlt: '张一帆发表于 AI 科技评论的文章页面',
-  facts: [article.category, 'AI 科技评论', '公开文章'],
+  type: `AI 科技评论 / ${article.category}`,
+  summary: '基于产品实测、资料研究与行业观察形成公开分析，重点讨论模型能力边界、技术路径及其产品化价值。',
+  imageAlt: `${article.title}文章封面`,
+  facts: [article.category, 'AI 科技评论', '原创署名文章'],
   linkLabel: '阅读原文',
+  public: true,
+}))
+
+const pressDefinitions = [
+  ['shanghai-education-project', '新闻报道/上海教育报道人工智能项目.png', '教育媒体 / 项目', '上海教育：人工智能项目实践报道', '上海教育对人工智能项目的方案、实践过程与育人成果进行公开报道。', ['市级教育媒体', '人工智能项目', '公开报道']],
+  ['shanghai-education-team', '新闻报道/上海教育报道项目组.png', '教育媒体 / 团队', '上海教育：跨专业项目团队报道', '报道呈现项目组的跨专业协作方式，以及学生团队参与真实项目的实践过程。', ['项目团队', '跨专业协作', '实践育人']],
+  ['customs-college-overview', '新闻报道/上海海关学院报道.jpg', '高校媒体 / 项目', '上海海关学院：关务 AI 项目报道', '学校官方渠道报道关务 AI 项目的立项背景、实践进展与阶段性成果。', ['学校官方报道', '关务 AI', '项目立项']],
+  ['customs-college-product', '新闻报道/上海海关学院报道产品.jpg', '高校媒体 / 产品', '上海海关学院：关务产品成果展示', '学校官方报道聚焦关务产品形态与面向业务场景的成果转化。', ['产品成果', '行业应用', '成果转化']],
+  ['customs-college-recommendation', '新闻报道/上海海关学院报道企业推荐产品.jpg', '高校媒体 / 产业', '上海海关学院：企业推荐与产品应用', '报道记录企业与行业机构对关务产品方案的评价与推荐。', ['企业推荐', '产业协同', '外部验证']],
+  ['customs-college-team', '新闻报道/上海海关学院报道团队.jpg', '高校媒体 / 团队', '上海海关学院：项目团队与协作机制', '报道呈现项目团队分工、跨组织协作与阶段成果。', ['团队协作', '项目推进', '官方报道']],
+  ['eastday', '新闻报道/东方网报道.jpg', '综合媒体', '东方网：青年 AI 创新实践报道', '东方网对青年团队开展 AI 产品实践与创新活动进行公开报道。', ['东方网', '青年创新', 'AI 实践']],
+  ['strait-investment', '新闻报道/海峡人才报报道政府招商引资.jpg', '行业媒体 / 招商', '海峡人才报：政府招商与项目交流', '海峡人才报记录项目参与地方产业交流与招商对接的过程。', ['海峡人才报', '招商交流', '产业对接']],
+  ['strait-collaboration', '新闻报道/海峡人才报报道项目合作.jpg', '行业媒体 / 合作', '海峡人才报：项目合作报道', '报道聚焦项目团队与地方机构围绕应用场景展开合作。', ['项目合作', '机构协同', '公开报道']],
+  ['strait-connection', '新闻报道/海峡人才报报道项目对接.jpg', '行业媒体 / 对接', '海峡人才报：项目需求对接', '报道记录项目方案、产业需求与合作资源的现场对接。', ['需求对接', '产业资源', '项目交流']],
+  ['strait-result', '新闻报道/海峡人才报报道项目对接成功.jpg', '行业媒体 / 结果', '海峡人才报：项目对接达成阶段成果', '报道记录项目对接取得阶段性成果，并进入进一步合作沟通。', ['阶段成果', '合作推进', '外部验证']],
+  ['pudong-event', '新闻报道/浦东促就报道联动字节跳动活动.jpg', '公共服务 / 活动', '浦东促就：联动字节跳动开展 AI 活动', '公共就业服务机构报道团队联动字节跳动生态开展 AI 主题活动。', ['浦东促就', '字节跳动生态', 'AI 活动']],
+  ['pudong-event-detail', '新闻报道/浦东就促报道联动字节跳动举办活动.jpg', '公共服务 / 纪实', '浦东就促：AI 主题活动现场纪实', '报道补充呈现活动组织、现场分享与参与者交流情况。', ['活动纪实', '组织协作', '公共服务']],
+  ['cctv-public-service', '新闻报道/cctv报道ai活动.jpg', '媒体报道 / 公益', 'CCTV 公益之声：AI 公益活动报道', '媒体报道团队参与的 AI 公益实践，呈现技术在公共议题中的应用。', ['AI 公益', '媒体报道', '公共实践']],
+  ['waytoagi-feature', '新闻报道/waytoagi报道.png', '行业社区 / 报道', 'WaytoAGI：AIGC 实践案例报道', 'AI 行业社区对 AIGC 内容生产实践与工作流经验进行报道。', ['WaytoAGI', 'AIGC 实践', '行业社区']],
+  ['waytoagi-knowledge', '新闻报道/waytoagi飞书知识库.png', '行业社区 / 知识库', 'WaytoAGI：实践内容进入公开知识库', '相关 AIGC 方法与实践资料被收录至行业社区公开知识库。', ['知识库收录', '方法沉淀', '公开传播']],
+  ['ai-tech-review', '新闻报道/ai科技评论发表文章.jpg', '专业媒体 / 署名', 'AI 科技评论：原创署名文章发表', '原创模型评测与 AI 产品分析文章发表于专业科技媒体。', ['原创署名', '模型评测', '专业媒体']],
+  ['external-instructor', '新闻报道/学校外聘报道.jpg', '高校媒体 / 教学', '高校报道：受聘创新创业项目指导教师', '学校官方渠道报道参与创新创业教学与项目指导的经历。', ['外聘教师', '创新创业', '项目指导']],
+  ['incubator', '新闻报道/炬甄孵化器报道.jpg', '机构媒体 / 孵化', '炬甄孵化器：创新创业实践报道', '孵化机构报道团队参与创业项目辅导、路演与成果转化实践。', ['孵化器', '创业实践', '成果转化']],
+]
+
+const pressItems = pressDefinitions.map(([id, sourcePath, type, title, summary, facts]) => ({
+  id,
+  type,
+  title,
+  summary,
+  image: sourceImage(sourcePath),
+  imageAlt: `${title}的报道页面`,
+  facts,
   public: true,
 }))
 
 export const archiveFolders = [
   {
-    id: 'product', code: '01', title: 'AI 产品项目', en: 'AI PRODUCT PROJECTS', accent: '#315eff',
-    description: '四个进入实际场景的 AI 产品项目，覆盖需求分析、方案设计、工程协作与效果验证。',
-    cover: './assets/monsora-search.jpg',
+    id: 'monsora', code: '01', title: 'Monsora 产品系统', en: 'LOCAL-FIRST AI ASSET PLATFORM', accent: '#315eff',
+    description: '0→1 负责本地优先的创意资产与 Agent 上下文平台，覆盖需求定义、信息架构、产品验证与技术交付。',
+    cover: sourceImage(paths.monsoraLibrary),
     items: [
       {
-        id: 'monsora', type: '0→1 PRODUCT / 2025—2026', title: 'Monsora 创意资产智能引擎',
-        summary: '面向创意生产团队设计本地优先的数字资产系统，使用户与 Agent 能够识别素材的版本、来源、关系和权限。',
-        image: './assets/monsora-search.jpg', imageAlt: 'Monsora 创意资产搜索工作台',
+        id: 'monsora-workspace', type: 'PRODUCT SYSTEM / 2025—2026', title: '创意资产项目库与语义检索工作台',
+        summary: '以 Asset–Variant–Version 为核心对象组织项目资产，使创作者能够追踪素材版本、来源、关系与使用状态。',
+        image: sourceImage(paths.monsoraProjects), imageAlt: 'Monsora 项目资产库与语义搜索界面',
         facts: ['77 条需求', '32 条内测反馈', '22 个 GWT 用户故事'],
         href: 'https://github.com/yuguangtongchen1/output-code', linkLabel: '查看公开原型', public: true,
       },
       {
-        id: 'aigc-routing', type: 'AI PRODUCTION / 2025—2026', title: 'AIGC 内容生产与模型路由',
-        summary: '将模型测试、成本记录和制作经验整理为可复用、可评测、可迭代的内容生产流程。',
-        image: './assets/aigc-with-her-eyes.png', imageAlt: 'AIGC 生产与角色设定工作台',
-        facts: ['3 部公开作品', '23 类模型与 API', '200+ 笔成本记录'], note: '过程 PRD 与生产记录仅在面试中展示',
+        id: 'monsora-graph', type: 'INFORMATION ARCHITECTURE', title: '资产星图与可信关系图谱',
+        summary: '用 Vault、Capsule 与资产血缘表达跨文件关系，并保留来源、版本和版权信息，为人和 Agent 提供可解释的上下文。',
+        image: sourceImage(paths.monsoraGraph), imageAlt: 'Monsora 资产星图与知识图谱视觉设计',
+        facts: ['Vault / Capsule', '资产血缘', '来源与版权追踪'],
       },
       {
-        id: 'customs-agent', type: 'INDUSTRY AGENT / 2024—2026', title: '关务 Agent 与行业知识工程',
-        summary: '将关务术语、法规语境和专家判断过程转化为可维护、可检索、可解释的行业智能体。',
-        image: './archive/customs-platform-public.jpg', imageAlt: '关务产品入选上海市公共数据开放平台',
-        facts: ['MDX + RAG', '公共平台录用', '国家发明专利'],
+        id: 'monsora-local-index', type: 'AGENT INFRASTRUCTURE', title: '本地索引、搜索与 Agent 接口',
+        summary: '围绕本地 Daemon 设计索引与检索链路，并以 CLI、MCP 与 Skill 接口让 Agent 在授权范围内读取创意上下文。',
+        image: sourceImage(paths.monsoraIndex), imageAlt: 'Monsora 本地索引与搜索链路图',
+        facts: ['Local-first', 'CLI / MCP / Skill', 'Run–Candidate–Confirm'],
+      },
+    ],
+  },
+  {
+    id: 'aigc-production', code: '02', title: 'AIGC 内容生产体系', en: 'AIGC CONTENT PRODUCTION', accent: '#7a5cff',
+    description: '在 OUTPUT 参与三部公开作品，并将模型路由、成本记录与长叙事一致性经验沉淀为可复用流程。',
+    cover: sourceImage(paths.aigcCover),
+    items: [
+      {
+        id: 'with-her-eyes', type: 'AI FILM / PUBLIC RELEASE', title: '《带上她的眼睛》AIGC 科幻短片',
+        summary: '参与脚本拆解、分镜规划、角色一致性与后期合成，在 30 天内完成约 7 分钟长叙事作品。',
+        image: sourceImage(paths.withHerEyes), imageAlt: '带上她的眼睛 AIGC 科幻短片主视觉',
+        facts: ['约 7 分钟', '30 天交付', '累计播放近 1000 万'],
+      },
+      {
+        id: 'spring-1888', type: 'AI FILM / PUBLIC RELEASE', title: '《1888 年的春夏秋》AI 影像项目',
+        summary: '参与视觉风格定义、镜头生产与内容交付，在两周内完成公开作品并接受平台传播验证。',
+        image: sourceImage(paths.film1888), imageAlt: '1888 年的春夏秋 AI 影像项目主视觉',
+        facts: ['两周交付', '累计播放约 500 万', '平台奖项'],
+      },
+      {
+        id: 'liminal-within', type: 'INTERACTIVE NARRATIVE', title: '《惊悚乐园 / LIMINAL: Within》互动叙事',
+        summary: '围绕角色设定、分支叙事与交互机制推进 AI 原生游戏内容，并完成公开页面与发布素材。',
+        image: sourceImage(paths.liminalSteam), imageAlt: 'LIMINAL Within 的 Steam 商店主视觉',
+        facts: ['首发 48 小时播放 100 万+', 'B 站奖项', 'Steam 页面'],
+      },
+      {
+        id: 'model-routing', type: 'PRODUCTION OPERATIONS', title: '模型路由、成本记录与生产复盘',
+        summary: '为不同镜头任务建立模型选择与验收依据，通过连续记录生成成本、返工原因和模型表现提升制作可控性。',
+        image: sourceImage(paths.aigcWorkflow), imageAlt: 'AIGC 内容生产工作流与模型使用记录',
+        facts: ['23 类模型与 API', '200+ 笔成本记录', '可复用工作流'],
+      },
+    ],
+  },
+  {
+    id: 'bank-agent', code: '03', title: '中国银行专家 Agent', en: 'BANKING EXPERT AGENT', accent: '#25a780',
+    description: '围绕个人助理 AI、金融经理专家 Agent 与因果决策画布完成业务建模和两轮 Web 原型验证。',
+    cover: './archive/bank-agent-system.jpg',
+    items: [
+      {
+        id: 'bank-assistant', type: 'DIGITAL PRODUCT / 2024', title: '个人助理 AI 与金融经理专家 Agent',
+        summary: '将客户意图识别、专家角色协同与服务建议组织为可交互方案，推动对话式服务向任务型交互演进。',
+        image: './archive/bank-agent-system.jpg', imageAlt: '从人机对话向人机交互升级的银行智能服务方案',
+        facts: ['两轮 Web 原型', '5 类专家角色', '个人与业务场景'],
+      },
+      {
+        id: 'bank-causal-canvas', type: 'DECISION MODEL', title: '金融服务因果决策画布',
+        summary: '把金融经理判断拆解为节点、关系与可验证路径，用结构化画布表达复杂业务语境中的因果链路。',
+        image: './archive/bank-causal-canvas.jpg', imageAlt: '专家 Agent 的模型编排与评测架构',
+        facts: ['13 个节点', '8 类关系', '35 条关系链'],
+      },
+    ],
+  },
+  {
+    id: 'customs-agent', code: '04', title: '关务 Agent 与知识工程', en: 'CUSTOMS AGENT & KNOWLEDGE', accent: '#db493c',
+    description: '海关总署立项项目：将关务规则、术语与专家判断工程化，完成产品研发、行业验证和成果转化。',
+    cover: sourceImage(paths.customsMeeting),
+    items: [
+      {
+        id: 'customs-public-platform', type: 'PUBLIC PLATFORM', title: '关务产品进入上海市公共数据开放平台',
+        summary: '将关务知识产品从项目方案推进到公共数据应用场景，完成公开平台录用与产品展示。',
+        image: sourceImage(paths.customsPublic), imageAlt: '关务产品入选上海市公共数据开放平台',
+        facts: ['公共平台录用', '关务知识服务', '公开成果'],
+      },
+      {
+        id: 'customs-co-creation', type: 'DOMAIN RESEARCH', title: '海关业务专家与报关协会共创',
+        summary: '通过专家访谈、业务评审与行业会议校准术语、规则语境及办事流程，降低通用模型的业务理解偏差。',
+        image: sourceImage(paths.customsAssociation), imageAlt: '与海关业务机构开展关务产品交流',
+        facts: ['专家访谈', '业务评审', '行业共创'],
+      },
+      {
+        id: 'customs-recommendation', type: 'EXTERNAL VALIDATION', title: '行业主管部门推荐与业务验证',
+        summary: '项目获得海关业务与行业机构的外部反馈，用于验证需求真实性、产品价值与后续应用方向。',
+        image: sourceImage(paths.customsRecommendation), imageAlt: '海关总署业务专家对项目的推荐材料',
+        facts: ['行业推荐', '业务验证', '成果转化'],
+      },
+      {
+        id: 'customs-patent', type: 'PATENT / KNOWLEDGE AS CODE', title: '关务知识工程与发明专利',
+        summary: '采用 MDX 与 RAG 组织可维护的规则知识，并围绕关务语言模型部署与业务流程形成发明专利成果。',
+        image: './assets/customs-platform.jpg', imageAlt: '关务大模型产品工作台',
+        facts: ['MDX + RAG', 'CN120449898A', '发明专利'],
         href: './documents/patent-examination-notice.pdf', linkLabel: '查看公开专利材料', public: true,
       },
-      {
-        id: 'baidu-pig', type: 'FIELD AI / 2025—2026', title: '百度「养猪吧少年」多模态项目',
-        summary: '在真实养殖场景中采集图像与声音数据，并以专家判断为基准验证多模态模型的辅助决策能力。',
-        image: './archive/baidu-field.jpg', imageAlt: '百度与中国计算机学会 AI 猪界看相师项目海报',
-        facts: ['100 只猪样本', '多模态采集', 'Top-K 一致性评测'], note: '完整 PRD 与数据字典仅在面试中展示',
-      },
     ],
   },
   {
-    id: 'creative', code: '02', title: 'AIGC 内容与互动', en: 'AIGC & INTERACTION', accent: '#7a5cff',
-    description: 'AIGC 影像、互动叙事与空间体验项目，展示从内容策划、制作流程到公开发布的实践。',
-    cover: './archive/liminal-steam.jpg',
+    id: 'baidu-field-ai', code: '05', title: '百度多模态养殖项目', en: 'BAIDU MULTIMODAL FIELD AI', accent: '#f0b94a',
+    description: '在真实养殖场景中设计图像与声音采集方案，并以专家判断为基准评估多模态模型的辅助决策价值。',
+    cover: sourceImage(paths.baiduApproval),
     items: [
       {
-        id: 'with-her-eyes', type: 'AI FILM', title: '《带上她的眼睛》AIGC 科幻短片',
-        summary: '负责脚本拆解、分镜规划、视觉一致性和后期合成，建立长叙事 AIGC 内容的完整制作流程。',
-        image: './assets/aigc-with-her-eyes.png', imageAlt: 'AIGC 角色设定与生产文档', facts: ['7 分钟长片', '30 天交付', 'VACAT 入围'],
+        id: 'baidu-field-study', type: 'FIELD AI / 2025', title: '「养猪吧少年」真实场景调研与采集',
+        summary: '围绕猪只健康与状态识别设计样本、采集与标注方案，把模型能力放入真实生产环境中验证。',
+        image: sourceImage(paths.baiduPoster), imageAlt: '百度与中国计算机学会多模态养殖项目海报',
+        facts: ['100 只猪样本', '图像与声音采集', '真实养殖场景'],
       },
       {
-        id: 'liminal-within', type: 'INTERACTIVE NARRATIVE', title: '《惊悚乐园 / LIMINAL: Within》',
-        summary: '围绕角色设定、分支叙事和交互机制推进 AI 原生游戏项目，并完成 Steam 商店页面展示。',
-        image: './archive/liminal-steam.jpg', imageAlt: 'LIMINAL Within 的 Steam 商店页面', facts: ['Steam 页面', '角色多视图', '分支叙事'],
-      },
-      {
-        id: 'language-museum', type: 'SPATIAL INTERACTION', title: '世界语言博物馆交互体验',
-        summary: '结合语言语料、空间装置和数字交互，使观众能够通过手势与界面探索语言和地域信息。',
-        image: './archive/language-museum.jpg', imageAlt: '世界语言博物馆交互装备现场', facts: ['空间装置', '触控交互', '高校合作'],
-      },
-      {
-        id: 'science-channel', type: 'CONTENT OPERATION', title: '科幻科普内容矩阵',
-        summary: '通过模型工作流与内容实验开展科幻科普传播，并持续记录作品数据与制作复盘。',
-        image: './archive/aigc-million.jpg', imageAlt: '科幻科普账号累计播放量突破一百万', facts: ['累计播放 100 万+', '工作流复盘', '公开传播'],
+        id: 'baidu-evaluation', type: 'MODEL EVALUATION', title: '多模态模型与专家判断一致性评测',
+        summary: '以业务专家结论为参照建立 Top-K 一致性口径，并同步定义 PRD、数据字典和验收标准。',
+        image: sourceImage(paths.baiduApproval), imageAlt: '百度多模态项目立项与公开项目页面',
+        facts: ['Top-K 一致性', 'PRD 与数据字典', '专家基准'],
       },
     ],
   },
   {
-    id: 'writing', code: '03', title: '技术研究与写作', en: 'RESEARCH & WRITING', accent: '#25a780',
-    description: '六篇发表于《AI 科技评论》的技术文章，基于实测分析生成模型、Agent 与 AI 产品。',
-    cover: './archive/ai-review-proof.jpg', items: articleItems,
-  },
-  {
-    id: 'industry', code: '04', title: '行业项目与公共实践', en: 'INDUSTRY PRACTICE', accent: '#db493c',
-    description: '关务、银行、农业和公共服务领域的项目经历，重点呈现业务调研、组织协作与成果转化。',
-    cover: './archive/customs-award.jpg',
+    id: 'commercialization', code: '06', title: '创业商业化与教学实践', en: 'COMMERCIALIZATION & TEACHING', accent: '#9d6b43',
+    description: '面向创业团队、高校与公共服务机构开展产品辅导、课程交付和路演验证，连接方法、市场与组织协作。',
+    cover: sourceImage(paths.graduateTeaching),
     items: [
       {
-        id: 'public-data', type: 'PUBLIC PLATFORM', title: '上海市公共数据开放平台录用',
-        summary: '关务智能产品进入公共数据开放平台应用目录，完成从产品方案到公共场景应用的成果转化。',
-        image: './archive/customs-platform-public.jpg', imageAlt: '产品在上海市公共数据开放平台展示', facts: ['公开应用', '关务知识', '成果转化'],
+        id: 'entrepreneurship-course', type: 'PRODUCT TRAINING', title: 'AI 产品与创新创业课程交付',
+        summary: '以真实项目为案例讲解问题定义、用户验证、模型选择与交付评估，形成结构化训练内容。',
+        image: sourceImage(paths.classTeaching), imageAlt: 'AI 产品与创新创业课程现场',
+        facts: ['高校课堂', '案例教学', '产品方法'],
       },
       {
-        id: 'customs-collab', type: 'INSTITUTIONAL COLLABORATION', title: '海关业务专家与行业协会共创',
-        summary: '通过专家访谈、业务评审和现场共创，将规则、术语与实际办事流程纳入产品定义。',
-        image: './archive/customs-meeting.jpg', imageAlt: '与报关协会进行项目会议', facts: ['专家访谈', '业务评审', '场景共创'],
+        id: 'institutional-training', type: 'INSTITUTIONAL PROGRAM', title: '公共机构 AI 创业培训项目',
+        summary: '受机构邀请参与 AI 创业培训，将产品工具与行业案例转化为面向创业者的可执行课程。',
+        image: sourceImage(paths.organizationTraining), imageAlt: '受机构邀请开展 AI 创业培训',
+        facts: ['机构委托', '创业者培训', '课程交付'],
       },
       {
-        id: 'recognition', type: 'PROJECT RECOGNITION', title: '项目表彰与成果认可',
-        summary: '组织跨专业学生团队推进 AI 项目，并在学院项目表彰中获得成果认可。',
-        image: './archive/customs-award.jpg', imageAlt: '学院项目表彰大会现场', facts: ['项目立项', '组织协作', '成果认可'],
+        id: 'startup-pitch', type: 'COMMERCIAL VALIDATION', title: 'AI 创业项目路演与商业验证',
+        summary: '围绕用户价值、产品方案和商业路径完成赛事路演，并将评审反馈用于迭代项目定位。',
+        image: sourceImage(paths.pkuPitch), imageAlt: 'AI 创业项目决赛路演现场',
+        facts: ['公开路演', '商业模式', '评审验证'],
       },
     ],
   },
   {
-    id: 'proof', code: '05', title: '荣誉、报道与知识产权', en: 'HONORS & PRESS', accent: '#f0b94a',
-    description: '收录竞赛成绩、媒体报道、专利和组织认可，用于说明项目成果及其外部影响。',
-    cover: './archive/huawei-final.jpg',
-    items: [
-      {
-        id: 'huawei-final', type: 'NATIONAL FINAL', title: '昇腾 AI 创新大赛全国总决赛',
-        summary: '参加昇腾 AI 创新大赛全国总决赛，并围绕 AI 产品方案完成现场答辩与评审。',
-        image: './archive/huawei-final.jpg', imageAlt: '昇腾 AI 创新大赛全国总决赛现场', facts: ['全国总决赛', '产品答辩', '产业评审'],
-      },
-      {
-        id: 'cctv-report', type: 'MEDIA COVERAGE', title: 'CCTV 公益之声报道 AI 公益活动',
-        summary: '参与组织的 AI 公益活动获得媒体报道，呈现 AIGC 技术在公共议题中的应用。',
-        image: './archive/cctv-report.jpg', imageAlt: 'CCTV 公益之声关于 AI 公益活动的报道', facts: ['媒体报道', 'AI 公益', '社团组织'],
-      },
-      {
-        id: 'innovation-award', type: 'PERSONAL HONOR', title: '优秀科创个人',
-        summary: '基于持续参与学生科技创新项目及成果产出，获评学院优秀科创个人。',
-        image: './archive/innovation-certificate.jpg', imageAlt: '优秀科创个人荣誉证书', facts: ['科创实践', '个人荣誉', '2025'],
-      },
-      {
-        id: 'patent', type: 'PATENT', title: '大模型关务产品发明专利',
-        summary: '围绕关务语言模型部署与业务流程形成技术成果，相关发明专利已进入实质审查阶段。',
-        image: './assets/customs-platform.jpg', imageAlt: '关务大模型产品界面', facts: ['CN120449898A', '发明专利', '实质审查'],
-        href: './documents/patent-examination-notice.pdf', linkLabel: '查看公开文件', public: true,
-      },
-    ],
+    id: 'writing', code: '07', title: 'AI 科技评论', en: 'PUBLISHED AI ANALYSIS', accent: '#315eff',
+    description: '六篇原创署名文章，基于实测与研究分析生成视觉、编程模型、智能体和 AI 产品。每篇使用独立文章封面。',
+    cover: './archive/ai-review-proof.jpg',
+    items: articleItems,
   },
   {
-    id: 'sharing', code: '06', title: '教学分享与合作', en: 'TEACHING & COLLABORATION', accent: '#9d6b43',
-    description: '面向高校课堂、学生社群和创新创业活动开展 AI 产品方法分享与跨机构合作。',
-    cover: './archive/graduate-teaching.jpg',
-    items: [
-      {
-        id: 'graduate-class', type: 'TEACHING', title: '面向研究生的 AI 产品分享',
-        summary: '以实际项目为案例，讲解从问题定义、模型选择到产品落地与评测迭代的方法。',
-        image: './archive/graduate-teaching.jpg', imageAlt: '面向研究生进行 AI 产品课程分享', facts: ['高校课堂', '产品方法', '案例教学'],
-      },
-      {
-        id: 'pku-pitch', type: 'STARTUP PITCH', title: '大学生 AI 创业大赛决赛路演',
-        summary: '在创新创业赛事中完成产品价值、用户场景和商业路径的公开路演。',
-        image: './archive/pku-pitch.jpg', imageAlt: '大学生 AI 创业大赛路演现场', facts: ['公开路演', '商业化', '团队协作'],
-      },
-      {
-        id: 'campus-sharing', type: 'COMMUNITY', title: 'AI 社团与跨机构分享',
-        summary: '组织 AI 社群、工作坊与跨机构活动，将工具使用经验整理为可复用的实践方法。',
-        image: './assets/teaching.jpg', imageAlt: 'AI 产品与项目方法分享现场', facts: ['社群组织', '工作坊', '机构合作'],
-      },
-    ],
+    id: 'press', code: '08', title: '新闻与机构报道', en: 'PRESS & INSTITUTIONAL COVERAGE', accent: '#db493c',
+    description: '完整收录现有 19 条媒体与机构报道，覆盖关务项目、AIGC 实践、创业教学与公共活动。',
+    cover: sourceImage('新闻报道/上海教育报道人工智能项目.png'),
+    items: pressItems,
   },
   {
-    id: 'gallery', code: '07', title: '项目影像索引', en: 'PROJECT IMAGE INDEX', accent: '#8696b8',
-    description: `收录原始作品资料中的 ${galleryItems.length} 张图片，按来源目录分类，并保留原始文件名与路径信息。`,
+    id: 'gallery', code: '09', title: '完整项目影像库', en: 'COMPLETE PROJECT IMAGE LIBRARY', accent: '#8696b8',
+    description: `收录正式作品资料目录中的 ${galleryItems.length} 张原始项目图片，按来源目录检索并保留文件名；视频不在本网页范围内。`,
     cover: galleryItems[0]?.image,
     categories: galleryCategories,
     items: galleryItems,
@@ -170,8 +263,8 @@ export const archiveFolders = [
 export const archiveItemCount = archiveFolders.reduce((total, folder) => total + folder.items.length, 0)
 
 export const selectedEvidence = [
-  { image: './archive/language-museum.jpg', label: '空间交互', title: '世界语言博物馆' },
-  { image: './assets/monsora-search.jpg', label: '产品系统', title: 'Monsora' },
-  { image: './archive/pku-pitch.jpg', label: '创业路演', title: 'AI 产品公开答辩' },
-  { image: './archive/cctv-report.jpg', label: '媒体报道', title: 'AI 公益实践' },
+  { image: sourceImage(paths.monsoraProfile), label: '产品系统', title: 'Monsora 资产详情与关系视图' },
+  { image: sourceImage(paths.aigcMillion), label: '公开传播', title: 'AIGC 科幻科普累计播放破百万' },
+  { image: sourceImage(paths.customsProjectConnection), label: '行业验证', title: '与海关业务机构开展项目对接' },
+  { image: sourceImage(paths.graduateTeaching), label: '教学实践', title: '面向研究生分享 AI 产品方法' },
 ]

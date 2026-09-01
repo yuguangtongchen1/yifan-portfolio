@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "sync:gallery": "node scripts/sync-gallery.mjs",
+    "sync:articles": "node scripts/sync-article-covers.mjs",
     "build": "vite build",
     "preview": "vite preview"
   },
