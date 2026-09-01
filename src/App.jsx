@@ -125,7 +125,7 @@ function Writing() {
 function Footer({ onOpenArchive }) {
   return (
     <footer id="contact">
-      <div className="footer-main"><span className="footer-eyebrow">CONTACT</span><h2>如需进一步了解项目，欢迎通过邮箱联系。</h2><div className="footer-actions"><a href="mailto:13290348758@163.com">13290348758@163.com <Arrow /></a><a href="./zhang-yifan-resume.pdf" target="_blank" rel="noreferrer">查看简历 PDF <Arrow /></a><button type="button" onClick={onOpenArchive}>浏览项目档案 <Arrow /></button></div></div>
+      <div className="footer-main"><span className="footer-eyebrow">CONTACT</span><h2>期待围绕 AI 产品、Agent 与 AIGC 应用展开交流。</h2><div className="footer-actions"><a href="mailto:13290348758@163.com">13290348758@163.com <Arrow /></a><a href="./zhang-yifan-resume.pdf" target="_blank" rel="noreferrer">查看简历 PDF <Arrow /></a><button type="button" onClick={onOpenArchive}>浏览项目档案 <Arrow /></button></div></div>
       <div className="footer-bottom"><span>张一帆 / YIFAN ZHANG</span><span>AI PRODUCT · AGENT · AIGC</span><span>SHANGHAI · 2026</span></div>
     </footer>
   )
