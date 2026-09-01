@@ -14,6 +14,16 @@ async function audit(width, height) {
   page.on('pageerror', (error) => errors.push(error.message))
   await page.goto(baseUrl, { waitUntil: 'networkidle' })
 
+  if (width === 1440) {
+    const commercializationCard = page.getByRole('button', { name: /创业商业化与教学实践/ })
+    await commercializationCard.scrollIntoViewIfNeeded()
+    await page.waitForFunction(() => {
+      const image = [...document.querySelectorAll('.folder-card img')].find((item) => item.src.includes('commercialization-cover-v2'))
+      return image?.complete && image.naturalWidth > 0
+    })
+    await commercializationCard.screenshot({ path: 'preview-commercialization-card.png' })
+  }
+
   if (width <= 900) {
     await page.getByRole('button', { name: '打开菜单' }).click()
     await page.getByRole('link', { name: '项目档案' }).click()
@@ -29,6 +39,16 @@ async function audit(width, height) {
     ledgerLink: element.querySelector('.preview-copy a')?.getAttribute('href'),
     previewLoaded: element.querySelector('.preview-media img')?.naturalWidth > 0,
   }))
+  await page.getByRole('button', { name: /汇丰 VC 方案交流：从专家 Agent 到 Agent 网络/ }).click()
+  const hsbcAudit = await page.locator('.archive-window').evaluate((element) => ({
+    hasHsbcRecord: element.textContent.includes('汇丰 VC 方案交流'),
+    hasPageCount: element.textContent.includes('17 页交流材料'),
+    hasDisclosureNote: element.textContent.includes('融资测算和运营成本不在网页展开'),
+    previewLoaded: element.querySelector('.preview-media img')?.naturalWidth > 0,
+  }))
+  await page.waitForTimeout(350)
+  if (width === 1440) await page.screenshot({ path: 'preview-hsbc.png', fullPage: false })
+  if (width === 390) await page.screenshot({ path: 'preview-hsbc-mobile.png', fullPage: false })
   await page.getByRole('button', { name: /AI 科技评论 PUBLISHED AI ANALYSIS/ }).click()
   await page.getByRole('button', { name: /看屏幕、用键鼠/ }).click()
   await page.waitForTimeout(350)
@@ -73,7 +93,7 @@ async function audit(width, height) {
   if (width === 1440) await page.screenshot({ path: 'preview.png', fullPage: true })
   if (width === 390) await page.screenshot({ path: 'preview-mobile.png', fullPage: true })
 
-  results.push({ width, height, pageAudit, bankAudit, dialogAudit, galleryGridAudit, galleryPreviewAudit, errors })
+  results.push({ width, height, pageAudit, bankAudit, hsbcAudit, dialogAudit, galleryGridAudit, galleryPreviewAudit, errors })
   await page.close()
 }
 

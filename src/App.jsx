@@ -49,11 +49,11 @@ function Hero({ onOpenArchive }) {
   return (
     <section className="hero" id="top">
       <div className="hero-intro">
-        <div className="hero-kicker"><span>AI PRODUCT & APPLIED AI</span><span>SHANGHAI / 2024—2026</span></div>
-        <h1>AI 产品经理，<br />从问题定义到<span>落地验证</span>。</h1>
-        <p>聚焦 Agent、AIGC 内容生产与行业智能化，承担需求分析、产品设计、原型验证和跨团队交付。</p>
+        <div className="hero-kicker"><span>AI PRODUCT · AGENT SYSTEMS</span><span>SHANGHAI / 2024—2026</span></div>
+        <h1>让 Agent 从能力演示，<br />走向<span>真实业务</span>。</h1>
+        <p>张一帆，AI 产品经理。聚焦 Agent 系统、AIGC 内容生产与行业知识工程，负责问题定义、产品架构、评测体系与跨团队交付。</p>
         <ArchiveKey onClick={onOpenArchive} />
-        <div className="hero-footnote"><span>PRODUCT / AGENT / AIGC</span><span>SELECTED WORK 2024—2026 ↓</span></div>
+        <div className="hero-footnote"><span>PRODUCT / AGENT / KNOWLEDGE ENGINEERING</span><span>SELECTED WORK 2024—2026 ↓</span></div>
       </div>
       <div className="hero-visual" aria-label="张一帆的真实项目现场影像">
         <figure className="hero-photo-main"><img src="./assets/hero-lab.jpg" alt="张一帆在实验室进行移液操作" /><figcaption><span>项目现场 / 实验室研究</span><small>FIELD NOTE · 2025</small></figcaption></figure>
@@ -100,7 +100,7 @@ function Practice() {
   const cases = [
     ['2025.03—2026.09', 'OUTPUT', 'AIGC 产品实习生 → AI 产品负责人', '内容生产、模型路由、Monsora 创意资产与 Agent 上下文产品'],
     ['2024.11—2026.01', '海关总署立项项目', '关务 Agent 产品落地负责人', '知识建模、产品研发、公共平台录用与发明专利'],
-    ['2024.08—2024.11', '中国银行', '数字化产品实习生', '星念织网专家 Agent、六阶段任务 Loop、状态守卫与运行时产物台账'],
+    ['2024.08—2024.11', '中国银行', '数字化产品实习生', '星念织网专家 Agent、六阶段任务 Loop；相关方法后续用于汇丰 VC 方案交流'],
   ]
   return (
     <section className="practice-section">

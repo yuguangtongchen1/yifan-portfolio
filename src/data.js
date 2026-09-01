@@ -149,7 +149,7 @@ export const archiveFolders = [
   },
   {
     id: 'bank-agent', code: '03', title: '中国银行 · 星念织网', en: 'XINGNIAN WEAVE · EXPERT AGENT', accent: '#9f1d34',
-    description: '面向复杂金融服务任务设计专家 Agent 方法系统，以六阶段 Loop、状态守卫和运行时台账组织推理、执行与复盘。',
+    description: '从中国银行阶段的专家 Agent 方法出发，以六阶段 Loop、状态守卫和运行时台账组织复杂任务；相关方法后续进入汇丰 VC 方案交流。',
     cover: './archive/xingnian-weave-cover.svg',
     items: [
       {
@@ -171,6 +171,13 @@ export const archiveFolders = [
         image: './archive/xingnian-runtime-ledger.svg', imageAlt: 'CLAUDE 运行时台账与状态机结构',
         facts: ['47 项产物台账', '输入与产物溯源', 'STUCK 3/3 熔断'],
         href: './documents/xingnian-runtime-ledger.md', linkLabel: '查看完整《CLAUDE 模板》', public: true,
+      },
+      {
+        id: 'hsbc-vc-exchange', type: 'EXTERNAL REVIEW / HSBC / 2026', title: '汇丰 VC 方案交流：从专家 Agent 到 Agent 网络',
+        summary: '将“人—助理 AI—专家 AI”协作范式、已验证行业案例与商业化路线整理为 17 页交流材料，用于向汇丰 VC 相关方说明产品结构、落地证据与发展路径。',
+        image: './archive/hsbc-vc-brief-board.jpg', imageAlt: '汇丰 VC 方案交流材料首页与 Agent 系统架构页',
+        facts: ['17 页交流材料', 'PAI / EAI 解耦', '行业案例与商业路径'],
+        note: '公开作品集仅展示交流材料首页、系统架构页与内容摘要；融资测算和运营成本不在网页展开。',
       },
     ],
   },
@@ -228,7 +235,7 @@ export const archiveFolders = [
   {
     id: 'commercialization', code: '06', title: '创业商业化与教学实践', en: 'COMMERCIALIZATION & TEACHING', accent: '#9d6b43',
     description: '面向创业团队、高校与公共服务机构开展产品辅导、课程交付和路演验证，连接方法、市场与组织协作。',
-    cover: sourceImage(paths.summitTalk),
+    cover: './archive/commercialization-cover-v2.jpg',
     items: [
       {
         id: 'entrepreneurship-course', type: 'PRODUCT TRAINING', title: 'AI 产品与创新创业课程交付',
