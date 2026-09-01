@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">星念织网系统结构</title>
+  <desc id="desc">由任务目标、谋主 Loop、转移守卫、运行时台账与闭环指针组成的系统结构</desc>
+  <rect width="1600" height="1000" fill="#eef0f4"/>
+  <rect x="62" y="56" width="1476" height="888" fill="#f9f8f4" stroke="#bdc2cb"/>
+  <text x="102" y="118" fill="#616977" font-family="'SFMono-Regular','Menlo',monospace" font-size="17" letter-spacing="4">XINGNIAN WEAVE / SYSTEM ARCHITECTURE</text>
+  <text x="102" y="222" fill="#171b24" font-family="'Songti SC','STSong',serif" font-size="68" font-weight="700">从目标到闭环的可审计 Agent 系统</text>
+  <text x="102" y="276" fill="#606775" font-family="'PingFang SC','Noto Sans CJK SC',sans-serif" font-size="23">推理流程不靠隐式上下文维持，而由状态、产物、守卫与指针共同约束。</text>
+  <g transform="translate(102 360)" font-family="'PingFang SC','Noto Sans CJK SC',sans-serif">
+    <rect width="1396" height="110" fill="#202838"/>
+    <text x="34" y="45" fill="#d7b36c" font-family="'SFMono-Regular','Menlo',monospace" font-size="15" letter-spacing="3">01 / TASK CONTRACT</text>
+    <text x="34" y="82" fill="#f8f4eb" font-size="24" font-weight="650">直接目标 · 最终目的 · 核心资产 · 截止日期 · 权责边界</text>
+    <path d="M698 110v48" stroke="#9f1d34" stroke-width="4"/>
+    <path d="m684 146 14 18 14-18" fill="none" stroke="#9f1d34" stroke-width="4"/>
+    <rect y="164" width="1396" height="124" fill="#fff" stroke="#bfc4cd"/>
+    <text x="34" y="204" fill="#9f1d34" font-family="'SFMono-Regular','Menlo',monospace" font-size="15" letter-spacing="3">02 / STRATEGY LOOP</text>
+    <g fill="#293247" font-size="20" font-weight="650" text-anchor="middle">
+      <text x="188" y="252">接令</text><text x="392" y="252">联想</text><text x="596" y="252">研究</text>
+      <text x="800" y="252">规划</text><text x="1004" y="252">指挥</text><text x="1208" y="252">复盘</text>
+    </g>
+    <g stroke="#9f1d34" stroke-width="2"><path d="M232 246h114M436 246h114M640 246h114M844 246h114M1048 246h114"/></g>
+    <path d="M698 288v48" stroke="#9f1d34" stroke-width="4"/><path d="m684 324 14 18 14-18" fill="none" stroke="#9f1d34" stroke-width="4"/>
+    <g transform="translate(0 342)">
+      <rect width="438" height="182" fill="#e9e5da" stroke="#c3bcae"/>
+      <rect x="479" width="438" height="182" fill="#e2e6ed" stroke="#bbc1cb"/>
+      <rect x="958" width="438" height="182" fill="#f2e5e7" stroke="#d2b8bd"/>
+      <text x="28" y="42" fill="#6a5f50" font-family="'SFMono-Regular','Menlo',monospace" font-size="14" letter-spacing="2">03 / EVIDENCE</text>
+      <text x="507" y="42" fill="#596170" font-family="'SFMono-Regular','Menlo',monospace" font-size="14" letter-spacing="2">04 / LEDGER</text>
+      <text x="986" y="42" fill="#9f1d34" font-family="'SFMono-Regular','Menlo',monospace" font-size="14" letter-spacing="2">05 / GUARD</text>
+      <text x="28" y="88" fill="#252a34" font-size="25" font-weight="650">输入与结论溯源</text>
+      <text x="507" y="88" fill="#252a34" font-size="25" font-weight="650">47 项运行时产物</text>
+      <text x="986" y="88" fill="#252a34" font-size="25" font-weight="650">推进、阻塞与熔断</text>
+      <text x="28" y="130" fill="#686f7b" font-size="18">一手信源 · 反面证据 · 可证伪</text>
+      <text x="507" y="130" fill="#686f7b" font-size="18">稳定 ID · 状态 · 位置 · CARRY</text>
+      <text x="986" y="130" fill="#686f7b" font-size="18">全 ✓ 推进 · 红线阻塞 · 3/3</text>
+    </g>
+  </g>
+  <text x="102" y="915" fill="#6b7280" font-family="'SFMono-Regular','Menlo',monospace" font-size="16" letter-spacing="3">BANKING EXPERT AGENT · PROCESS / MEMORY / RISK / REVIEW</text>
+</svg>

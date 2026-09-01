@@ -22,6 +22,7 @@ const paths = {
   aigcCover: 'AIGC视频&互动影游戏/科幻科普片/科幻.png',
   aigcMillion: 'AIGC视频&互动影游戏/科幻科普片/播放破百万.jpg',
   customsPublic: '海关总署立项/被上海市公共数据开放平台录用.jpg',
+  customsProductDetail: '海关总署立项/录用产品详情.jpg',
   customsMeeting: '海关总署立项/与报关协会开会.jpg',
   customsRecommendation: '海关总署立项/海关总署司长推荐信.jpg',
   customsAssociation: '海关总署立项/中国海关协会.jpg',
@@ -32,6 +33,8 @@ const paths = {
   organizationTraining: '创赛商业化/受机构邀请进行ai培训.jpg',
   pkuPitch: '创赛商业化/北大临港大赛路演.jpg',
   graduateTeaching: '创赛商业化/给研究生上课.jpg',
+  summitTalk: '创赛商业化/峰会分享.jpg',
+  galleryCover: 'AIGC视频&互动影游戏/科幻科普片/科普.png',
 }
 
 export const articles = [
@@ -116,7 +119,7 @@ export const archiveFolders = [
   {
     id: 'aigc-production', code: '02', title: 'AIGC 内容生产体系', en: 'AIGC CONTENT PRODUCTION', accent: '#7a5cff',
     description: '在 OUTPUT 参与三部公开作品，并将模型路由、成本记录与长叙事一致性经验沉淀为可复用流程。',
-    cover: sourceImage(paths.aigcCover),
+    cover: './archive/liminal-production.png',
     items: [
       {
         id: 'with-her-eyes', type: 'AI FILM / PUBLIC RELEASE', title: '《带上她的眼睛》AIGC 科幻短片',
@@ -145,28 +148,36 @@ export const archiveFolders = [
     ],
   },
   {
-    id: 'bank-agent', code: '03', title: '中国银行专家 Agent', en: 'BANKING EXPERT AGENT', accent: '#25a780',
-    description: '围绕个人助理 AI、金融经理专家 Agent 与因果决策画布完成业务建模和两轮 Web 原型验证。',
-    cover: './archive/bank-agent-system.jpg',
+    id: 'bank-agent', code: '03', title: '中国银行 · 星念织网', en: 'XINGNIAN WEAVE · EXPERT AGENT', accent: '#9f1d34',
+    description: '面向复杂金融服务任务设计专家 Agent 方法系统，以六阶段 Loop、状态守卫和运行时台账组织推理、执行与复盘。',
+    cover: './archive/xingnian-weave-cover.svg',
     items: [
       {
-        id: 'bank-assistant', type: 'DIGITAL PRODUCT / 2024', title: '个人助理 AI 与金融经理专家 Agent',
-        summary: '将客户意图识别、专家角色协同与服务建议组织为可交互方案，推动对话式服务向任务型交互演进。',
-        image: './archive/bank-agent-system.jpg', imageAlt: '从人机对话向人机交互升级的银行智能服务方案',
-        facts: ['两轮 Web 原型', '5 类专家角色', '个人与业务场景'],
+        id: 'xingnian-system', type: 'AGENT SYSTEM / BANKING / 2024', title: '星念织网：复杂任务决策与执行系统',
+        summary: '把复杂任务拆分为可检查的阶段、产物与转移条件，使 Agent 能够在长链路工作中保持目标、证据、风险和执行状态的一致性。',
+        image: './archive/xingnian-system-map.svg', imageAlt: '星念织网复杂任务决策与执行系统总览',
+        facts: ['6 阶段任务闭环', '47 项运行时产物', '状态机与转移守卫'],
       },
       {
-        id: 'bank-causal-canvas', type: 'DECISION MODEL', title: '金融服务因果决策画布',
-        summary: '把金融经理判断拆解为节点、关系与可验证路径，用结构化画布表达复杂业务语境中的因果链路。',
-        image: './archive/bank-causal-canvas.jpg', imageAlt: '专家 Agent 的模型编排与评测架构',
-        facts: ['13 个节点', '8 类关系', '35 条关系链'],
+        id: 'xingnian-loop', type: 'PROCESS ARCHITECTURE', title: '《谋主 Loop》六阶段闭环',
+        summary: '以接令、联想、研究、规划、指挥、复盘构成完整循环；每次转移由阶段产物守卫，复盘后的 CARRY 指针将未了事项带入下一轮。',
+        image: './archive/xingnian-strategy-loop.svg', imageAlt: '谋主 Loop 六阶段任务闭环图',
+        facts: ['接令 → 复盘', '产物守卫', 'CARRY 闭环'],
+        href: './documents/xingnian-strategy-loop.md', linkLabel: '查看完整《谋主 Loop》', public: true,
+      },
+      {
+        id: 'xingnian-ledger', type: 'RUNTIME SPECIFICATION', title: '《CLAUDE 模板》运行时台账与状态机',
+        summary: '用稳定 ID、状态指针和 47 项产物台账保存运行时上下文；所有输入要求溯源，重大风险立即阻塞，连续三次失败触发熔断。',
+        image: './archive/xingnian-runtime-ledger.svg', imageAlt: 'CLAUDE 运行时台账与状态机结构',
+        facts: ['47 项产物台账', '输入与产物溯源', 'STUCK 3/3 熔断'],
+        href: './documents/xingnian-runtime-ledger.md', linkLabel: '查看完整《CLAUDE 模板》', public: true,
       },
     ],
   },
   {
     id: 'customs-agent', code: '04', title: '关务 Agent 与知识工程', en: 'CUSTOMS AGENT & KNOWLEDGE', accent: '#db493c',
     description: '海关总署立项项目：将关务规则、术语与专家判断工程化，完成产品研发、行业验证和成果转化。',
-    cover: sourceImage(paths.customsMeeting),
+    cover: sourceImage(paths.customsProductDetail),
     items: [
       {
         id: 'customs-public-platform', type: 'PUBLIC PLATFORM', title: '关务产品进入上海市公共数据开放平台',
@@ -198,7 +209,7 @@ export const archiveFolders = [
   {
     id: 'baidu-field-ai', code: '05', title: '百度多模态养殖项目', en: 'BAIDU MULTIMODAL FIELD AI', accent: '#f0b94a',
     description: '在真实养殖场景中设计图像与声音采集方案，并以专家判断为基准评估多模态模型的辅助决策价值。',
-    cover: sourceImage(paths.baiduApproval),
+    cover: sourceImage(paths.baiduPoster),
     items: [
       {
         id: 'baidu-field-study', type: 'FIELD AI / 2025', title: '「养猪吧少年」真实场景调研与采集',
@@ -217,7 +228,7 @@ export const archiveFolders = [
   {
     id: 'commercialization', code: '06', title: '创业商业化与教学实践', en: 'COMMERCIALIZATION & TEACHING', accent: '#9d6b43',
     description: '面向创业团队、高校与公共服务机构开展产品辅导、课程交付和路演验证，连接方法、市场与组织协作。',
-    cover: sourceImage(paths.graduateTeaching),
+    cover: sourceImage(paths.summitTalk),
     items: [
       {
         id: 'entrepreneurship-course', type: 'PRODUCT TRAINING', title: 'AI 产品与创新创业课程交付',
@@ -254,7 +265,7 @@ export const archiveFolders = [
   {
     id: 'gallery', code: '09', title: '完整项目影像库', en: 'COMPLETE PROJECT IMAGE LIBRARY', accent: '#8696b8',
     description: `收录正式作品资料目录中的 ${galleryItems.length} 张原始项目图片，按来源目录检索并保留文件名；视频不在本网页范围内。`,
-    cover: galleryItems[0]?.image,
+    cover: sourceImage(paths.galleryCover),
     categories: galleryCategories,
     items: galleryItems,
   },

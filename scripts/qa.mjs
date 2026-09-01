@@ -20,7 +20,16 @@ async function audit(width, height) {
   }
 
   await page.getByRole('button', { name: '浏览完整项目档案' }).click()
-  await page.getByRole('button', { name: /研究与写作 RESEARCH & WRITING/ }).click()
+  await page.getByRole('button', { name: /中国银行 · 星念织网 XINGNIAN WEAVE/ }).click()
+  await page.getByRole('button', { name: /《CLAUDE 模板》运行时台账与状态机/ }).click()
+  const bankAudit = await page.locator('.archive-window').evaluate((element) => ({
+    hasXingnian: element.textContent.includes('星念织网'),
+    hasLoop: element.textContent.includes('谋主 Loop'),
+    hasLedger: element.textContent.includes('47 项产物台账'),
+    ledgerLink: element.querySelector('.preview-copy a')?.getAttribute('href'),
+    previewLoaded: element.querySelector('.preview-media img')?.naturalWidth > 0,
+  }))
+  await page.getByRole('button', { name: /AI 科技评论 PUBLISHED AI ANALYSIS/ }).click()
   await page.getByRole('button', { name: /看屏幕、用键鼠/ }).click()
   await page.waitForTimeout(350)
 
@@ -31,12 +40,12 @@ async function audit(width, height) {
   }))
   if (width === 390) await page.screenshot({ path: 'preview-archive-mobile.png', fullPage: false })
   if (width === 1440) await page.screenshot({ path: 'preview-archive.png', fullPage: false })
-  await page.getByRole('button', { name: /项目影像索引 PROJECT IMAGE INDEX/ }).click()
+  await page.getByRole('button', { name: /完整项目影像库 COMPLETE PROJECT IMAGE LIBRARY/ }).click()
   await page.getByLabel('搜索项目影像').fill('image')
   await page.waitForTimeout(150)
   const galleryGridAudit = await page.locator('.archive-window').evaluate((element) => ({
-    hasGalleryTitle: element.textContent.includes('项目影像索引'),
-    totalCount: element.textContent.includes('349'),
+    hasGalleryTitle: element.textContent.includes('完整项目影像库'),
+    totalCount: element.textContent.includes('443'),
     visibleRecords: element.querySelectorAll('.gallery-tile').length,
     hasSourceFilter: Boolean(element.querySelector('select')),
   }))
@@ -51,6 +60,9 @@ async function audit(width, height) {
   await page.getByRole('button', { name: '关闭影像预览' }).click()
   await page.getByRole('button', { name: '关闭作品档案' }).click()
 
+  await page.locator('img').evaluateAll((images) => images.forEach((image) => { image.loading = 'eager' }))
+  await page.waitForFunction(() => [...document.images].every((image) => image.complete))
+
   const pageAudit = await page.evaluate(() => ({
     overflow: Math.max(0, document.documentElement.scrollWidth - document.documentElement.clientWidth),
     brokenImages: [...document.images].filter((image) => image.complete && image.naturalWidth === 0).map((image) => image.src),
@@ -61,7 +73,7 @@ async function audit(width, height) {
   if (width === 1440) await page.screenshot({ path: 'preview.png', fullPage: true })
   if (width === 390) await page.screenshot({ path: 'preview-mobile.png', fullPage: true })
 
-  results.push({ width, height, pageAudit, dialogAudit, galleryGridAudit, galleryPreviewAudit, errors })
+  results.push({ width, height, pageAudit, bankAudit, dialogAudit, galleryGridAudit, galleryPreviewAudit, errors })
   await page.close()
 }
 

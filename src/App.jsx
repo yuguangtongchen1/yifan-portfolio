@@ -74,7 +74,7 @@ function FolderCollection({ onOpenFolder }) {
       <div className="folder-grid">
         {archiveFolders.map((folder) => (
           <button className={folder.id === 'gallery' ? 'folder-card folder-card-gallery' : 'folder-card'} type="button" key={folder.id} style={{ '--folder-accent': folder.accent }} onClick={() => onOpenFolder(folder.id)}>
-            <span className="folder-card-cover"><img src={folder.cover} alt="" loading="lazy" decoding="async" /><small>{String(folder.items.length).padStart(2, '0')} RECORDS</small></span>
+            <span className="folder-card-cover"><img src={folder.cover} alt="" decoding="async" /><small>{String(folder.items.length).padStart(2, '0')} RECORDS</small></span>
             <span className="folder-card-body"><span className="folder-card-tab">{folder.en}</span><strong>{folder.title}</strong><span className="folder-card-description">{folder.description}</span><span className="folder-card-action">查看资料 <Arrow direction="right" /></span></span>
           </button>
         ))}
@@ -100,7 +100,7 @@ function Practice() {
   const cases = [
     ['2025.03—2026.09', 'OUTPUT', 'AIGC 产品实习生 → AI 产品负责人', '内容生产、模型路由、Monsora 创意资产与 Agent 上下文产品'],
     ['2024.11—2026.01', '海关总署立项项目', '关务 Agent 产品落地负责人', '知识建模、产品研发、公共平台录用与发明专利'],
-    ['2024.08—2024.11', '中国银行', '数字化产品实习生', '个人助理 AI、专家 Agent 与因果画布产品方案'],
+    ['2024.08—2024.11', '中国银行', '数字化产品实习生', '星念织网专家 Agent、六阶段任务 Loop、状态守卫与运行时产物台账'],
   ]
   return (
     <section className="practice-section">

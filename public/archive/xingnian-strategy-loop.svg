@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">谋主 Loop 六阶段闭环</title>
+  <desc id="desc">接令、联想、研究、规划、指挥、复盘六个阶段组成的任务闭环</desc>
+  <rect width="1600" height="1000" fill="#f4f2ec"/>
+  <path d="M0 0h1600v18H0z" fill="#9f1d34"/>
+  <g fill="none" stroke="#c8c4ba">
+    <path d="M70 155h1460M70 865h1460"/>
+    <path d="M70 155v710M1530 155v710"/>
+  </g>
+  <text x="92" y="92" fill="#202633" font-family="'SFMono-Regular','Menlo',monospace" font-size="18" letter-spacing="4">XINGNIAN WEAVE / PROCESS MODEL</text>
+  <text x="92" y="235" fill="#171b24" font-family="'Songti SC','STSong',serif" font-size="72" font-weight="700">谋主 Loop</text>
+  <text x="92" y="292" fill="#596170" font-family="'PingFang SC','Noto Sans CJK SC',sans-serif" font-size="25">以阶段产物为守卫，把复杂任务从接令推进到复盘，并将未了事项带入下一轮。</text>
+  <g transform="translate(105 410)" font-family="'PingFang SC','Noto Sans CJK SC',sans-serif">
+    <path d="M122 92H330M368 92H576M614 92H822M860 92H1068M1106 92H1314" fill="none" stroke="#9f1d34" stroke-width="5"/>
+    <path d="m315 76 22 16-22 16m246-32 22 16-22 16m246-32 22 16-22 16m246-32 22 16-22 16m246-32 22 16-22 16" fill="none" stroke="#9f1d34" stroke-width="5"/>
+    <g>
+      <circle cx="92" cy="92" r="74" fill="#202633"/><circle cx="338" cy="92" r="74" fill="#293247"/>
+      <circle cx="584" cy="92" r="74" fill="#333d55"/><circle cx="830" cy="92" r="74" fill="#3d475e"/>
+      <circle cx="1076" cy="92" r="74" fill="#474f63"/><circle cx="1322" cy="92" r="74" fill="#9f1d34"/>
+    </g>
+    <g fill="#f8f5ed" font-size="29" font-weight="650" text-anchor="middle">
+      <text x="92" y="102">接令</text><text x="338" y="102">联想</text><text x="584" y="102">研究</text>
+      <text x="830" y="102">规划</text><text x="1076" y="102">指挥</text><text x="1322" y="102">复盘</text>
+    </g>
+    <g fill="#737986" font-family="'SFMono-Regular','Menlo',monospace" font-size="15" text-anchor="middle" letter-spacing="2">
+      <text x="92" y="205">COMMAND</text><text x="338" y="205">ASSOCIATE</text><text x="584" y="205">RESEARCH</text>
+      <text x="830" y="205">PLAN</text><text x="1076" y="205">DIRECT</text><text x="1322" y="205">REVIEW</text>
+    </g>
+    <path d="M1322 250c0 142-116 218-278 218H344C182 468 92 390 92 250" fill="none" stroke="#d7b36c" stroke-width="4"/>
+    <path d="m77 267 15-24 15 24" fill="none" stroke="#d7b36c" stroke-width="4"/>
+    <text x="707" y="455" fill="#9f1d34" font-size="20" font-weight="650" text-anchor="middle">CARRY → 归档 → 清台账 → 下一轮</text>
+  </g>
+  <g transform="translate(92 790)">
+    <text fill="#202633" font-family="'SFMono-Regular','Menlo',monospace" font-size="16" letter-spacing="3">TRANSFER GUARD</text>
+    <text y="42" fill="#596170" font-family="'PingFang SC','Noto Sans CJK SC',sans-serif" font-size="21">阶段产物全部交代后才推进；重大风险立即阻塞，连续三次失败进入 BLOCK。</text>
+  </g>
+  <text x="1508" y="925" fill="#747a86" font-family="'SFMono-Regular','Menlo',monospace" font-size="16" text-anchor="end" letter-spacing="3">01 / STRATEGY LOOP</text>
+</svg>
