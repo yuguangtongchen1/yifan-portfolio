@@ -50,7 +50,7 @@ function Hero({ onOpenArchive }) {
     <section className="hero" id="top">
       <div className="hero-intro">
         <div className="hero-kicker"><span>AI PRODUCT · AGENT SYSTEMS</span><span>SHANGHAI / 2024—2026</span></div>
-        <h1>让 Agent 从能力演示，<br />走向<span>真实业务</span>。</h1>
+        <h1>面向真实业务，<br />构建<span>可交付的 AI 产品</span>。</h1>
         <p>张一帆，AI 产品经理。聚焦 Agent 系统、AIGC 内容生产与行业知识工程，负责问题定义、产品架构、评测体系与跨团队交付。</p>
         <ArchiveKey onClick={onOpenArchive} />
         <div className="hero-footnote"><span>PRODUCT / AGENT / KNOWLEDGE ENGINEERING</span><span>SELECTED WORK 2024—2026 ↓</span></div>
@@ -70,7 +70,7 @@ function SectionTitle({ eyebrow, title, meta }) {
 function FolderCollection({ onOpenFolder }) {
   return (
     <section className="folder-section" id="archive">
-      <SectionTitle eyebrow="PROJECT ARCHIVE" title="沿着简历主线，查看项目与证据。" meta="六个核心项目按职责、成果与证据组织；原创文章、新闻报道和完整影像库分别归档，避免不同叙事混在一起。" />
+      <SectionTitle eyebrow="PROJECT ARCHIVE" title="核心项目、关键决策与落地证据。" meta="六个核心项目按职责、成果与证据组织；原创文章、新闻报道和完整影像库分别归档，避免不同叙事混在一起。" />
       <div className="folder-grid">
         {archiveFolders.map((folder) => (
           <button className={folder.id === 'gallery' ? 'folder-card folder-card-gallery' : 'folder-card'} type="button" key={folder.id} style={{ '--folder-accent': folder.accent }} onClick={() => onOpenFolder(folder.id)}>
@@ -125,7 +125,7 @@ function Writing() {
 function Footer({ onOpenArchive }) {
   return (
     <footer id="contact">
-      <div className="footer-main"><span className="footer-eyebrow">CONTACT</span><h2>期待围绕 AI 产品、Agent 与 AIGC 应用展开交流。</h2><div className="footer-actions"><a href="mailto:13290348758@163.com">发送邮件 <Arrow /></a><a href="./zhang-yifan-resume.pdf" target="_blank" rel="noreferrer">查看简历 PDF <Arrow /></a><button type="button" onClick={onOpenArchive}>浏览项目档案 <Arrow /></button></div></div>
+      <div className="footer-main"><span className="footer-eyebrow">CONTACT</span><h2>如需进一步了解项目，欢迎通过邮箱联系。</h2><div className="footer-actions"><a href="mailto:13290348758@163.com">13290348758@163.com <Arrow /></a><a href="./zhang-yifan-resume.pdf" target="_blank" rel="noreferrer">查看简历 PDF <Arrow /></a><button type="button" onClick={onOpenArchive}>浏览项目档案 <Arrow /></button></div></div>
       <div className="footer-bottom"><span>张一帆 / YIFAN ZHANG</span><span>AI PRODUCT · AGENT · AIGC</span><span>SHANGHAI · 2026</span></div>
     </footer>
   )
